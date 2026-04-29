@@ -23,6 +23,9 @@ https://lb2.local.gov.uk/
 ## Weeknotes
 * https://medium.vickyteinaki.com/
 * https://adrian-ortega.medium.com/
+- Web of Weeknotes – directory of people writing weeknotes – https://weeknot.es
+- Matt Curnow – Weeknotes archive – https://www.curnow.org/archive/weeknotes/
+- Context Studio – A note on weeknotes (how they use them with clients) – https://contextstudio.ie/a-note-on-weeknotes/
 
 
 ## Resources
