@@ -57,3 +57,19 @@ https://www.gov.uk/government/publications/digital-inclusion-innovation-fund/dig
 - Government Transformation Summit – https://summit.government-transformation.com
 - techUK Local Public Services programme – https://www.techuk.org/local-public-services-programme.html
 - LGA digital/technology showcase – https://www.local.gov.uk/our-support/cyber-digital-and-technology/technology-innovation-showcase
+
+
+## Event feeds (dynamic sources)
+
+- Service Design in Government – events
+  - https://govservicedesign.net/our-events
+- OneTeamGov – events
+  - https://www.oneteamgov.uk/events
+- Government Events – conferences listing
+  - https://www.governmentevents.co.uk/event-type/conferences/
+- GOV.UK Design System team – Eventbrite organiser
+  - https://www.eventbrite.com/o/33732303733
+- Eventbrite – UK public sector events (search)
+  - https://www.eventbrite.co.uk/d/united-kingdom/public-sector/
+- Eventbrite – London public sector events (search)
+  - https://www.eventbrite.co.uk/d/united-kingdom--london/public-sector/
