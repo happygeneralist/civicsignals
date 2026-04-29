@@ -73,3 +73,8 @@ https://www.gov.uk/government/publications/digital-inclusion-innovation-fund/dig
   - https://www.eventbrite.co.uk/d/united-kingdom/public-sector/
 - Eventbrite – London public sector events (search)
   - https://www.eventbrite.co.uk/d/united-kingdom--london/public-sector/
+
+
+
+## Talks Monthly meet up
+* recordings of previous sessions are here: https://drive.google.com/drive/folders/19Hxrhy8GQ158npi-TlCaCkewwx4_pR1o?usp=drive_link
