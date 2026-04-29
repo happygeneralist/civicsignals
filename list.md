@@ -78,3 +78,17 @@ https://www.gov.uk/government/publications/digital-inclusion-innovation-fund/dig
 
 ## Talks Monthly meet up
 * recordings of previous sessions are here: https://drive.google.com/drive/folders/19Hxrhy8GQ158npi-TlCaCkewwx4_pR1o?usp=drive_link
+
+## Toolkits & pattern libraries
+
+- Content design toolkit (Scottish gov origin) – https://trello.com/b/p76V0s1F/content-design-toolkit
+- LocalGov Digital – User Research Library – https://research.localgov.digital/
+- Projects by IF – Design patterns catalogue – https://catalogue.projectsbyif.com/
+
+## Curated collections
+
+- Rob Whiting – public Raindrop collection – https://whitingx.raindrop.page/
+
+## Inspiration & essays
+
+- Stu – Design principles – https://stu.xyz/ideas/design-principles
