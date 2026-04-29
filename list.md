@@ -46,3 +46,14 @@ https://www.gov.uk/government/publications/digital-inclusion-innovation-fund/dig
 * https://irmuk.co.uk/sd-conference-2026/
 * 
 
+## Events & conferences
+
+- Service Design in Government (SDinGov) – https://govservicedesign.net
+- Service Design Conference Europe (IRM UK) – https://irmuk.co.uk/sd-conference-2026/
+- Service Design Global Conference – https://www.servicedesignglobalconference.com
+- DigiGov Expo – https://www.digital-government.co.uk
+- Government Technology & AI Summit – https://govtechnology.co.uk
+- Technology and AI Innovation in the Public Sector – https://www.governmentevents.co.uk/event/technology-and-ai-innovation-in-the-public-sector/
+- Government Transformation Summit – https://summit.government-transformation.com
+- techUK Local Public Services programme – https://www.techuk.org/local-public-services-programme.html
+- LGA digital/technology showcase – https://www.local.gov.uk/our-support/cyber-digital-and-technology/technology-innovation-showcase
