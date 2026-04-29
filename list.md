@@ -1,6 +1,6 @@
 # Public Sector Service Design: Master Resource List
 
-## Organizations & Reports
+## Organisations & Reports
 * **Local Digital:** [localdigital.gov.uk](https://www.localdigital.gov.uk/)
 * **Local Government Association (LGA):** [lb2.local.gov.uk](https://lb2.local.gov.uk/)
 * **Department for Science, Innovation and Technology (DSIT):** [gov.uk/government/organisations/department-for-science-innovation-and-technology](https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology)
