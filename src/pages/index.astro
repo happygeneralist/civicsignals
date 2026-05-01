@@ -1,0 +1,72 @@
+---
+import '../styles/global.css'
+import items from '../data/items.json'
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Civic Signals</title>
+  </head>
+
+  <body>
+    <main class="page">
+      <header class="masthead">
+        <p class="site-label">Civic Signals</p>
+
+        <h1>Digital government news</h1>
+
+        <p class="lede">
+          Useful updates from across digital government.
+        </p>
+      </header>
+
+      <section aria-labelledby="latest-updates">
+        <div class="section-header">
+          <h2 id="latest-updates">Latest updates</h2>
+
+          <p class="feed-count">
+            {items.length} items
+          </p>
+        </div>
+
+        {items.length === 0 ? (
+          <p>No feed items have been imported yet.</p>
+        ) : (
+          <ol class="feed" aria-label="Latest digital government updates">
+            {items.map((item, index) => (
+              <li class="feed-item">
+                <div class="feed-index" aria-hidden="true">
+                  {index + 1}.
+                </div>
+
+                <div class="feed-content">
+                  <h3>
+                    <a href={item.url}>{item.title}</a>
+                  </h3>
+
+                  <p class="meta">
+                    <span>{item.sourceName}</span>
+                    {item.publishedAt && (
+                      <>
+                        <span aria-hidden="true"> · </span>
+                        <time datetime={item.publishedAt}>
+                          {new Date(item.publishedAt).toLocaleDateString('en-GB', {
+                            day: '2-digit',
+                            month: 'short',
+                            year: 'numeric'
+                          })}
+                        </time>
+                      </>
+                    )}
+                  </p>
+                </div>
+              </li>
+            ))}
+          </ol>
+        )}
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+- id: gds-blog
+  name: Government Digital Service Blog
+  url: https://gds.blog.gov.uk/
+  feedUrl: https://gds.blog.gov.uk/feed/
+  status: active
+  organisation: Government Digital Service
+  tags:
+    - central-government
+    - digital
+    - delivery
+
+- id: gds-design-notes
+  name: GDS Design Notes
+  url: https://designnotes.blog.gov.uk/
+  feedUrl: https://designnotes.blog.gov.uk/feed/
+  status: active
+  organisation: Government Digital Service
+  tags:
+    - design
+    - research
+    - content

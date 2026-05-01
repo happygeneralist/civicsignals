@@ -1,0 +1,148 @@
+:root {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  color: #1d1d1b;
+  background: #f6f5ef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.page {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+.masthead {
+  max-width: 720px;
+  margin-bottom: 2rem;
+}
+
+.site-label {
+  margin: 0 0 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(2rem, 6vw, 4.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.055em;
+}
+
+.lede {
+  max-width: 42rem;
+  margin: 0;
+  color: #3f3a33;
+  font-size: 1.2rem;
+}
+
+.section-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-top: 0.75rem;
+  border-top: 3px solid #1d1d1b;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.feed-count {
+  margin: 0;
+  color: #6b655c;
+  font-size: 0.9rem;
+}
+
+.feed {
+  margin: 0.75rem 0 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid #d8d3c7;
+}
+
+.feed-item {
+  display: grid;
+  grid-template-columns: 2.25rem minmax(0, 1fr);
+  gap: 0.5rem;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid #e2ded5;
+}
+
+.feed-index {
+  color: #8a8377;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.feed-content {
+  min-width: 0;
+}
+
+.feed-item h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 650;
+  line-height: 1.3;
+}
+
+.feed-item a {
+  color: #1d1d1b;
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.16em;
+}
+
+.feed-item a:hover {
+  text-decoration-thickness: 0.12em;
+}
+
+.feed-item a:focus {
+  outline: 3px solid #ffdd00;
+  outline-offset: 2px;
+  background: #ffdd00;
+  color: #000;
+}
+
+.meta {
+  margin: 0.15rem 0 0;
+  color: #6b655c;
+  font-size: 0.85rem;
+}
+
+@media (min-width: 760px) {
+  .page {
+    padding-top: 3rem;
+  }
+
+  .feed-item {
+    grid-template-columns: 2.75rem minmax(0, 1fr);
+    padding: 0.38rem 0;
+  }
+
+  .feed-item h3 {
+    font-size: 0.98rem;
+  }
+
+  .meta {
+    font-size: 0.82rem;
+  }
+}
