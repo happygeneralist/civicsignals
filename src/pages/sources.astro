@@ -1,0 +1,407 @@
+---
+import { readFileSync } from 'node:fs'
+import YAML from 'yaml'
+import '../styles/global.css'
+
+type SourceStatus = 'active' | 'paused' | 'needs-review'
+
+type Source = {
+  id: string
+  name: string
+  url: string
+  feedUrl?: string
+  apiPath?: string
+  status: SourceStatus
+  organisation?: string
+  tags?: string[]
+}
+
+type SourceCategory = {
+  id: string
+  label: string
+  description: string
+  matches: (source: Source, tags: string[]) => boolean
+}
+
+const sourcesFile = readFileSync('data/sources.yml', 'utf8')
+const sources = (YAML.parse(sourcesFile) ?? []) as Source[]
+
+const normalise = (value: string) => value.trim().toLowerCase()
+
+const hasAnyTag = (tags: string[], values: string[]) =>
+  values.some((value) => tags.includes(value))
+
+const sourceTextIncludes = (source: Source, values: string[]) => {
+  const text = [
+    source.id,
+    source.name,
+    source.organisation,
+    ...(source.tags ?? [])
+  ]
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase()
+
+  return values.some((value) => text.includes(value))
+}
+
+const categories: SourceCategory[] = [
+  {
+    id: 'central-government',
+    label: 'Central government',
+    description: 'Departments, cross-government communities and GOV.UK blogs.',
+    matches: (source, tags) =>
+      hasAnyTag(tags, ['central-government', 'govuk']) ||
+      source.url.includes('.blog.gov.uk') ||
+      source.url.includes('www.gov.uk')
+  },
+  {
+    id: 'local-government',
+    label: 'Local government',
+    description: 'Councils, local digital teams and local public-service work.',
+    matches: (_source, tags) => hasAnyTag(tags, ['local-government'])
+  },
+  {
+    id: 'policy-public-sector',
+    label: 'Policy and public sector',
+    description: 'Policy, public-sector reform, public administration and reports.',
+    matches: (_source, tags) =>
+      hasAnyTag(tags, [
+        'policy',
+        'policy-design',
+        'public-sector',
+        'public-sector-reform',
+        'public-policy',
+        'governance',
+        'reports',
+        'institutions'
+      ])
+  },
+  {
+    id: 'service-public-design',
+    label: 'Service and public design',
+    description: 'Service design, public design, content design and design practice.',
+    matches: (_source, tags) =>
+      hasAnyTag(tags, [
+        'service-design',
+        'public-design',
+        'design',
+        'content',
+        'content-design',
+        'design-research',
+        'social-design',
+        'co-design',
+        'design-practice'
+      ])
+  },
+  {
+    id: 'systems-strategy-mapping',
+    label: 'Systems, strategy and mapping',
+    description: 'Systems thinking, Wardley mapping, strategy, complexity and institutional design.',
+    matches: (_source, tags) =>
+      hasAnyTag(tags, [
+        'systems-thinking',
+        'systems-change',
+        'wardley-mapping',
+        'strategy',
+        'mapping',
+        'complexity',
+        'institutional-design',
+        'stewardship',
+        'governance'
+      ])
+  },
+  {
+    id: 'technology-delivery',
+    label: 'Technology, architecture and delivery',
+    description: 'Technical delivery, architecture, AI, data and digital transformation.',
+    matches: (_source, tags) =>
+      hasAnyTag(tags, [
+        'technology',
+        'architecture',
+        'delivery',
+        'digital',
+        'digital-government',
+        'digital-transformation',
+        'engineering-strategy',
+        'ai',
+        'responsible-ai',
+        'data',
+        'technical-architecture'
+      ])
+  },
+  {
+    id: 'accessibility-research-inclusion',
+    label: 'Accessibility, research and inclusion',
+    description: 'Accessibility, user research, inclusive design and trauma-informed practice.',
+    matches: (_source, tags) =>
+      hasAnyTag(tags, [
+        'accessibility',
+        'user-research',
+        'research',
+        'inclusion',
+        'inclusive-design',
+        'sensory-design',
+        'trauma-informed-design',
+        'design-ethics'
+      ])
+  },
+  {
+    id: 'weeknotes-personal-thinking',
+    label: 'Weeknotes and personal thinking',
+    description: 'Practitioner blogs, personal writing and weeknotes.',
+    matches: (_source, tags) =>
+      hasAnyTag(tags, ['weeknotes', 'personal-blog', 'practitioners'])
+  },
+  {
+    id: 'civic-tech-democracy',
+    label: 'Civic tech and democracy',
+    description: 'Civic technology, public-interest technology, participation and democracy.',
+    matches: (_source, tags) =>
+      hasAnyTag(tags, [
+        'civic-tech',
+        'civic-design',
+        'democracy',
+        'participation',
+        'public-interest-technology',
+        'public-goods',
+        'community-power'
+      ])
+  },
+{
+  id: 'international',
+  label: 'International',
+  description: 'International digital government, public administration and civic innovation.',
+  matches: (source, tags) =>
+    hasAnyTag(tags, ['international', 'germany', 'scotland']) ||
+    sourceTextIncludes(source, ['oecd', 'digitalservice bund'])
+},
+  {
+    id: 'consultancies-suppliers',
+    label: 'Consultancies and suppliers',
+    description: 'Supplier, studio and consultancy writing relevant to public services.',
+    matches: (_source, tags) =>
+      hasAnyTag(tags, ['consultancy', 'supplier', 'vendor', 'studio'])
+  }
+]
+
+const getSourceCategories = (source: Source) => {
+  const tags = (source.tags ?? []).map(normalise)
+  const matched = categories.filter((category) => category.matches(source, tags))
+
+  return matched.length > 0
+    ? matched
+    : [
+        {
+          id: 'other',
+          label: 'Other',
+          description: 'Sources that do not yet fit one of the main categories.',
+          matches: () => false
+        }
+      ]
+}
+
+const categoryCounts = Object.fromEntries(
+  categories.map((category) => [
+    category.id,
+    sources.filter((source) => getSourceCategories(source).some((item) => item.id === category.id)).length
+  ])
+)
+
+const sortedSources = [...sources].sort((a, b) => a.name.localeCompare(b.name))
+
+const activeCount = sources.filter((source) => source.status === 'active').length
+const needsReviewCount = sources.filter((source) => source.status === 'needs-review').length
+const pausedCount = sources.filter((source) => source.status === 'paused').length
+
+const statusLabel = (status: SourceStatus) => {
+  if (status === 'active') return 'Active'
+  if (status === 'needs-review') return 'Needs review'
+  return 'Paused'
+}
+
+const statusClass = (status: SourceStatus) => {
+  if (status === 'active') return 'app-tag app-tag--green'
+  if (status === 'needs-review') return 'app-tag app-tag--yellow'
+  return 'app-tag app-tag--grey'
+}
+---
+
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Sources — Civic Signals</title>
+  </head>
+  <body>
+    <main class="govuk-main-wrapper app-width-container">
+      <a class="govuk-back-link" href={import.meta.env.BASE_URL}>Back to news feed</a>
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <span class="govuk-caption-xl">Civic Signals</span>
+          <h1 class="govuk-heading-xl">Sources</h1>
+
+          <p class="govuk-body-l">
+            These are the blogs, feeds and tracked sources used or considered for Civic Signals.
+          </p>
+
+          <p class="govuk-body">
+            Sources marked <strong>active</strong> are currently included in the feed. Sources marked
+            <strong>needs review</strong> are useful candidates that still need checking before they are ingested.
+          </p>
+        </div>
+      </div>
+
+      <div class="app-source-summary" aria-label="Source summary">
+        <div>
+          <strong>{sources.length}</strong>
+          <span>Total sources</span>
+        </div>
+        <div>
+          <strong>{activeCount}</strong>
+          <span>Active</span>
+        </div>
+        <div>
+          <strong>{needsReviewCount}</strong>
+          <span>Needs review</span>
+        </div>
+        <div>
+          <strong>{pausedCount}</strong>
+          <span>Paused</span>
+        </div>
+      </div>
+
+      <section class="app-source-filter" aria-labelledby="filter-heading">
+        <h2 class="govuk-heading-m" id="filter-heading">Filter sources</h2>
+
+        <p class="govuk-body-s">
+          Showing <span data-visible-count>{sources.length}</span> of {sources.length} sources.
+        </p>
+
+        <div class="app-filter-buttons" aria-label="Filter sources by category">
+          <button class="app-filter-button app-filter-button--selected" type="button" data-filter="all" aria-pressed="true">
+            All <span>{sources.length}</span>
+          </button>
+
+          {categories.map((category) => (
+            <button class="app-filter-button" type="button" data-filter={category.id} aria-pressed="false">
+              {category.label} <span>{categoryCounts[category.id]}</span>
+            </button>
+          ))}
+        </div>
+
+        <noscript>
+          <p class="govuk-body-s">
+            JavaScript is not available, so all sources are listed.
+          </p>
+        </noscript>
+      </section>
+
+      <ul class="app-source-list" id="sources-list">
+        {sortedSources.map((source) => {
+          const sourceCategories = getSourceCategories(source)
+
+          return (
+            <li class="app-source-card" data-categories={sourceCategories.map((category) => category.id).join(' ')}>
+              <div class="app-source-card__header">
+                <h2 class="govuk-heading-m">
+                  <a class="govuk-link" href={source.url}>{source.name}</a>
+                </h2>
+
+                <span class={statusClass(source.status)}>{statusLabel(source.status)}</span>
+              </div>
+
+              {source.organisation && (
+                <p class="govuk-body-s app-source-card__organisation">
+                  {source.organisation}
+                </p>
+              )}
+
+              <dl class="app-source-meta">
+                {source.feedUrl && (
+                  <>
+                    <dt>Feed</dt>
+                    <dd><a class="govuk-link" href={source.feedUrl}>{source.feedUrl}</a></dd>
+                  </>
+                )}
+
+                {source.apiPath && (
+                  <>
+                    <dt>GOV.UK Content API path</dt>
+                    <dd><code>{source.apiPath}</code></dd>
+                  </>
+                )}
+              </dl>
+
+              <div class="app-source-card__categories" aria-label="Categories">
+                {sourceCategories.map((category) => (
+                  <span class="app-category-pill">{category.label}</span>
+                ))}
+              </div>
+
+              {source.tags && source.tags.length > 0 && (
+                <p class="govuk-body-s app-source-card__tags">
+                  Tags: {source.tags.join(', ')}
+                </p>
+              )}
+            </li>
+          )
+        })}
+      </ul>
+    </main>
+
+    <script>
+      const buttons = Array.from(document.querySelectorAll('[data-filter]'))
+      const cards = Array.from(document.querySelectorAll('[data-categories]'))
+      const visibleCount = document.querySelector('[data-visible-count]')
+
+      function setFilter(filter) {
+        let count = 0
+
+        cards.forEach((card) => {
+          const categories = card.getAttribute('data-categories') || ''
+          const show = filter === 'all' || categories.split(' ').includes(filter)
+
+          card.hidden = !show
+
+          if (show) {
+            count += 1
+          }
+        })
+
+        buttons.forEach((button) => {
+          const selected = button.getAttribute('data-filter') === filter
+
+          button.classList.toggle('app-filter-button--selected', selected)
+          button.setAttribute('aria-pressed', selected ? 'true' : 'false')
+        })
+
+        if (visibleCount) {
+          visibleCount.textContent = String(count)
+        }
+
+        const url = new URL(window.location.href)
+
+        if (filter === 'all') {
+          url.searchParams.delete('category')
+        } else {
+          url.searchParams.set('category', filter)
+        }
+
+        window.history.replaceState({}, '', url)
+      }
+
+      buttons.forEach((button) => {
+        button.addEventListener('click', () => {
+          setFilter(button.getAttribute('data-filter') || 'all')
+        })
+      })
+
+      const initialFilter = new URLSearchParams(window.location.search).get('category') || 'all'
+      const initialButton = buttons.find((button) => button.getAttribute('data-filter') === initialFilter)
+
+      setFilter(initialButton ? initialFilter : 'all')
+    </script>
+  </body>
+</html>

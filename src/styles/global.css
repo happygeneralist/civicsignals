@@ -40,7 +40,7 @@ body {
 
 h1 {
   margin: 0 0 0.5rem;
-  font-size: clamp(2rem, 6vw, 4.5rem);
+  font-size: clamp(2rem, 6vw, 1rem);
   line-height: 0.95;
   letter-spacing: -0.055em;
 }
@@ -158,4 +158,380 @@ h2 {
   font-size: 0.9rem;
   font-weight: 400;
 }
+
+
+/* Sources page */
+
+.app-width-container {
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
+
+.app-source-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.app-source-summary div {
+  border: 1px solid #b1b4b6;
+  padding: 15px;
+  background: #f3f2f1;
+}
+
+.app-source-summary strong {
+  display: block;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.app-source-summary span {
+  display: block;
+  margin-top: 5px;
+}
+
+.app-source-filter {
+  border-top: 2px solid #1d70b8;
+  border-bottom: 1px solid #b1b4b6;
+  margin-bottom: 30px;
+  padding: 20px 0;
+}
+
+.app-filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.app-filter-button {
+  border: 2px solid #1d70b8;
+  padding: 8px 12px;
+  background: #ffffff;
+  color: #1d70b8;
+  font: inherit;
+  cursor: pointer;
+}
+
+.app-filter-button:hover {
+  background: #e8f1f8;
+}
+
+.app-filter-button:focus {
+  outline: 3px solid #ffdd00;
+  outline-offset: 0;
+  box-shadow: inset 0 0 0 2px #0b0c0c;
+}
+
+.app-filter-button--selected {
+  background: #1d70b8;
+  color: #ffffff;
+}
+
+.app-filter-button span {
+  display: inline-block;
+  margin-left: 4px;
+  font-weight: 700;
+}
+
+.app-source-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.app-source-card {
+  border-bottom: 1px solid #b1b4b6;
+  padding: 25px 0;
+}
+
+.app-source-card[hidden] {
+  display: none;
+}
+
+.app-source-card__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.app-source-card__header h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.app-source-card__organisation {
+  margin-top: 0;
+  color: #505a5f;
+}
+
+.app-source-meta {
+  display: grid;
+  grid-template-columns: minmax(90px, max-content) 1fr;
+  gap: 5px 15px;
+  margin: 15px 0;
+  overflow-wrap: anywhere;
+}
+
+.app-source-meta dt {
+  font-weight: 700;
+}
+
+.app-source-meta dd {
+  margin: 0;
+}
+
+.app-source-card__categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 15px;
+}
+
+.app-category-pill {
+  display: inline-block;
+  padding: 3px 8px;
+  background: #f3f2f1;
+  color: #0b0c0c;
+  font-size: 0.9rem;
+}
+
+.app-source-card__tags {
+  margin-top: 10px;
+  color: #505a5f;
+}
+
+.app-tag {
+  display: inline-block;
+  min-width: 70px;
+  padding: 2px 8px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.app-tag--green {
+  background: #cce2d8;
+  color: #005a30;
+}
+
+.app-tag--yellow {
+  background: #fff7bf;
+  color: #594d00;
+}
+
+.app-tag--grey {
+  background: #eeefef;
+  color: #383f43;
+}
+
+@media (max-width: 40.0525em) {
+  .app-source-card__header {
+    display: block;
+  }
+
+  .app-tag {
+    margin-bottom: 10px;
+  }
+
+  .app-source-meta {
+    display: block;
+  }
+
+  .app-source-meta dt {
+    margin-top: 10px;
+  }
+
+  /* Sources page */
+
+  .app-width-container {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .app-source-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+    margin: 30px 0;
+  }
+
+  .app-source-summary div {
+    border: 1px solid #b1b4b6;
+    padding: 15px;
+    background: #f3f2f1;
+  }
+
+  .app-source-summary strong {
+    display: block;
+    font-size: 2rem;
+    line-height: 1;
+  }
+
+  .app-source-summary span {
+    display: block;
+    margin-top: 5px;
+  }
+
+  .app-source-filter {
+    border-top: 2px solid #1d70b8;
+    border-bottom: 1px solid #b1b4b6;
+    margin-bottom: 30px;
+    padding: 20px 0;
+  }
+
+  .app-filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .app-filter-button {
+    border: 2px solid #1d70b8;
+    padding: 8px 12px;
+    background: #ffffff;
+    color: #1d70b8;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .app-filter-button:hover {
+    background: #e8f1f8;
+  }
+
+  .app-filter-button:focus {
+    outline: 3px solid #ffdd00;
+    outline-offset: 0;
+    box-shadow: inset 0 0 0 2px #0b0c0c;
+  }
+
+  .app-filter-button--selected {
+    background: #1d70b8;
+    color: #ffffff;
+  }
+
+  .app-filter-button span {
+    display: inline-block;
+    margin-left: 4px;
+    font-weight: 700;
+  }
+
+  .app-source-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .app-source-card {
+    border-bottom: 1px solid #b1b4b6;
+    padding: 25px 0;
+  }
+
+  .app-source-card[hidden] {
+    display: none;
+  }
+
+  .app-source-card__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  .app-source-card__header h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  .app-source-card__organisation {
+    margin-top: 0;
+    color: #505a5f;
+  }
+
+  .app-source-meta {
+    display: grid;
+    grid-template-columns: minmax(90px, max-content) 1fr;
+    gap: 5px 15px;
+    margin: 15px 0;
+    overflow-wrap: anywhere;
+  }
+
+  .app-source-meta dt {
+    font-weight: 700;
+  }
+
+  .app-source-meta dd {
+    margin: 0;
+  }
+
+  .app-source-card__categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 15px;
+  }
+
+  .app-category-pill {
+    display: inline-block;
+    padding: 3px 8px;
+    background: #f3f2f1;
+    color: #0b0c0c;
+    font-size: 0.9rem;
+  }
+
+  .app-source-card__tags {
+    margin-top: 10px;
+    color: #505a5f;
+  }
+
+  .app-tag {
+    display: inline-block;
+    min-width: 70px;
+    padding: 2px 8px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+
+  .app-tag--green {
+    background: #cce2d8;
+    color: #005a30;
+  }
+
+  .app-tag--yellow {
+    background: #fff7bf;
+    color: #594d00;
+  }
+
+  .app-tag--grey {
+    background: #eeefef;
+    color: #383f43;
+  }
+
+  @media (max-width: 40.0525em) {
+    .app-source-card__header {
+      display: block;
+    }
+
+    .app-tag {
+      margin-bottom: 10px;
+    }
+
+    .app-source-meta {
+      display: block;
+    }
+
+    .app-source-meta dt {
+      margin-top: 10px;
+    }
