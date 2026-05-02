@@ -19,6 +19,57 @@ body {
   line-height: 1.4;
 }
 
+/* Page-level navigation and service label */
+
+.govuk-back-link {
+  display: inline-block;
+  margin-bottom: 1.25rem;
+  color: #1d1d1b;
+  font-size: 0.95rem;
+  font-weight: 650;
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.16em;
+}
+
+.govuk-back-link::before {
+  content: "‹ ";
+  text-decoration: none;
+}
+
+.govuk-back-link:hover {
+  text-decoration-thickness: 0.12em;
+}
+
+.govuk-back-link:focus {
+  outline: 3px solid #ffdd00;
+  outline-offset: 2px;
+  background: #ffdd00;
+  color: #000000;
+}
+
+.govuk-caption-xl {
+  display: inline-block;
+  margin-bottom: 0.35rem;
+  color: #6b655c;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.govuk-caption-xl + .govuk-heading-xl,
+.govuk-caption-xl + h1 {
+  margin-top: 0;
+}
+
+.govuk-heading-xl {
+  margin: 0 0 1rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 0.95;
+  letter-spacing: -0.055em;
+}
+
 .page {
   max-width: 980px;
   margin: 0 auto;
