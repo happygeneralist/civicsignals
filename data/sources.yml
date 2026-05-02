@@ -1,457 +1,3 @@
-- id: gds-blog
-  name: Government Digital Service Blog
-  url: https://gds.blog.gov.uk/
-  feedUrl: https://gds.blog.gov.uk/feed/
-  status: active
-  organisation: Government Digital Service
-  tags:
-    - central-government
-    - digital
-    - delivery
-- id: gds-design-notes
-  name: GDS Design Notes
-  url: https://designnotes.blog.gov.uk/
-  feedUrl: https://designnotes.blog.gov.uk/feed/
-  status: active
-  organisation: Government Digital Service
-  tags:
-    - central-government
-    - design
-    - research
-    - content
-- id: govuk-service-design
-  name: GOV.UK Service Design
-  url: https://services.blog.gov.uk/category/service-design/
-  feedUrl: https://services.blog.gov.uk/category/service-design/feed/
-  status: active
-  organisation: GOV.UK
-  tags:
-    - central-government
-    - service-design
-    - delivery
-- id: local-digital-blog
-  name: Local Digital Blog
-  url: https://www.localdigital.gov.uk/blog/
-  feedUrl: https://www.localdigital.gov.uk/feed/
-  status: needs-review
-  organisation: Local Digital
-  tags:
-    - local-government
-    - digital
-    - delivery
-- id: essex-digital-service
-  name: Essex Digital Service
-  url: https://blog.essex.gov.uk/essex-digital-service/
-  feedUrl: https://blog.essex.gov.uk/essex-digital-service/feed/
-  status: needs-review
-  organisation: Essex County Council
-  tags:
-    - local-government
-    - digital
-    - service-design
-- id: service-design-network-uk
-  name: Service Design Network UK Chapter
-  url: https://www.service-design-network.org/chapters/uk/headlines
-  feedUrl: https://www.service-design-network.org/chapters/uk/headlines/feed
-  status: needs-review
-  organisation: Service Design Network UK
-  tags:
-    - service-design
-    - community
-    - professional-community
-- id: apolitical
-  name: Apolitical
-  url: https://apolitical.co/
-  feedUrl: https://apolitical.co/rss
-  status: needs-review
-  organisation: Apolitical
-  tags:
-    - policy
-    - public-sector
-    - professional-community
-- id: weeknotes
-  name: Web of Weeknotes
-  url: https://weeknot.es/
-  feedUrl: https://weeknot.es/feed
-  status: needs-review
-  organisation: Web of Weeknotes
-  tags:
-    - weeknotes
-    - practitioners
-    - community
-- id: vicky-teinaki
-  name: Vicky Teinaki
-  url: https://medium.vickyteinaki.com/
-  feedUrl: https://medium.vickyteinaki.com/feed
-  status: active
-  organisation: Vicky Teinaki
-  tags:
-    - weeknotes
-    - service-design
-    - personal-blog
-- id: adrian-ortega
-  name: Adrian Ortega
-  url: https://adrian-ortega.medium.com/
-  feedUrl: https://adrian-ortega.medium.com/feed
-  status: active
-  organisation: Adrian Ortega
-  tags:
-    - weeknotes
-    - personal-blog
-    - digital-government
-- id: matt-curnow-weeknotes
-  name: Matt Curnow Weeknotes
-  url: https://www.curnow.org/archive/weeknotes/
-  feedUrl: https://www.curnow.org/feed/
-  status: active
-  organisation: Matt Curnow
-  tags:
-    - weeknotes
-    - personal-blog
-    - public-sector
-- id: context-studio
-  name: Context Studio
-  url: https://contextstudio.ie/
-  feedUrl: https://contextstudio.ie/feed/
-  status: active
-  organisation: Context Studio
-  tags:
-    - service-design
-    - weeknotes
-    - consultancy
-- id: stu-ideas
-  name: Stu — Design Principles and Ideas
-  url: https://stu.xyz/ideas/design-principles
-  feedUrl: https://stu.xyz/feed
-  status: needs-review
-  organisation: Stu
-  tags:
-    - design
-    - principles
-    - personal-blog
-- id: local-government-association
-  name: Local Government Association
-  url: https://www.local.gov.uk/
-  feedUrl: https://www.local.gov.uk/rss.xml
-  status: needs-review
-  organisation: Local Government Association
-  tags:
-    - local-government
-    - public-sector
-    - reports
-- id: dsit
-  name: Department for Science, Innovation and Technology
-  url: https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology
-  feedUrl: https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=department-for-science-innovation-and-technology
-  status: active
-  organisation: Department for Science, Innovation and Technology
-  tags:
-    - central-government
-    - digital
-    - policy
-    - technology
-- id: oecd-digital-government
-  name: OECD Digital Government
-  url: https://www.oecd.org/en/topics/digital-government.html
-  feedUrl: https://www.oecd.org/newsroom/publicationsdocuments/rss.xml
-  status: needs-review
-  organisation: OECD
-  tags:
-    - international
-    - digital-government
-    - reports
-- id: systemsthinking-govuk
-  name: GOV.UK Systems Thinking
-  url: https://systemsthinking.blog.gov.uk/
-  feedUrl: https://systemsthinking.blog.gov.uk/feed/
-  status: active
-  organisation: Government Office for Science
-  tags:
-    - central-government
-    - systems-thinking
-    - policy
-    - complexity
-- id: online-wardley-maps
-  name: Online Wardley Maps Blog
-  url: https://docs.onlinewardleymaps.com/blog
-  feedUrl: https://docs.onlinewardleymaps.com/blog/rss.xml
-  status: active
-  organisation: Online Wardley Maps
-  tags:
-    - wardley-mapping
-    - strategy
-    - tools
-    - mapping
-- id: wardley-maps-guide
-  name: Wardley Maps
-  url: https://www.wardleymaps.com/
-  feedUrl: https://www.wardleymaps.com/rss.xml
-  status: needs-review
-  organisation: Wardley Maps
-  tags:
-    - wardley-mapping
-    - strategy
-    - mapping
-    - guides
-- id: wardley-leadership-strategies
-  name: Wardley Leadership Strategies
-  url: https://www.wardleyleadershipstrategies.com/
-  feedUrl: https://www.wardleyleadershipstrategies.com/feed.xml
-  status: needs-review
-  organisation: Wardley Leadership Strategies
-  tags:
-    - wardley-mapping
-    - strategy
-    - leadership
-    - systems-thinking
-- id: will-larson
-  name: Will Larson
-  url: https://lethain.com/
-  feedUrl: https://lethain.com/feeds.xml
-  status: active
-  organisation: Will Larson
-  tags:
-    - engineering-strategy
-    - architecture
-    - leadership
-    - wardley-mapping
-- id: oecd-opsi
-  name: OECD Observatory of Public Sector Innovation
-  url: https://oecd-opsi.org/blog/
-  feedUrl: https://oecd-opsi.org/feed/
-  status: active
-  organisation: OECD OPSI
-  tags:
-    - public-sector-innovation
-    - systems-thinking
-    - anticipatory-innovation
-    - governance
-- id: bmc-blogs
-  name: BMC Blogs
-  url: https://blogs.bmc.com/
-  feedUrl: https://blogs.bmc.com/feed/
-  status: active
-  organisation: BMC
-  tags:
-    - wardley-mapping
-    - value-chain
-    - technology-strategy
-    - architecture
-- id: softwire-insights
-  name: Softwire Insights
-  url: https://www.softwire.com/insights/
-  feedUrl: https://www.softwire.com/insights/feed/
-  status: active
-  organisation: Softwire
-  tags:
-    - technology-strategy
-    - wardley-mapping
-    - digital-transformation
-    - architecture
-- id: sap-australia-public-sector
-  name: SAP Australia and New Zealand Public Sector
-  url: https://news.sap.com/australia/
-  feedUrl: https://news.sap.com/australia/feed/
-  status: active
-  organisation: SAP
-  tags:
-    - public-sector
-    - systems-thinking
-    - service-transformation
-    - vendor
-- id: policy-lab
-  name: Policy Lab
-  url: https://openpolicy.blog.gov.uk/
-  feedUrl: https://openpolicy.blog.gov.uk/feed/
-  status: active
-  organisation: Policy Lab
-  tags:
-    - central-government
-    - policy
-    - systems-thinking
-    - design
-    - participation
-- id: public-policy-design
-  name: Public Policy Design
-  url: https://publicpolicydesign.blog.gov.uk/
-  feedUrl: https://publicpolicydesign.blog.gov.uk/feed/
-  status: active
-  organisation: UK government policy design community
-  tags:
-    - central-government
-    - policy-design
-    - systems-change
-    - multidisciplinary-teams
-- id: technology-in-government
-  name: Technology in Government
-  url: https://technology.blog.gov.uk/
-  feedUrl: https://technology.blog.gov.uk/feed/
-  status: active
-  organisation: Government Digital Service
-  tags:
-    - central-government
-    - technology
-    - architecture
-    - digital-foundations
-    - strategy
-- id: dxw
-  name: dxw
-  url: https://www.dxw.com/articles/
-  feedUrl: https://www.dxw.com/feed/
-  status: active
-  organisation: dxw
-  tags:
-    - public-sector
-    - service-design
-    - systems-thinking
-    - digital-transformation
-    - consultancy
-- id: public-digital
-  name: Public Digital
-  url: https://public.digital/insights
-  feedUrl: https://public.digital/feed
-  status: needs-review
-  organisation: Public Digital
-  tags:
-    - public-sector
-    - government-transformation
-    - operating-models
-    - digital-strategy
-    - consultancy
-- id: nesta
-  name: Nesta
-  url: https://www.nesta.org.uk/
-  feedUrl: https://www.nesta.org.uk/feed/
-  status: needs-review
-  organisation: Nesta
-  tags:
-    - public-sector-innovation
-    - collective-intelligence
-    - systems-change
-    - policy
-    - social-innovation
-- id: institute-for-government
-  name: Institute for Government
-  url: https://www.instituteforgovernment.org.uk/
-  feedUrl: https://www.instituteforgovernment.org.uk/rss.xml
-  status: active
-  organisation: Institute for Government
-  tags:
-    - government
-    - public-sector-reform
-    - policy
-    - delivery
-    - institutions
-- id: dark-matter-labs
-  name: Dark Matter Labs
-  url: https://darkmatterlabs.org/feed
-  feedUrl: https://darkmatterlabs.org/feed
-  status: needs-review
-  organisation: Dark Matter Labs
-  tags:
-    - systems-change
-    - civic-infrastructure
-    - governance
-    - institutional-design
-    - public-value
-    - stewardship
-- id: civic-square
-  name: Civic Square
-  url: https://civicsquare.cc/
-  feedUrl: https://civicsquare.cc/feed/
-  status: active
-  organisation: Civic Square
-  tags:
-    - civic-infrastructure
-    - systems-change
-    - neighbourhoods
-    - governance
-    - public-goods
-    - regenerative-futures
-- id: democratic-society
-  name: Democratic Society
-  url: https://www.demsoc.org/
-  feedUrl: https://www.demsoc.org/blog?format=rss
-  status: needs-review
-  organisation: Democratic Society
-  tags:
-    - democracy
-    - participation
-    - local-government
-    - civic-infrastructure
-    - systems-change
-- id: open-systems-lab
-  name: Open Systems Lab
-  url: https://opensystemslab.io/
-  feedUrl: https://opensystemslab.io/feed/
-  status: needs-review
-  organisation: Open Systems Lab
-  tags:
-    - civic-tech
-    - planning
-    - housing
-    - digital-infrastructure
-    - systems-change
-- id: participatory-city
-  name: Participatory City Foundation
-  url: https://www.participatorycity.org/
-  feedUrl: https://www.participatorycity.org/blog-feed.xml
-  status: needs-review
-  organisation: Participatory City Foundation
-  tags:
-    - participation
-    - neighbourhoods
-    - civic-infrastructure
-    - systems-change
-    - public-goods
-- id: fieldstudio-design
-  name: Fieldstudio Design
-  url: https://fieldstudio.design/
-  feedUrl: https://fieldstudio.design/feed/
-  status: active
-  organisation: Fieldstudio Design
-  tags:
-    - public-design
-    - design-research
-    - policy-design
-    - social-design
-    - lucy-kimbell
-- id: ual-social-design-institute
-  name: UAL Social Design Institute
-  url: https://www.arts.ac.uk/ual-social-design-institute
-  feedUrl: https://www.arts.ac.uk/rss
-  status: needs-review
-  organisation: University of the Arts London
-  tags:
-    - social-design
-    - design-research
-    - public-policy
-    - systems-change
-    - lucy-kimbell
-- id: design-council
-  name: Design Council
-  url: https://www.designcouncil.org.uk/
-  feedUrl: https://www.designcouncil.org.uk/feed/
-  status: needs-review
-  organisation: Design Council
-  tags:
-    - public-design
-    - design-economy
-    - design-value
-    - systems-change
-    - policy
-- id: heseltine-institute
-  name: Heseltine Institute
-  url: https://www.liverpool.ac.uk/heseltine-institute/
-  feedUrl: https://www.liverpool.ac.uk/heseltine-institute/blog/feed/
-  status: needs-review
-  organisation: University of Liverpool
-  tags:
-    - public-policy
-    - place
-    - policy-design
-    - public-design
-    - institutions
 - id: acuity-design
   name: Acuity Design
   url: https://acuity.design/
@@ -464,42 +10,39 @@
     - service-design
     - public-sector
     - alastair-somerville
-- id: alastair-somerville-medium
-  name: Alastair Somerville
-  url: https://acuity-design.medium.com/
-  feedUrl: https://medium.com/feed/@acuity-design
+- id: adrian-ortega
+  name: Adrian Ortega
+  url: https://adrian-ortega.medium.com/
+  feedUrl: https://adrian-ortega.medium.com/feed
   status: active
-  organisation: Alastair Somerville
+  organisation: Adrian Ortega
   tags:
-    - accessibility
-    - sensory-design
-    - systems-thinking
-    - design-practice
-    - alastair-somerville
-- id: john-mortimer-medium
-  name: John Mortimer
-  url: https://john-mortimer.medium.com/
-  feedUrl: https://medium.com/feed/@john-mortimer
+    - weeknotes
+    - personal-blog
+    - digital-government
+- id: beyond-sticky-notes
+  name: Beyond Sticky Notes
+  url: https://www.beyondstickynotes.com/
+  feedUrl: https://www.beyondstickynotes.com/blog?format=rss
   status: active
-  organisation: John Mortimer
+  organisation: Beyond Sticky Notes
   tags:
-    - relational-public-services
-    - human-learning-systems
-    - systems-thinking
-    - service-design
-    - local-government
-- id: human-learning-systems
-  name: Human Learning Systems
-  url: https://www.humanlearning.systems/
-  feedUrl: https://www.humanlearning.systems/feed/
-  status: needs-review
-  organisation: Human Learning Systems
+    - co-design
+    - power
+    - facilitation
+    - equity
+    - ka-mckercher
+- id: bmc-blogs
+  name: BMC Blogs
+  url: https://blogs.bmc.com/
+  feedUrl: https://blogs.bmc.com/feed/
+  status: active
+  organisation: BMC
   tags:
-    - human-learning-systems
-    - relational-public-services
-    - public-service-reform
-    - systems-thinking
-    - complexity
+    - wardley-mapping
+    - value-chain
+    - technology-strategy
+    - architecture
 - id: careful-industries
   name: Careful Industries
   url: https://www.careful.industries/blog
@@ -524,42 +67,6 @@
     - accessibility
     - elections
     - whitney-quesenbery
-- id: beyond-sticky-notes
-  name: Beyond Sticky Notes
-  url: https://www.beyondstickynotes.com/
-  feedUrl: https://www.beyondstickynotes.com/blog?format=rss
-  status: active
-  organisation: Beyond Sticky Notes
-  tags:
-    - co-design
-    - power
-    - facilitation
-    - equity
-    - ka-mckercher
-- id: public-policy-design-andrew-knight
-  name: Public Policy Design — Andrew Knight
-  url: https://publicpolicydesign.blog.gov.uk/author/andrewknight/
-  feedUrl: https://publicpolicydesign.blog.gov.uk/author/andrewknight/feed/
-  status: active
-  organisation: UK Government Policy Design Community
-  tags:
-    - public-design
-    - policy-design
-    - public-value
-    - andrew-knight
-    - central-government
-- id: services-in-government-kara-kane
-  name: Services in Government — Kara Kane
-  url: https://services.blog.gov.uk/
-  feedUrl: https://services.blog.gov.uk/feed/
-  status: active
-  organisation: Cabinet Office
-  tags:
-    - service-design
-    - service-transformation
-    - public-sector-reform
-    - kara-kane
-    - central-government
 - id: civic-designing-medium
   name: Civic Designing
   url: https://medium.com/civic-designing
@@ -572,90 +79,87 @@
     - accessibility
     - elections
     - whitney-quesenbery
-- id: nhs-design-matters-rochelle-gold
-  name: NHS Digital Design Matters
-  url: https://digital.nhs.uk/blog/design-matters
-  feedUrl: https://digital.nhs.uk/feed/design-matters-blog-feed.xml
+- id: civic-square
+  name: Civic Square
+  url: https://civicsquare.cc/
+  feedUrl: https://civicsquare.cc/feed/
   status: active
-  organisation: NHS England
+  organisation: Civic Square
   tags:
-    - nhs
-    - user-research
-    - design-maturity
-    - health
-    - rochelle-gold
-- id: matt-edgar
-  name: Matt Edgar
-  url: https://blog.mattedgar.com/
-  feedUrl: https://blog.mattedgar.com/feed/
+    - civic-infrastructure
+    - systems-change
+    - neighbourhoods
+    - governance
+    - public-goods
+    - regenerative-futures
+- id: context-studio
+  name: Context Studio
+  url: https://contextstudio.ie/
+  feedUrl: https://contextstudio.ie/feed/
   status: active
-  organisation: Matt Edgar
+  organisation: Context Studio
   tags:
     - service-design
-    - nhs
-    - public-services
-    - product-leadership
-    - matt-edgar
-- id: martha-edwards
-  name: Martha Edwards
-  url: https://www.marthaedwards.ca/
-  feedUrl: https://www.marthaedwards.ca/rss/
+    - weeknotes
+    - consultancy
+- id: darin-kayoli-medium
+  name: Darin Kayoli
+  url: https://darinkayoli.medium.com/
+  feedUrl: https://darinkayoli.medium.com/feed
   status: active
-  organisation: Martha Edwards
+  organisation: Darin Kayoli
+  tags:
+    - public-sector
+    - service-design
+    - digital-government
+    - personal-blog
+- id: david-eaves
+  name: David Eaves
+  url: https://eaves.ca/
+  feedUrl: https://eaves.ca/feed/
+  status: active
+  organisation: David Eaves
+  tags:
+    - digital-government
+    - digital-public-infrastructure
+    - open-government
+    - public-sector
+    - strategy
+- id: dsit
+  name: Department for Science, Innovation and Technology
+  url: https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology
+  feedUrl: https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=department-for-science-innovation-and-technology
+  status: active
+  organisation: Department for Science, Innovation and Technology
+  tags:
+    - central-government
+    - digital
+    - policy
+    - technology
+- id: design-for-joy
+  name: Design for Joy
+  url: https://www.designforjoy.co.uk/writing
+  feedUrl: https://www.designforjoy.co.uk/writing?format=rss
+  status: active
+  organisation: Design for Joy
   tags:
     - service-design
     - co-design
-    - government
-    - weeknotes
-    - martha-edwards
-- id: kinship-works-james-plunkett
-  name: Kinship Works
-  url: https://medium.com/kinship-works
-  feedUrl: https://medium.com/feed/kinship-works
+    - healthcare
+    - relational-services
+    - emma-parnell
+- id: dxw
+  name: dxw
+  url: https://www.dxw.com/articles/
+  feedUrl: https://www.dxw.com/feed/
   status: active
-  organisation: Kinship Works
+  organisation: dxw
   tags:
-    - public-services
-    - institutions
-    - social-contract
-    - human-systems
-    - james-plunkett
-- id: scottish-ai-alliance
-  name: Scottish AI Alliance
-  url: https://www.scottishai.com/news
-  feedUrl: https://www.scottishai.com/news?format=rss
-  status: active
-  organisation: Scottish AI Alliance
-  tags:
-    - ai
-    - ai-ethics
     - public-sector
-    - scotland
-    - steph-wright
-- id: social-workers-who-design-rachael-dietkus
-  name: Social Workers Who Design
-  url: https://www.socialworkerswho.design/blog
-  feedUrl: https://www.socialworkerswho.design/blog?format=rss
-  status: needs-review
-  organisation: Social Workers Who Design
-  tags:
-    - trauma-informed-design
-    - design-ethics
-    - public-interest-design
-    - care
-    - rachael-dietkus
-- id: digitalservice-bund-martin-jordan
-  name: DigitalService Bund
-  url: https://digitalservice.bund.de/blog
-  feedUrl: https://digitalservice.bund.de/feed.xml
-  status: needs-review
-  organisation: DigitalService
-  tags:
-    - digital-government
     - service-design
-    - public-administration
-    - germany
-    - martin-jordan
+    - systems-thinking
+    - digital-transformation
+    - consultancy
 - id: effortmark-caroline-jarrett
   name: Effortmark
   url: https://www.effortmark.co.uk/
@@ -668,19 +172,394 @@
     - content-design
     - accessibility
     - caroline-jarrett
-- id: transform-wales
-  name: Transform Wales
-  url: https://transform.wales/blog/
-  feedUrl: https://transform.wales/feed.xml
-  status: needs-review
-  organisation: Transform Wales
+- id: fieldstudio-design
+  name: Fieldstudio Design
+  url: https://fieldstudio.design/
+  feedUrl: https://fieldstudio.design/feed/
+  status: active
+  organisation: Fieldstudio Design
+  tags:
+    - public-design
+    - design-research
+    - policy-design
+    - social-design
+    - lucy-kimbell
+- id: gds-design-notes
+  name: GDS Design Notes
+  url: https://designnotes.blog.gov.uk/
+  feedUrl: https://designnotes.blog.gov.uk/feed/
+  status: active
+  organisation: Government Digital Service
+  tags:
+    - central-government
+    - design
+    - research
+    - content
+- id: govuk-service-design
+  name: GOV.UK Service Design
+  url: https://services.blog.gov.uk/category/service-design/
+  feedUrl: https://services.blog.gov.uk/category/service-design/feed/
+  status: active
+  organisation: GOV.UK
+  tags:
+    - central-government
+    - service-design
+    - delivery
+- id: systemsthinking-govuk
+  name: GOV.UK Systems Thinking
+  url: https://systemsthinking.blog.gov.uk/
+  feedUrl: https://systemsthinking.blog.gov.uk/feed/
+  status: active
+  organisation: Government Office for Science
+  tags:
+    - central-government
+    - systems-thinking
+    - policy
+    - complexity
+- id: gds-blog
+  name: Government Digital Service Blog
+  url: https://gds.blog.gov.uk/
+  feedUrl: https://gds.blog.gov.uk/feed/
+  status: active
+  organisation: Government Digital Service
+  tags:
+    - central-government
+    - digital
+    - delivery
+- id: ibm-center-business-government
+  name: IBM Center for The Business of Government
+  url: https://www.businessofgovernment.org/blog
+  feedUrl: https://www.businessofgovernment.org/rss.xml
+  status: active
+  organisation: IBM Center for The Business of Government
+  tags:
+    - government-management
+    - digital-transformation
+    - systems-thinking
+    - public-sector
+    - leadership
+- id: john-mortimer-medium
+  name: John Mortimer
+  url: https://john-mortimer.medium.com/
+  feedUrl: https://medium.com/feed/@john-mortimer
+  status: active
+  organisation: John Mortimer
+  tags:
+    - relational-public-services
+    - human-learning-systems
+    - systems-thinking
+    - service-design
+    - local-government
+- id: kinship-works-james-plunkett
+  name: Kinship Works
+  url: https://medium.com/kinship-works
+  feedUrl: https://medium.com/feed/kinship-works
+  status: active
+  organisation: Kinship Works
+  tags:
+    - public-services
+    - institutions
+    - social-contract
+    - human-systems
+    - james-plunkett
+- id: made-tech-digital-service-delivery
+  name: Made Tech Digital Service Delivery
+  url: https://www.madetech.com/blog/category/digital-service-delivery/
+  feedUrl: https://www.madetech.com/blog/feed/
+  status: active
+  organisation: Made Tech
+  tags:
+    - public-sector
+    - digital-service-delivery
+    - delivery
+    - technology
+    - consultancy
+- id: mark-dalgarno-medium
+  name: Mark Dalgarno
+  url: https://markdalgarno.medium.com/
+  feedUrl: https://markdalgarno.medium.com/feed
+  status: active
+  organisation: Mark Dalgarno
+  tags:
+    - agile
+    - delivery
+    - public-sector
+    - strategy
+    - personal-blog
+- id: martha-edwards
+  name: Martha Edwards
+  url: https://www.marthaedwards.ca/
+  feedUrl: https://www.marthaedwards.ca/rss/
+  status: active
+  organisation: Martha Edwards
+  tags:
+    - service-design
+    - co-design
+    - government
+    - weeknotes
+    - martha-edwards
+- id: matt-curnow-weeknotes
+  name: Matt Curnow Weeknotes
+  url: https://www.curnow.org/archive/weeknotes/
+  feedUrl: https://www.curnow.org/feed/
+  status: active
+  organisation: Matt Curnow
+  tags:
+    - weeknotes
+    - personal-blog
+    - public-sector
+- id: matt-edgar
+  name: Matt Edgar
+  url: https://blog.mattedgar.com/
+  feedUrl: https://blog.mattedgar.com/feed/
+  status: active
+  organisation: Matt Edgar
+  tags:
+    - service-design
+    - nhs
+    - public-services
+    - product-leadership
+    - matt-edgar
+- id: nhs-design-matters-rochelle-gold
+  name: NHS Digital Design Matters
+  url: https://digital.nhs.uk/blog/design-matters
+  feedUrl: https://digital.nhs.uk/feed/design-matters-blog-feed.xml
+  status: active
+  organisation: NHS England
+  tags:
+    - nhs
+    - user-research
+    - design-maturity
+    - health
+    - rochelle-gold
+- id: nia-campbell-medium
+  name: Nia Campbell
+  url: https://medium.com/@niacampbell
+  feedUrl: https://medium.com/feed/@niacampbell
+  status: active
+  organisation: Nia Campbell
   tags:
     - wales
     - public-sector
-    - digital-government
     - user-centred-design
-    - delivery
+    - service-design
+    - digital-government
+- id: oecd-opsi
+  name: OECD Observatory of Public Sector Innovation
+  url: https://oecd-opsi.org/blog/
+  feedUrl: https://oecd-opsi.org/feed/
+  status: active
+  organisation: OECD OPSI
+  tags:
+    - public-sector-innovation
+    - systems-thinking
+    - anticipatory-innovation
+    - governance
+- id: online-wardley-maps
+  name: Online Wardley Maps Blog
+  url: https://docs.onlinewardleymaps.com/blog
+  feedUrl: https://docs.onlinewardleymaps.com/blog/rss.xml
+  status: active
+  organisation: Online Wardley Maps
+  tags:
+    - wardley-mapping
+    - strategy
+    - tools
+    - mapping
+- id: policy-lab
+  name: Policy Lab
+  url: https://openpolicy.blog.gov.uk/
+  feedUrl: https://openpolicy.blog.gov.uk/feed/
+  status: active
+  organisation: Policy Lab
+  tags:
+    - central-government
+    - policy
+    - systems-thinking
+    - design
+    - participation
+- id: public-policy-design
+  name: Public Policy Design
+  url: https://publicpolicydesign.blog.gov.uk/
+  feedUrl: https://publicpolicydesign.blog.gov.uk/feed/
+  status: active
+  organisation: UK government policy design community
+  tags:
+    - central-government
+    - policy-design
     - systems-change
+    - multidisciplinary-teams
+- id: public-policy-design-andrew-knight
+  name: Public Policy Design — Andrew Knight
+  url: https://publicpolicydesign.blog.gov.uk/author/andrewknight/
+  feedUrl: https://publicpolicydesign.blog.gov.uk/author/andrewknight/feed/
+  status: active
+  organisation: UK Government Policy Design Community
+  tags:
+    - public-design
+    - policy-design
+    - public-value
+    - andrew-knight
+    - central-government
+- id: question-factory
+  name: Question Factory
+  url: https://questionfactory.co.uk/blog/
+  feedUrl: https://questionfactory.co.uk/feed/
+  status: active
+  organisation: Question Factory
+  tags:
+    - public-policy
+    - place
+    - devolution
+    - systems-thinking
+    - strategy
+- id: sap-australia-public-sector
+  name: SAP Australia and New Zealand Public Sector
+  url: https://news.sap.com/australia/
+  feedUrl: https://news.sap.com/australia/feed/
+  status: active
+  organisation: SAP
+  tags:
+    - public-sector
+    - systems-thinking
+    - service-transformation
+    - vendor
+- id: sarah-fisher-medium
+  name: Sarah Fisher
+  url: https://medium.com/@sarah-fisher
+  feedUrl: https://medium.com/feed/@sarah-fisher
+  status: active
+  organisation: Sarah Fisher
+  tags:
+    - public-sector
+    - service-design
+    - user-centred-design
+    - personal-blog
+- id: scottish-ai-alliance
+  name: Scottish AI Alliance
+  url: https://www.scottishai.com/news
+  feedUrl: https://www.scottishai.com/news?format=rss
+  status: active
+  organisation: Scottish AI Alliance
+  tags:
+    - ai
+    - ai-ethics
+    - public-sector
+    - scotland
+    - steph-wright
+- id: services-in-government-kara-kane
+  name: Services in Government — Kara Kane
+  url: https://services.blog.gov.uk/
+  feedUrl: https://services.blog.gov.uk/feed/
+  status: active
+  organisation: Cabinet Office
+  tags:
+    - service-design
+    - service-transformation
+    - public-sector-reform
+    - kara-kane
+    - central-government
+- id: softwire-insights
+  name: Softwire Insights
+  url: https://www.softwire.com/insights/
+  feedUrl: https://www.softwire.com/insights/feed/
+  status: active
+  organisation: Softwire
+  tags:
+    - technology-strategy
+    - wardley-mapping
+    - digital-transformation
+    - architecture
+- id: technology-in-government
+  name: Technology in Government
+  url: https://technology.blog.gov.uk/
+  feedUrl: https://technology.blog.gov.uk/feed/
+  status: active
+  organisation: Government Digital Service
+  tags:
+    - central-government
+    - technology
+    - architecture
+    - digital-foundations
+    - strategy
+- id: vicky-teinaki
+  name: Vicky Teinaki
+  url: https://medium.vickyteinaki.com/
+  feedUrl: https://medium.vickyteinaki.com/feed
+  status: active
+  organisation: Vicky Teinaki
+  tags:
+    - weeknotes
+    - service-design
+    - personal-blog
+- id: will-larson
+  name: Will Larson
+  url: https://lethain.com/
+  feedUrl: https://lethain.com/feeds.xml
+  status: active
+  organisation: Will Larson
+  tags:
+    - engineering-strategy
+    - architecture
+    - leadership
+    - wardley-mapping
+- id: works-in-progress
+  name: Works in Progress
+  url: https://worksinprogress.co/
+  feedUrl: https://worksinprogress.co/rss.xml
+  status: active
+  organisation: Works in Progress
+  tags:
+    - state-capacity
+    - systems-thinking
+    - infrastructure
+    - regulation
+    - longform
+- id: apolitical
+  name: Apolitical
+  url: https://apolitical.co/
+  feedUrl: https://apolitical.co/rss
+  status: needs-review
+  organisation: Apolitical
+  tags:
+    - policy
+    - public-sector
+    - professional-community
+- id: centre-for-public-impact
+  name: Centre for Public Impact
+  url: https://www.centreforpublicimpact.org/
+  feedUrl: https://www.centreforpublicimpact.org/rss.xml
+  status: needs-review
+  organisation: Centre for Public Impact
+  tags:
+    - systems-thinking
+    - government-as-learning-system
+    - public-sector
+    - public-impact
+    - governance
+- id: clara-greo
+  name: Clara Greo
+  url: https://claragreo.com/
+  feedUrl: https://claragreo.com/feed.xml
+  status: needs-review
+  organisation: Clara Greo
+  tags:
+    - service-design
+    - user-centred-design
+    - equity
+    - public-sector
+    - training
+- id: clive-grinyer
+  name: Clive Grinyer
+  url: https://www.clivegrinyer.com/
+  feedUrl: https://www.clivegrinyer.com/feed.xml
+  status: needs-review
+  organisation: Clive Grinyer
+  tags:
+    - design-leadership
+    - service-design
+    - innovation
+    - public-services
 - id: content-design-london
   name: Content Design London
   url: https://contentdesign.london/blog
@@ -694,80 +573,11 @@
     - ai
     - governance
     - sarah-winters
-- id: nia-campbell-medium
-  name: Nia Campbell
-  url: https://medium.com/@niacampbell
-  feedUrl: https://medium.com/feed/@niacampbell
-  status: active
-  organisation: Nia Campbell
-  tags:
-    - wales
-    - public-sector
-    - user-centred-design
-    - service-design
-    - digital-government
-- id: richard-pope
-  name: Richard Pope
-  url: https://richardpope.org/
-  feedUrl: https://richardpope.org/feed.json
-  status: needs-review
-  organisation: Richard Pope
-  tags:
-    - digital-government
-    - government-as-a-platform
-    - public-sector
-    - strategy
-    - json-feed
-- id: darin-kayoli-medium
-  name: Darin Kayoli
-  url: https://darinkayoli.medium.com/
-  feedUrl: https://darinkayoli.medium.com/feed
-  status: active
-  organisation: Darin Kayoli
-  tags:
-    - public-sector
-    - service-design
-    - digital-government
-    - personal-blog
-- id: nicola-pritchard
-  name: Nicola Pritchard
-  url: https://nicolapritchard.com/
-  feedUrl: https://nicolapritchard.com/feed/
-  status: needs-review
-  organisation: Nicola Pritchard
-  tags:
-    - content-design
-    - service-design
-    - public-sector
-    - personal-blog
-- id: sarah-fisher-medium
-  name: Sarah Fisher
-  url: https://medium.com/@sarah-fisher
-  feedUrl: https://medium.com/feed/@sarah-fisher
-  status: active
-  organisation: Sarah Fisher
-  tags:
-    - public-sector
-    - service-design
-    - user-centred-design
-    - personal-blog
-- id: mark-dalgarno-medium
-  name: Mark Dalgarno
-  url: https://markdalgarno.medium.com/
-  feedUrl: https://markdalgarno.medium.com/feed
-  status: active
-  organisation: Mark Dalgarno
-  tags:
-    - agile
-    - delivery
-    - public-sector
-    - strategy
-    - personal-blog
 - id: create-change
   name: Create/Change
   url: https://createchange.io/blog/
   feedUrl: https://createchange.io/blog/feed/
-  status: active
+  status: needs-review
   organisation: Create/Change
   tags:
     - govtech
@@ -776,17 +586,111 @@
     - delivery
     - service-ownership
     - ai
-- id: transform-uk
-  name: Transform UK
-  url: https://www.transformuk.com/
-  feedUrl: https://www.transformuk.com/feed/
+- id: dark-matter-labs
+  name: Dark Matter Labs
+  url: https://darkmatterlabs.org/feed
+  feedUrl: https://darkmatterlabs.org/feed
   status: needs-review
-  organisation: Transform UK
+  organisation: Dark Matter Labs
   tags:
-    - digital-transformation
-    - public-sector
-    - consultancy
+    - systems-change
+    - civic-infrastructure
+    - governance
+    - institutional-design
+    - public-value
+    - stewardship
+- id: democratic-society
+  name: Democratic Society
+  url: https://www.demsoc.org/
+  feedUrl: https://www.demsoc.org/blog?format=rss
+  status: needs-review
+  organisation: Democratic Society
+  tags:
+    - democracy
+    - participation
+    - local-government
+    - civic-infrastructure
+    - systems-change
+- id: design-council
+  name: Design Council
+  url: https://www.designcouncil.org.uk/
+  feedUrl: https://www.designcouncil.org.uk/feed/
+  status: needs-review
+  organisation: Design Council
+  tags:
+    - public-design
+    - design-economy
+    - design-value
+    - systems-change
+    - policy
+- id: digitalservice-bund-martin-jordan
+  name: DigitalService Bund
+  url: https://digitalservice.bund.de/blog
+  feedUrl: https://digitalservice.bund.de/feed.xml
+  status: needs-review
+  organisation: DigitalService
+  tags:
+    - digital-government
     - service-design
+    - public-administration
+    - germany
+    - martin-jordan
+- id: essex-digital-service
+  name: Essex Digital Service
+  url: https://blog.essex.gov.uk/essex-digital-service/
+  feedUrl: https://blog.essex.gov.uk/essex-digital-service/feed/
+  status: needs-review
+  organisation: Essex County Council
+  tags:
+    - local-government
+    - digital
+    - service-design
+- id: heseltine-institute
+  name: Heseltine Institute
+  url: https://www.liverpool.ac.uk/heseltine-institute/
+  feedUrl: https://www.liverpool.ac.uk/heseltine-institute/blog/feed/
+  status: needs-review
+  organisation: University of Liverpool
+  tags:
+    - public-policy
+    - place
+    - policy-design
+    - public-design
+    - institutions
+- id: human-learning-systems
+  name: Human Learning Systems
+  url: https://www.humanlearning.systems/
+  feedUrl: https://www.humanlearning.systems/feed/
+  status: needs-review
+  organisation: Human Learning Systems
+  tags:
+    - human-learning-systems
+    - relational-public-services
+    - public-service-reform
+    - systems-thinking
+    - complexity
+- id: institute-for-government
+  name: Institute for Government
+  url: https://www.instituteforgovernment.org.uk/
+  feedUrl: https://www.instituteforgovernment.org.uk/rss.xml
+  status: needs-review
+  organisation: Institute for Government
+  tags:
+    - government
+    - public-sector-reform
+    - policy
+    - delivery
+    - institutions
+- id: local-digital-blog
+  name: Local Digital Blog
+  url: https://www.localdigital.gov.uk/blog/
+  feedUrl: https://www.localdigital.gov.uk/feed/
+  status: needs-review
+  organisation: Local Digital
+  tags:
+    - local-government
+    - digital
+    - delivery
 - id: local-digital-news
   name: Local Digital News
   url: https://www.localdigital.gov.uk/news/
@@ -799,110 +703,194 @@
     - cyber
     - data-standards
     - news
-- id: made-tech-digital-service-delivery
-  name: Made Tech Digital Service Delivery
-  url: https://www.madetech.com/blog/category/digital-service-delivery/
-  feedUrl: https://www.madetech.com/blog/feed/
-  status: active
-  organisation: Made Tech
-  tags:
-    - public-sector
-    - digital-service-delivery
-    - delivery
-    - technology
-    - consultancy
-- id: centre-for-public-impact
-  name: Centre for Public Impact
-  url: https://www.centreforpublicimpact.org/
-  feedUrl: https://www.centreforpublicimpact.org/rss.xml
+- id: local-government-association
+  name: Local Government Association
+  url: https://www.local.gov.uk/
+  feedUrl: https://www.local.gov.uk/rss.xml
   status: needs-review
-  organisation: Centre for Public Impact
+  organisation: Local Government Association
   tags:
-    - systems-thinking
-    - government-as-learning-system
+    - local-government
     - public-sector
-    - public-impact
-    - governance
-- id: ibm-center-business-government
-  name: IBM Center for The Business of Government
-  url: https://www.businessofgovernment.org/blog
-  feedUrl: https://www.businessofgovernment.org/rss.xml
-  status: active
-  organisation: IBM Center for The Business of Government
+    - reports
+- id: nesta
+  name: Nesta
+  url: https://www.nesta.org.uk/
+  feedUrl: https://www.nesta.org.uk/feed/
+  status: needs-review
+  organisation: Nesta
   tags:
-    - government-management
-    - digital-transformation
-    - systems-thinking
+    - public-sector-innovation
+    - collective-intelligence
+    - systems-change
+    - policy
+    - social-innovation
+- id: nicola-pritchard
+  name: Nicola Pritchard
+  url: https://nicolapritchard.com/
+  feedUrl: https://nicolapritchard.com/feed/
+  status: needs-review
+  organisation: Nicola Pritchard
+  tags:
+    - content-design
+    - service-design
     - public-sector
-    - leadership
-- id: works-in-progress
-  name: Works in Progress
-  url: https://worksinprogress.co/
-  feedUrl: https://worksinprogress.co/rss.xml
-  status: active
-  organisation: Works in Progress
+    - personal-blog
+- id: oecd-digital-government
+  name: OECD Digital Government
+  url: https://www.oecd.org/en/topics/digital-government.html
+  feedUrl: https://www.oecd.org/newsroom/publicationsdocuments/rss.xml
+  status: needs-review
+  organisation: OECD
   tags:
-    - state-capacity
-    - systems-thinking
-    - infrastructure
-    - regulation
-    - longform
-- id: david-eaves
-  name: David Eaves
-  url: https://eaves.ca/
-  feedUrl: https://eaves.ca/feed/
-  status: active
-  organisation: David Eaves
+    - international
+    - digital-government
+    - reports
+- id: open-systems-lab
+  name: Open Systems Lab
+  url: https://opensystemslab.io/
+  feedUrl: https://opensystemslab.io/feed/
+  status: needs-review
+  organisation: Open Systems Lab
+  tags:
+    - civic-tech
+    - planning
+    - housing
+    - digital-infrastructure
+    - systems-change
+- id: participatory-city
+  name: Participatory City Foundation
+  url: https://www.participatorycity.org/
+  feedUrl: https://www.participatorycity.org/blog-feed.xml
+  status: needs-review
+  organisation: Participatory City Foundation
+  tags:
+    - participation
+    - neighbourhoods
+    - civic-infrastructure
+    - systems-change
+    - public-goods
+- id: public-digital
+  name: Public Digital
+  url: https://public.digital/insights
+  feedUrl: https://public.digital/feed
+  status: needs-review
+  organisation: Public Digital
+  tags:
+    - public-sector
+    - government-transformation
+    - operating-models
+    - digital-strategy
+    - consultancy
+- id: richard-pope
+  name: Richard Pope
+  url: https://richardpope.org/
+  feedUrl: https://richardpope.org/feed.json
+  status: needs-review
+  organisation: Richard Pope
   tags:
     - digital-government
-    - digital-public-infrastructure
-    - open-government
+    - government-as-a-platform
     - public-sector
     - strategy
-- id: question-factory
-  name: Question Factory
-  url: https://questionfactory.co.uk/blog/
-  feedUrl: https://questionfactory.co.uk/feed/
-  status: active
-  organisation: Question Factory
-  tags:
-    - public-policy
-    - place
-    - devolution
-    - systems-thinking
-    - strategy
-- id: clara-greo
-  name: Clara Greo
-  url: https://claragreo.com/
-  feedUrl: https://claragreo.com/feed.xml
+    - json-feed
+- id: service-design-network-uk
+  name: Service Design Network UK Chapter
+  url: https://www.service-design-network.org/chapters/uk/headlines
+  feedUrl: https://www.service-design-network.org/chapters/uk/headlines/feed
   status: needs-review
-  organisation: Clara Greo
+  organisation: Service Design Network UK
   tags:
     - service-design
+    - community
+    - professional-community
+- id: social-workers-who-design-rachael-dietkus
+  name: Social Workers Who Design
+  url: https://www.socialworkerswho.design/blog
+  feedUrl: https://www.socialworkerswho.design/blog?format=rss
+  status: needs-review
+  organisation: Social Workers Who Design
+  tags:
+    - trauma-informed-design
+    - design-ethics
+    - public-interest-design
+    - care
+    - rachael-dietkus
+- id: stu-ideas
+  name: Stu — Design Principles and Ideas
+  url: https://stu.xyz/ideas/design-principles
+  feedUrl: https://stu.xyz/feed
+  status: needs-review
+  organisation: Stu
+  tags:
+    - design
+    - principles
+    - personal-blog
+- id: transform-uk
+  name: Transform UK
+  url: https://www.transformuk.com/
+  feedUrl: https://www.transformuk.com/feed/
+  status: needs-review
+  organisation: Transform UK
+  tags:
+    - digital-transformation
+    - public-sector
+    - consultancy
+    - service-design
+- id: transform-wales
+  name: Transform Wales
+  url: https://transform.wales/blog/
+  feedUrl: https://transform.wales/feed.xml
+  status: needs-review
+  organisation: Transform Wales
+  tags:
+    - wales
+    - public-sector
+    - digital-government
     - user-centred-design
-    - equity
-    - public-sector
-    - training
-- id: design-for-joy
-  name: Design for Joy
-  url: https://www.designforjoy.co.uk/writing
-  feedUrl: https://www.designforjoy.co.uk/writing?format=rss
-  status: active
-  organisation: Design for Joy
-  tags:
-    - service-design
-    - co-design
-    - healthcare
-    - relational-services
-    - emma-parnell
-- id: clive-grinyer
-  name: Clive Grinyer
-  url: https://www.clivegrinyer.com/
-  feedUrl: https://www.clivegrinyer.com/feed.xml
+    - delivery
+    - systems-change
+- id: ual-social-design-institute
+  name: UAL Social Design Institute
+  url: https://www.arts.ac.uk/ual-social-design-institute
+  feedUrl: https://www.arts.ac.uk/rss
   status: needs-review
-  organisation: Clive Grinyer
+  organisation: University of the Arts London
   tags:
-    - design-leadership
-    - service-design
-    - innovation
-    - public-services
+    - social-design
+    - design-research
+    - public-policy
+    - systems-change
+    - lucy-kimbell
+- id: wardley-leadership-strategies
+  name: Wardley Leadership Strategies
+  url: https://www.wardleyleadershipstrategies.com/
+  feedUrl: https://www.wardleyleadershipstrategies.com/feed.xml
+  status: needs-review
+  organisation: Wardley Leadership Strategies
+  tags:
+    - wardley-mapping
+    - strategy
+    - leadership
+    - systems-thinking
+- id: wardley-maps-guide
+  name: Wardley Maps
+  url: https://www.wardleymaps.com/
+  feedUrl: https://www.wardleymaps.com/rss.xml
+  status: needs-review
+  organisation: Wardley Maps
+  tags:
+    - wardley-mapping
+    - strategy
+    - mapping
+    - guides
+- id: weeknotes
+  name: Web of Weeknotes
+  url: https://weeknot.es/
+  feedUrl: https://weeknot.es/feed
+  status: needs-review
+  organisation: Web of Weeknotes
+  tags:
+    - weeknotes
+    - practitioners
+    - community

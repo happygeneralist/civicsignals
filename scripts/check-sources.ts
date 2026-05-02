@@ -15,28 +15,95 @@ type Source = {
   tags?: string[]
 }
 
+type CheckResult = {
+  ok: boolean
+  reason: string
+}
+
+type RemovedDuplicate = {
+  source: Source
+  matchedKey: string
+}
+
+const SOURCES_FILE = 'data/sources.yml'
+
 const parser = new Parser({
   timeout: 15000,
   headers: {
     'User-Agent': 'CivicSignalsBot/0.1',
-    Accept: 'application/rss+xml, application/atom+xml, application/xml, text/xml, application/json'
-  }
+    Accept: 'application/rss+xml, application/atom+xml, application/xml, text/xml'
+  },
+  maxRedirects: 5
 })
 
 async function loadSources(): Promise<Source[]> {
-  const file = await readFile('data/sources.yml', 'utf8')
-  return YAML.parse(file) ?? []
+  const file = await readFile(SOURCES_FILE, 'utf8')
+  const parsed = YAML.parse(file)
+
+  if (!Array.isArray(parsed)) {
+    throw new Error(`${SOURCES_FILE} must contain a YAML list of sources`)
+  }
+
+  return parsed as Source[]
 }
 
 async function saveSources(sources: Source[]) {
-  await writeFile('data/sources.yml', YAML.stringify(sources), 'utf8')
+  await writeFile(SOURCES_FILE, YAML.stringify(sources), 'utf8')
 }
 
-function isJsonFeed(source: Source) {
-  return source.feedUrl?.endsWith('.json') || source.feedUrl?.includes('/feed.json')
+function normaliseKey(value: string): string {
+  return value
+    .trim()
+    .toLowerCase()
+    .replace(/\/$/, '')
 }
 
-async function checkFeed(source: Source) {
+function sourceDedupeKeys(source: Source): string[] {
+  const keys = [`id:${normaliseKey(source.id)}`]
+
+  if (source.feedUrl) {
+    keys.push(`feed:${normaliseKey(source.feedUrl)}`)
+  }
+
+  if (source.apiPath) {
+    keys.push(`api:${normaliseKey(source.apiPath)}`)
+  }
+
+  return keys
+}
+
+function dedupeSources(sources: Source[]) {
+  const seen = new Set<string>()
+  const deduped: Source[] = []
+  const duplicates: RemovedDuplicate[] = []
+
+  for (const source of sources) {
+    const keys = sourceDedupeKeys(source)
+    const matchedKey = keys.find((key) => seen.has(key))
+
+    if (matchedKey) {
+      duplicates.push({ source, matchedKey })
+      continue
+    }
+
+    keys.forEach((key) => seen.add(key))
+    deduped.push(source)
+  }
+
+  return { deduped, duplicates }
+}
+
+function isJsonFeed(source: Source): boolean {
+  const feedUrl = source.feedUrl?.toLowerCase() ?? ''
+
+  return (
+    feedUrl.endsWith('.json') ||
+    feedUrl.includes('/feed.json') ||
+    feedUrl.includes('format=json')
+  )
+}
+
+async function checkFeed(source: Source): Promise<CheckResult> {
   if (!source.feedUrl) {
     return {
       ok: false,
@@ -66,46 +133,34 @@ async function checkFeed(source: Source) {
   }
 }
 
-function normaliseSourceKey(value: string) {
-  return value
-    .trim()
-    .toLowerCase()
-    .replace(/\/$/, '')
-}
-
-function sourceDedupeKeys(source: Source) {
-  const keys = [`id:${normaliseSourceKey(source.id)}`]
-
-  if (source.feedUrl) {
-    keys.push(`feed:${normaliseSourceKey(source.feedUrl)}`)
+function shouldSkip(source: Source): string | null {
+  if (source.status === 'paused') {
+    return 'Paused'
   }
 
-  if (source.apiPath) {
-    keys.push(`api:${normaliseSourceKey(source.apiPath)}`)
+  if (source.apiPath && !source.feedUrl) {
+    return 'GOV.UK Content API source, not RSS/Atom'
   }
 
-  return keys
+  return null
 }
 
-function dedupeSources(sources: Source[]) {
-  const seen = new Set<string>()
-  const deduped: Source[] = []
-  const duplicates: Array<{ source: Source; matchedKey: string }> = []
-
-  for (const source of sources) {
-    const keys = sourceDedupeKeys(source)
-    const matchedKey = keys.find((key) => seen.has(key))
-
-    if (matchedKey) {
-      duplicates.push({ source, matchedKey })
-      continue
+function sortSources(sources: Source[]): Source[] {
+  return [...sources].sort((a, b) => {
+    const statusOrder: Record<SourceStatus, number> = {
+      active: 0,
+      'needs-review': 1,
+      paused: 2
     }
 
-    keys.forEach((key) => seen.add(key))
-    deduped.push(source)
-  }
+    const statusDifference = statusOrder[a.status] - statusOrder[b.status]
 
-  return { deduped, duplicates }
+    if (statusDifference !== 0) {
+      return statusDifference
+    }
+
+    return a.name.localeCompare(b.name)
+  })
 }
 
 async function main() {
@@ -117,21 +172,15 @@ async function main() {
   const skipped: Array<{ id: string; name: string; reason: string }> = []
 
   for (const source of deduped) {
-    if (source.status === 'paused') {
-      skipped.push({
-        id: source.id,
-        name: source.name,
-        reason: 'Paused'
-      })
-      continue
-    }
+    const skipReason = shouldSkip(source)
 
-    if (source.apiPath && !source.feedUrl) {
+    if (skipReason) {
       skipped.push({
         id: source.id,
         name: source.name,
-        reason: 'GOV.UK Content API source, not RSS/Atom'
+        reason: skipReason
       })
+
       continue
     }
 
@@ -163,7 +212,9 @@ async function main() {
     }
   }
 
-  await saveSources(deduped)
+  const sortedSources = sortSources(deduped)
+
+  await saveSources(sortedSources)
 
   console.log('\nActive sources')
   console.table(passed)
