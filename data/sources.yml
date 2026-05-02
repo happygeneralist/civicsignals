@@ -548,18 +548,6 @@
     - public-value
     - andrew-knight
     - central-government
-- id: design-in-government-kara-kane
-  name: Design in Government — Kara Kane
-  url: https://designnotes.blog.gov.uk/
-  feedUrl: https://designnotes.blog.gov.uk/feed/
-  status: active
-  organisation: Cabinet Office
-  tags:
-    - public-design
-    - service-design
-    - design-community
-    - kara-kane
-    - central-government
 - id: services-in-government-kara-kane
   name: Services in Government — Kara Kane
   url: https://services.blog.gov.uk/
@@ -572,41 +560,6 @@
     - public-sector-reform
     - kara-kane
     - central-government
-- id: careful-industries-rachel-coldicutt
-  name: Careful Industries
-  url: https://www.careful.industries/blog
-  feedUrl: https://www.careful.industries/blog?format=rss
-  status: active
-  organisation: Careful Industries
-  tags:
-    - public-interest-technology
-    - responsible-ai
-    - digital-society
-    - rachel-coldicutt
-- id: beyond-sticky-notes-ka-mckercher
-  name: Beyond Sticky Notes
-  url: https://www.beyondstickynotes.com/blog
-  feedUrl: https://www.beyondstickynotes.com/blog?format=rss
-  status: active
-  organisation: Beyond Sticky Notes
-  tags:
-    - co-design
-    - power
-    - facilitation
-    - equity
-    - ka-mckercher
-- id: center-for-civic-design-whitney-quesenbery
-  name: Center for Civic Design
-  url: https://civicdesign.org/
-  feedUrl: https://civicdesign.org/feed/
-  status: active
-  organisation: Center for Civic Design
-  tags:
-    - civic-design
-    - democracy
-    - accessibility
-    - elections
-    - whitney-quesenbery
 - id: civic-designing-medium
   name: Civic Designing
   url: https://medium.com/civic-designing
@@ -667,18 +620,6 @@
     - social-contract
     - human-systems
     - james-plunkett
-- id: dxw-harry-scott-trimble
-  name: dxw
-  url: https://www.dxw.com/blog/
-  feedUrl: https://www.dxw.com/feed/
-  status: active
-  organisation: dxw
-  tags:
-    - public-sector
-    - digital-government
-    - service-design
-    - delivery
-    - harry-scott-trimble
 - id: scottish-ai-alliance
   name: Scottish AI Alliance
   url: https://www.scottishai.com/news
@@ -826,7 +767,7 @@
   name: Create/Change
   url: https://createchange.io/blog/
   feedUrl: https://createchange.io/blog/feed/
-  status: needs-review
+  status: active
   organisation: Create/Change
   tags:
     - govtech

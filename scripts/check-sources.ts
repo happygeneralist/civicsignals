@@ -66,20 +66,42 @@ async function checkFeed(source: Source) {
   }
 }
 
+function normaliseSourceKey(value: string) {
+  return value
+    .trim()
+    .toLowerCase()
+    .replace(/\/$/, '')
+}
+
+function sourceDedupeKeys(source: Source) {
+  const keys = [`id:${normaliseSourceKey(source.id)}`]
+
+  if (source.feedUrl) {
+    keys.push(`feed:${normaliseSourceKey(source.feedUrl)}`)
+  }
+
+  if (source.apiPath) {
+    keys.push(`api:${normaliseSourceKey(source.apiPath)}`)
+  }
+
+  return keys
+}
+
 function dedupeSources(sources: Source[]) {
   const seen = new Set<string>()
   const deduped: Source[] = []
-  const duplicates: Source[] = []
+  const duplicates: Array<{ source: Source; matchedKey: string }> = []
 
   for (const source of sources) {
-    const key = source.id
+    const keys = sourceDedupeKeys(source)
+    const matchedKey = keys.find((key) => seen.has(key))
 
-    if (seen.has(key)) {
-      duplicates.push(source)
+    if (matchedKey) {
+      duplicates.push({ source, matchedKey })
       continue
     }
 
-    seen.add(key)
+    keys.forEach((key) => seen.add(key))
     deduped.push(source)
   }
 
@@ -153,11 +175,12 @@ async function main() {
   console.table(skipped)
 
   if (duplicates.length > 0) {
-    console.log('\nRemoved duplicate IDs')
+    console.log('\nRemoved duplicate sources')
     console.table(
-      duplicates.map((source) => ({
+      duplicates.map(({ source, matchedKey }) => ({
         id: source.id,
-        name: source.name
+        name: source.name,
+        matchedKey
       }))
     )
   }
