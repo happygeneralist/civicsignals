@@ -1,0 +1,186 @@
+---
+import '../../styles/global.css'
+import items from '../../data/items.json'
+
+type FeedItem = {
+  id: string
+  sourceId: string
+  sourceName: string
+  title: string
+  url: string
+  summary?: string
+  publishedAt?: string
+  discoveredAt: string
+  tags?: string[]
+}
+
+const ITEMS_PER_PAGE = 100
+
+function formatDate(value?: string) {
+  if (!value) return ''
+
+  return new Intl.DateTimeFormat('en-GB', {
+    day: '2-digit',
+    month: 'short',
+    year: 'numeric'
+  }).format(new Date(value))
+}
+
+function pageHref(page: number) {
+  if (page === 1) return import.meta.env.BASE_URL
+  return `${import.meta.env.BASE_URL}page/${page}/`
+}
+
+function paginationItems(currentPage: number, totalPages: number) {
+  const pages = new Set<number>()
+
+  pages.add(1)
+  pages.add(totalPages)
+  pages.add(currentPage)
+
+  if (currentPage > 1) pages.add(currentPage - 1)
+  if (currentPage < totalPages) pages.add(currentPage + 1)
+
+  return [...pages].sort((a, b) => a - b)
+}
+
+export function getStaticPaths() {
+  const itemsPerPage = 100
+  const feedItems = items as FeedItem[]
+  const totalPages = Math.ceil(feedItems.length / itemsPerPage)
+
+  return Array.from({ length: Math.max(totalPages - 1, 0) }, (_, index) => {
+    const page = index + 2
+
+    return {
+      params: {
+        page: String(page)
+      },
+      props: {
+        page
+      }
+    }
+  })
+}
+
+const { page } = Astro.props as { page: number }
+
+const feedItems = items as FeedItem[]
+const totalItems = feedItems.length
+const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE)
+
+const currentPage = page
+const startIndex = (currentPage - 1) * ITEMS_PER_PAGE
+const endIndex = startIndex + ITEMS_PER_PAGE
+const pageItems = feedItems.slice(startIndex, endIndex)
+
+const startItem = totalItems === 0 ? 0 : startIndex + 1
+const endItem = Math.min(endIndex, totalItems)
+const pages = paginationItems(currentPage, totalPages)
+---
+
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Civic Signals — Page {currentPage} of {totalPages}</title>
+  </head>
+
+  <body>
+    <main class="page">
+      <header class="masthead">
+        <p class="site-label">Civic Signals</p>
+
+        <h1>Older digital government news</h1>
+
+        <p class="lede">
+          Page {currentPage} of {totalPages}.
+        </p>
+
+        <p class="feed-count">
+          Showing {startItem} to {endItem} of {totalItems} items.
+        </p>
+
+        <p>
+          <a href={import.meta.env.BASE_URL}>Back to latest updates</a>
+        </p>
+      </header>
+
+      <section aria-labelledby="older-updates">
+        <div class="section-header">
+          <div class="section-title">
+            <h2 id="older-updates">Older updates</h2>
+          </div>
+
+          <p class="feed-count">
+            {totalItems} items
+          </p>
+        </div>
+
+        <ol class="feed" aria-label="Older digital government updates" start={startItem}>
+          {pageItems.map((item, index) => (
+            <li class="feed-item">
+              <div class="feed-index" aria-hidden="true">
+                {startItem + index}.
+              </div>
+
+              <div class="feed-content">
+                <h3>
+                  <a href={item.url}>{item.title}</a>
+                </h3>
+
+                <p class="meta">
+                  <span>{item.sourceName}</span>
+                  {item.publishedAt && (
+                    <>
+                      <span aria-hidden="true"> · </span>
+                      <time datetime={item.publishedAt}>
+                        {formatDate(item.publishedAt)}
+                      </time>
+                    </>
+                  )}
+                </p>
+              </div>
+            </li>
+          ))}
+        </ol>
+
+        {totalPages > 1 && (
+          <nav class="pagination" aria-label="Pagination">
+            {currentPage > 1 && (
+              <a class="pagination-previous" href={pageHref(currentPage - 1)} rel="prev">
+                Newer updates
+              </a>
+            )}
+
+            <ol class="pagination-list">
+              {pages.map((pageNumber) => (
+                <li>
+                  <a
+                    class={pageNumber === currentPage ? 'pagination-current' : undefined}
+                    href={pageHref(pageNumber)}
+                    aria-current={pageNumber === currentPage ? 'page' : undefined}
+                  >
+                    {pageNumber}
+                  </a>
+                </li>
+              ))}
+            </ol>
+
+            {currentPage < totalPages && (
+              <a class="pagination-next" href={pageHref(currentPage + 1)} rel="next">
+                Older updates
+              </a>
+            )}
+          </nav>
+        )}
+      </section>
+
+      <p class="govuk-body">
+        <a class="govuk-link" href={`${import.meta.env.BASE_URL}sources/`}>
+          View sources
+        </a>
+      </p>
+    </main>
+  </body>
+</html>

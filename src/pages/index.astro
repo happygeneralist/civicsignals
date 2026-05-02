@@ -3,6 +3,15 @@ import '../styles/global.css'
 import items from '../data/items.json'
 import status from '../data/status.json'
 
+const ITEMS_PER_PAGE = 100
+
+const totalItems = items.length
+const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE)
+const pageItems = items.slice(0, ITEMS_PER_PAGE)
+
+const startItem = totalItems === 0 ? 0 : 1
+const endItem = Math.min(ITEMS_PER_PAGE, totalItems)
+
 const refreshedAt = status.checkedAt
   ? new Date(status.checkedAt).toLocaleString('en-GB', {
       day: '2-digit',
@@ -14,7 +23,7 @@ const refreshedAt = status.checkedAt
   : null
 ---
 
-<html lang="en">
+<html lang="en-GB">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -44,17 +53,20 @@ const refreshedAt = status.checkedAt
               </p>
             )}
           </div>
-
-          <p class="feed-count">
-            {items.length} items
-          </p>
+  {totalItems > 0 && (
+    <p class="feed-count">
+      Showing {startItem} to {endItem} of {totalItems} items
+    </p>
+  )}
         </div>
 
-        {items.length === 0 ? (
+
+
+        {totalItems === 0 ? (
           <p>No feed items have been imported yet.</p>
         ) : (
           <ol class="feed" aria-label="Latest digital government updates">
-            {items.map((item, index) => (
+            {pageItems.map((item, index) => (
               <li class="feed-item">
                 <div class="feed-index" aria-hidden="true">
                   {index + 1}.
@@ -85,12 +97,21 @@ const refreshedAt = status.checkedAt
             ))}
           </ol>
         )}
+
+        {totalPages > 1 && (
+          <nav class="pagination" aria-label="Pagination">
+            <a class="pagination-next" href={`${import.meta.env.BASE_URL}page/2/`}>
+              Older updates
+            </a>
+          </nav>
+        )}
       </section>
+
       <p class="govuk-body">
-  <a class="govuk-link" href={`${import.meta.env.BASE_URL}sources/`}>
-    View sources
-  </a>
-</p>
+        <a class="govuk-link" href={`${import.meta.env.BASE_URL}sources/`}>
+          View sources
+        </a>
+      </p>
     </main>
   </body>
 </html>
