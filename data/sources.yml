@@ -673,7 +673,7 @@
   name: Institute for Government
   url: https://www.instituteforgovernment.org.uk/
   feedUrl: https://www.instituteforgovernment.org.uk/rss.xml
-  status: active
+  status: needs-review
   organisation: Institute for Government
   tags:
     - government
@@ -681,16 +681,6 @@
     - policy
     - delivery
     - institutions
-- id: local-digital-blog
-  name: Local Digital Blog
-  url: https://www.localdigital.gov.uk/blog/
-  feedUrl: https://www.localdigital.gov.uk/feed/
-  status: needs-review
-  organisation: Local Digital
-  tags:
-    - local-government
-    - digital
-    - delivery
 - id: local-digital-news
   name: Local Digital News
   url: https://www.localdigital.gov.uk/news/
@@ -785,8 +775,8 @@
 - id: richard-pope
   name: Richard Pope
   url: https://richardpope.org/
-  feedUrl: https://richardpope.org/feed.json
-  status: needs-review
+  feedUrl: https://richardpope.org/rss/
+  status: active
   organisation: Richard Pope
   tags:
     - digital-government
@@ -840,8 +830,8 @@
 - id: transform-wales
   name: Transform Wales
   url: https://transform.wales/blog/
-  feedUrl: https://transform.wales/feed.xml
-  status: needs-review
+  feedUrl: https://transform.wales/index.xml
+  status: active
   organisation: Transform Wales
   tags:
     - wales
@@ -865,30 +855,19 @@
 - id: wardley-leadership-strategies
   name: Wardley Leadership Strategies
   url: https://www.wardleyleadershipstrategies.com/
-  feedUrl: https://www.wardleyleadershipstrategies.com/feed.xml
-  status: needs-review
+  feedUrl: https://www.wardleyleadershipstrategies.com/blog/rss.xml
+  status: active
   organisation: Wardley Leadership Strategies
   tags:
     - wardley-mapping
     - strategy
     - leadership
     - systems-thinking
-- id: wardley-maps-guide
-  name: Wardley Maps
-  url: https://www.wardleymaps.com/
-  feedUrl: https://www.wardleymaps.com/rss.xml
-  status: needs-review
-  organisation: Wardley Maps
-  tags:
-    - wardley-mapping
-    - strategy
-    - mapping
-    - guides
 - id: weeknotes
   name: Web of Weeknotes
   url: https://weeknot.es/
-  feedUrl: https://weeknot.es/feed
-  status: needs-review
+  feedUrl: https://weeknot.es/rss/
+  status: active
   organisation: Web of Weeknotes
   tags:
     - weeknotes
