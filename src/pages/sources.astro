@@ -1,5 +1,7 @@
 ---
 import { readFileSync } from 'node:fs'
+import SiteFooter from '../components/SiteFooter.astro'
+import SiteNav from '../components/SiteNav.astro'
 import YAML from 'yaml'
 import '../styles/global.css'
 
@@ -168,14 +170,14 @@ const categories: SourceCategory[] = [
         'community-power'
       ])
   },
-{
-  id: 'international',
-  label: 'International',
-  description: 'International digital government, public administration and civic innovation.',
-  matches: (source, tags) =>
-    hasAnyTag(tags, ['international', 'germany', 'scotland']) ||
-    sourceTextIncludes(source, ['oecd', 'digitalservice bund'])
-},
+  {
+    id: 'international',
+    label: 'International',
+    description: 'International digital government, public administration and civic innovation.',
+    matches: (source, tags) =>
+      hasAnyTag(tags, ['international', 'germany', 'scotland']) ||
+      sourceTextIncludes(source, ['oecd', 'digitalservice bund'])
+  },
   {
     id: 'consultancies-suppliers',
     label: 'Consultancies and suppliers',
@@ -234,24 +236,23 @@ const statusClass = (status: SourceStatus) => {
     <title>Sources — Civic Signals</title>
   </head>
   <body>
-    <main class="govuk-main-wrapper app-width-container">
-      <a class="govuk-back-link" href={import.meta.env.BASE_URL}>Back to news feed</a>
+    <main class="page">
+      <header class="masthead">
+        <p class="site-label">Civic Signals</p>
 
-      <div class="govuk-grid-row">
-        <div class="govuk-grid-column-two-thirds">
-          <span class="govuk-caption-xl">Civic Signals</span>
-          <h1 class="govuk-heading-xl">Sources</h1>
+        <h1>Sources</h1>
 
-          <p class="govuk-body-l">
-            These are the blogs, feeds and tracked sources used or considered for Civic Signals.
-          </p>
+        <p class="lede">
+          These are the blogs, feeds and tracked sources used or considered for Civic Signals.
+        </p>
 
-          <p class="govuk-body">
-            Sources marked <strong>active</strong> are currently included in the feed. Sources marked
-            <strong>needs review</strong> are useful candidates that still need checking before they are ingested.
-          </p>
-        </div>
-      </div>
+        <SiteNav current="sources" />
+      </header>
+
+      <p class="govuk-body">
+        Sources marked <strong>active</strong> are currently included in the feed. Sources marked
+        <strong>needs review</strong> are useful candidates that still need checking before they are ingested.
+      </p>
 
       <div class="app-source-summary" aria-label="Source summary">
         <div>
@@ -349,6 +350,8 @@ const statusClass = (status: SourceStatus) => {
           )
         })}
       </ul>
+
+      <SiteFooter />
     </main>
 
 <script>
