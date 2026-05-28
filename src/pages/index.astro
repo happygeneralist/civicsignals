@@ -1,4 +1,6 @@
 ---
+import SiteFooter from '../components/SiteFooter.astro'
+import SiteNav from '../components/SiteNav.astro'
 import '../styles/global.css'
 import items from '../data/items.json'
 import status from '../data/status.json'
@@ -40,6 +42,8 @@ const refreshedAt = status.checkedAt
         <p class="lede">
           Useful updates from across digital government.
         </p>
+
+        <SiteNav current="updates" />
       </header>
 
       <section aria-labelledby="latest-updates">
@@ -53,14 +57,12 @@ const refreshedAt = status.checkedAt
               </p>
             )}
           </div>
-  {totalItems > 0 && (
-    <p class="feed-count">
-      Showing {startItem} to {endItem} of {totalItems} items
-    </p>
-  )}
+          {totalItems > 0 && (
+            <p class="feed-count">
+              Showing {startItem} to {endItem} of {totalItems} items
+            </p>
+          )}
         </div>
-
-
 
         {totalItems === 0 ? (
           <p>No feed items have been imported yet.</p>
@@ -107,11 +109,7 @@ const refreshedAt = status.checkedAt
         )}
       </section>
 
-      <p class="govuk-body">
-        <a class="govuk-link" href={`${import.meta.env.BASE_URL}sources/`}>
-          View sources
-        </a>
-      </p>
+      <SiteFooter />
     </main>
   </body>
 </html>
