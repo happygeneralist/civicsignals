@@ -1,0 +1,64 @@
+---
+const { current = 'updates' } = Astro.props
+const baseUrl = import.meta.env.BASE_URL
+---
+
+<nav class="service-nav" aria-label="Primary navigation">
+  <ul class="service-nav__list">
+    <li>
+      <a class="service-nav__link" href={baseUrl} aria-current={current === 'updates' ? 'page' : undefined}>Latest updates</a>
+    </li>
+    <li>
+      <a class="service-nav__link" href={`${baseUrl}sources/`} aria-current={current === 'sources' ? 'page' : undefined}>Sources</a>
+    </li>
+    <li>
+      <a class="service-nav__link" href={`${baseUrl}events/`} aria-current={current === 'events' ? 'page' : undefined}>Events</a>
+    </li>
+  </ul>
+</nav>
+
+<style>
+  .service-nav {
+    max-width: 720px;
+    margin-top: 1.25rem;
+    border-top: 1px solid #d8d3c7;
+    border-bottom: 1px solid #d8d3c7;
+    background: #f4f2ed;
+  }
+
+  .service-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .service-nav__link {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    color: #1d70b8;
+    text-decoration-thickness: 0.06em;
+    text-underline-offset: 0.16em;
+  }
+
+  .service-nav__link:hover {
+    color: #003078;
+    text-decoration-thickness: 0.12em;
+  }
+
+  .service-nav__link:focus {
+    outline: 3px solid #ffdd00;
+    outline-offset: 0;
+    background: #ffdd00;
+    color: #000000;
+  }
+
+  .service-nav__link[aria-current='page'] {
+    padding-bottom: calc(0.5rem - 3px);
+    border-bottom: 3px solid #1d1d1b;
+    color: #1d1d1b;
+    font-weight: 700;
+    text-decoration: none;
+  }
+</style>
