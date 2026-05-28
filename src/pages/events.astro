@@ -1,0 +1,41 @@
+---
+import SiteFooter from '../components/SiteFooter.astro'
+import SiteNav from '../components/SiteNav.astro'
+import '../styles/global.css'
+---
+
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Events — Civic Signals</title>
+  </head>
+
+  <body>
+    <main class="page">
+      <header class="masthead">
+        <p class="site-label">Civic Signals</p>
+
+        <h1>Events</h1>
+
+        <p class="lede">
+          Useful updates from across digital government.
+        </p>
+
+        <SiteNav current="events" />
+      </header>
+
+      <section aria-labelledby="events-heading">
+        <div class="section-header">
+          <div class="section-title">
+            <h2 id="events-heading">Events</h2>
+          </div>
+        </div>
+
+        <p>No events have been imported yet.</p>
+      </section>
+
+      <SiteFooter />
+    </main>
+  </body>
+</html>
