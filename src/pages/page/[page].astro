@@ -47,8 +47,9 @@ function paginationItems(currentPage: number, totalPages: number) {
 }
 
 export function getStaticPaths() {
+  const itemsPerPage = 100
   const feedItems = items as FeedItem[]
-  const totalPages = Math.ceil(feedItems.length / ITEMS_PER_PAGE)
+  const totalPages = Math.ceil(feedItems.length / itemsPerPage)
 
   return Array.from({ length: Math.max(totalPages - 1, 0) }, (_, index) => {
     const page = index + 2
