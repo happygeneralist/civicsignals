@@ -8,12 +8,23 @@ type GenerateOptions = {
   now?: Date
 }
 
+type CandidateSignal = {
+  primaryTopic: string
+  links: CivicLink[]
+  sourceCount: number
+  relatedTopics: string[]
+  pairKey: string | null
+  score: number
+}
+
 const DEFAULT_OPTIONS = {
   periodDays: 7,
   minimumLinksPerSignal: 5,
   minimumSourcesPerSignal: 3,
   maximumSignals: 3
 }
+
+const MAXIMUM_LINK_OVERLAP = 0.5
 
 function toDateOnly(date: Date): string {
   return date.toISOString().slice(0, 10)
@@ -88,6 +99,49 @@ function getPrimaryPairKey(primaryTopic: string, relatedTopics: string[]): strin
     .join('|')
 }
 
+function getLinkOverlap(candidate: CandidateSignal, selected: CandidateSignal): number {
+  const selectedLinkIds = new Set(selected.links.map((link) => link.id))
+  const sharedLinkCount = candidate.links.filter((link) => selectedLinkIds.has(link.id)).length
+  const smallerSignalSize = Math.min(candidate.links.length, selected.links.length)
+
+  if (smallerSignalSize === 0) {
+    return 0
+  }
+
+  return sharedLinkCount / smallerSignalSize
+}
+
+function isTooSimilar(candidate: CandidateSignal, selectedSignals: CandidateSignal[]): boolean {
+  return selectedSignals.some((selected) => {
+    const samePair = candidate.pairKey !== null && candidate.pairKey === selected.pairKey
+    const sameTopRelatedTopic = candidate.relatedTopics[0] === selected.relatedTopics[0]
+    const tooMuchLinkOverlap = getLinkOverlap(candidate, selected) > MAXIMUM_LINK_OVERLAP
+
+    return samePair || sameTopRelatedTopic || tooMuchLinkOverlap
+  })
+}
+
+function selectDistinctSignals(
+  candidates: CandidateSignal[],
+  maximumSignals: number
+): CandidateSignal[] {
+  const selectedSignals: CandidateSignal[] = []
+
+  for (const candidate of candidates) {
+    if (isTooSimilar(candidate, selectedSignals)) {
+      continue
+    }
+
+    selectedSignals.push(candidate)
+
+    if (selectedSignals.length >= maximumSignals) {
+      break
+    }
+  }
+
+  return selectedSignals
+}
+
 export function generateRulesSignals(
   links: CivicLink[],
   options: GenerateOptions = {}
@@ -112,7 +166,7 @@ export function generateRulesSignals(
   }
 
   const candidateSignals = Array.from(linksByTopic.entries())
-    .map(([primaryTopic, topicLinks]) => {
+    .map(([primaryTopic, topicLinks]): CandidateSignal => {
       const uniqueLinks = Array.from(
         new Map(topicLinks.map((link) => [link.id, link])).values()
       )
@@ -135,19 +189,7 @@ export function generateRulesSignals(
     ))
     .sort((a, b) => b.score - a.score || a.primaryTopic.localeCompare(b.primaryTopic))
 
-  const usedPairKeys = new Set<string>()
-  const distinctSignals = candidateSignals.filter((candidate) => {
-    if (!candidate.pairKey) {
-      return true
-    }
-
-    if (usedPairKeys.has(candidate.pairKey)) {
-      return false
-    }
-
-    usedPairKeys.add(candidate.pairKey)
-    return true
-  }).slice(0, config.maximumSignals)
+  const distinctSignals = selectDistinctSignals(candidateSignals, config.maximumSignals)
 
   const signals: Signal[] = distinctSignals.map((candidate, index) => ({
     id: createSignalId(index),
