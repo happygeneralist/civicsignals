@@ -1,7 +1,7 @@
 [
   {
     "topic": "AI and automation",
-    "keywords": ["ai", "artificial intelligence", "automation", "algorithmic", "machine learning", "llm", "generative ai", "copilot"]
+    "keywords": ["artificial intelligence", "automation", "algorithmic", "machine learning", "llm", "generative ai", "copilot", "ai assurance", "ai overview"]
   },
   {
     "topic": "Accessibility",
@@ -9,31 +9,31 @@
   },
   {
     "topic": "Assurance",
-    "keywords": ["assurance", "review", "assessment", "spend control", "gateway", "service assessment"]
+    "keywords": ["assurance", "spend control", "gateway review", "service assessment"]
   },
   {
     "topic": "Content design",
-    "keywords": ["content design", "content", "plain english", "publishing", "guidance"]
+    "keywords": ["content design", "plain english", "publishing guidance"]
   },
   {
     "topic": "Data",
-    "keywords": ["data", "open data", "data sharing", "analytics", "statistics", "dashboard"]
+    "keywords": ["open data", "data sharing", "data standards", "data integration", "analytics", "statistics", "dashboard"]
   },
   {
     "topic": "Delivery",
-    "keywords": ["delivery", "agile", "roadmap", "delivery management", "programme", "implementation"]
+    "keywords": ["delivery management", "agile delivery", "roadmap", "implementation plan", "programme delivery"]
   },
   {
     "topic": "Design",
-    "keywords": ["design", "interaction design", "design system", "prototype", "patterns"]
+    "keywords": ["interaction design", "design system", "prototype", "design patterns"]
   },
   {
     "topic": "Digital identity",
-    "keywords": ["digital identity", "identity", "one login", "verification", "authentication", "fraud", "government gateway"]
+    "keywords": ["digital identity", "one login", "identity verification", "authentication", "government gateway"]
   },
   {
     "topic": "Funding",
-    "keywords": ["funding", "budget", "investment", "spending", "cost"]
+    "keywords": ["funding", "budget", "investment", "spending review", "cost pressure"]
   },
   {
     "topic": "Governance",
@@ -45,7 +45,7 @@
   },
   {
     "topic": "Policy",
-    "keywords": ["policy", "legislation", "regulation", "strategy", "white paper"]
+    "keywords": ["policy", "legislation", "regulation", "white paper"]
   },
   {
     "topic": "Procurement",
@@ -53,23 +53,23 @@
   },
   {
     "topic": "Product management",
-    "keywords": ["product", "product management", "product manager", "outcomes", "backlog"]
+    "keywords": ["product management", "product manager", "product operating model", "backlog"]
   },
   {
     "topic": "Research",
-    "keywords": ["research", "user research", "discovery", "interviews", "insight", "testing"]
+    "keywords": ["user research", "discovery", "interviews", "research findings", "usability testing"]
   },
   {
     "topic": "Security",
-    "keywords": ["security", "cyber", "privacy", "threat", "risk"]
+    "keywords": ["cyber security", "privacy", "threat", "security risk", "fraud prevention"]
   },
   {
     "topic": "Service design",
-    "keywords": ["service design", "service", "journey", "service blueprint", "end-to-end", "end to end"]
+    "keywords": ["service design", "user journey", "service blueprint", "end-to-end service", "end to end service"]
   },
   {
     "topic": "Standards",
-    "keywords": ["standards", "service standard", "technical standard", "guidance", "principles"]
+    "keywords": ["service standard", "technical standard", "data standard", "standards guidance"]
   },
   {
     "topic": "Transformation",
