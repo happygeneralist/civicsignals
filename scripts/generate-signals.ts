@@ -1,5 +1,6 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
+import { applySignalDiversity } from '../src/lib/signals/applySignalDiversity'
 import { generateRulesSignals } from '../src/lib/signals/generateRulesSignals'
 import { itemToCivicLink, tagLinks } from '../src/lib/signals/tagLinks'
 import type { FeedItem, TopicRule } from '../src/lib/signals/types'
@@ -24,7 +25,8 @@ async function main() {
   const items = await readJsonFile<FeedItem[]>(itemsPath)
   const topicRules = await readJsonFile<TopicRule[]>(topicRulesPath)
   const links = tagLinks(items.map(itemToCivicLink), topicRules)
-  const output = generateRulesSignals(links)
+  const rulesOutput = generateRulesSignals(links)
+  const output = applySignalDiversity(rulesOutput)
   const validationErrors = validateSignalsOutput(output, links)
 
   if (validationErrors.length > 0) {
