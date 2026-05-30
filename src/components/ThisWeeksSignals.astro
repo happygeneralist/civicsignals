@@ -1,0 +1,135 @@
+---
+import type { SignalsOutput } from '../lib/signals/types'
+
+type Props = {
+  data: SignalsOutput
+}
+
+const { data } = Astro.props
+
+const formatter = new Intl.DateTimeFormat('en-GB', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric'
+})
+
+function formatDate(dateString: string): string {
+  return formatter.format(new Date(`${dateString.slice(0, 10)}T00:00:00Z`))
+}
+---
+
+<section class="signals" aria-labelledby="this-weeks-signals-heading">
+  <h2 id="this-weeks-signals-heading">This week’s signals</h2>
+
+  <p class="signals__explanation">
+    Signals show recurring themes in the public links collected by Civic Signals.
+    They are not official positions or comprehensive analysis.
+  </p>
+
+  {data.signals.length === 0 ? (
+    <p>Not enough recent links to identify active themes yet.</p>
+  ) : (
+    <>
+      <p class="signals__note">
+        Generated from public links collected between {formatDate(data.period_start)} and {formatDate(data.period_end)}.
+      </p>
+
+      <div class="signals__list">
+        {data.signals.map((signal) => (
+          <article class="signal">
+            <h3 class="signal__title">{signal.title}</h3>
+
+            <p class="signal__meta">
+              {signal.link_count} links from {signal.source_count} {signal.source_count === 1 ? 'source' : 'sources'} this week.
+            </p>
+
+            {signal.related_topics.length > 0 && (
+              <p class="signal__topics">
+                <strong>Related topics:</strong> {signal.related_topics.join(', ')}.
+              </p>
+            )}
+
+            <details class="signal__sources">
+              <summary>View sources</summary>
+
+              <ul>
+                {signal.links.map((link) => (
+                  <li>
+                    <a href={link.url}>{link.title}</a>, {link.source}, {formatDate(link.published_at)}
+                  </li>
+                ))}
+              </ul>
+            </details>
+          </article>
+        ))}
+      </div>
+    </>
+  )}
+</section>
+
+<style>
+  .signals {
+    max-width: 720px;
+  }
+
+  .signals__explanation {
+    margin-bottom: 0.75rem;
+  }
+
+  .signals__note {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: #505a5f;
+    font-size: 0.95rem;
+  }
+
+  .signals__list {
+    display: grid;
+    gap: 1.25rem;
+  }
+
+  .signal {
+    padding-top: 1rem;
+    border-top: 2px solid #1d70b8;
+  }
+
+  .signal__title {
+    margin-top: 0;
+    margin-bottom: 0.35rem;
+  }
+
+  .signal__meta,
+  .signal__topics {
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .signal__sources {
+    margin-top: 0.75rem;
+  }
+
+  .signal__sources summary {
+    color: #1d70b8;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 0.06em;
+    text-underline-offset: 0.16em;
+  }
+
+  .signal__sources summary:hover {
+    color: #003078;
+    text-decoration-thickness: 0.12em;
+  }
+
+  .signal__sources summary:focus {
+    outline: 3px solid #ffdd00;
+    outline-offset: 0;
+    background: #ffdd00;
+    color: #000000;
+  }
+
+  .signal__sources ul {
+    margin-top: 0.75rem;
+  }
+</style>
