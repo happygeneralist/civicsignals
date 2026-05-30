@@ -22,8 +22,8 @@ function formatDate(dateString: string): string {
   <h2 id="this-weeks-signals-heading">This week’s signals</h2>
 
   <p class="signals__explanation">
-    Signals show recurring themes in the public links collected by Civic Signals.
-    They are not official positions or comprehensive analysis.
+    Signals show recurring themes in recent public links. They are not trends,
+    rankings or judgements of importance.
   </p>
 
   {data.signals.length === 0 ? (
@@ -39,9 +39,23 @@ function formatDate(dateString: string): string {
           <article class="signal">
             <h3 class="signal__title">{signal.title}</h3>
 
+            <p class="signal__summary">{signal.summary}</p>
+
             <p class="signal__meta">
               {signal.link_count} links from {signal.source_count} {signal.source_count === 1 ? 'source' : 'sources'} this week.
             </p>
+
+            {signal.top_activity_types.length > 0 && (
+              <p class="signal__topics">
+                <strong>Activity types:</strong> {signal.top_activity_types.join(', ')}.
+              </p>
+            )}
+
+            {signal.top_contexts.length > 0 && (
+              <p class="signal__topics">
+                <strong>Common contexts:</strong> {signal.top_contexts.join(', ')}.
+              </p>
+            )}
 
             {signal.related_topics.length > 0 && (
               <p class="signal__topics">
@@ -96,6 +110,11 @@ function formatDate(dateString: string): string {
   .signal__title {
     margin-top: 0;
     margin-bottom: 0.35rem;
+  }
+
+  .signal__summary {
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
   }
 
   .signal__meta,
