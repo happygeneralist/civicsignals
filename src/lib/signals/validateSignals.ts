@@ -4,7 +4,7 @@ const UNSUPPORTED_TITLE_PATTERNS = [
   /\bproves\b/i,
   /\bconfirms\b/i,
   /\bthe sector is\b/i,
-  /\bgovernment is\b/i,
+  /\b(?:the|uk|central) government is\b/i,
   /\beveryone\b/i,
   /\bmust\b/i,
   /\brevolution\b/i
