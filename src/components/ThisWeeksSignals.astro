@@ -39,10 +39,27 @@ function formatDate(dateString: string): string {
           <article class="signal">
             <h3 class="signal__title">{signal.title}</h3>
 
+            {signal.pattern && (
+              <p class="signal__pattern">
+                <strong>Pattern:</strong> {signal.pattern}
+              </p>
+            )}
+
             <p class="signal__summary">{signal.summary}</p>
 
+            {signal.what_to_notice && signal.what_to_notice.length > 0 && (
+              <div class="signal__notice">
+                <h4>What to notice</h4>
+                <ul>
+                  {signal.what_to_notice.map((item) => (
+                    <li>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
             <p class="signal__meta">
-              {signal.link_count} links from {signal.source_count} {signal.source_count === 1 ? 'source' : 'sources'} this week.
+              {signal.evidence_note ?? `${signal.link_count} links from ${signal.source_count} ${signal.source_count === 1 ? 'source' : 'sources'} this week.`}
             </p>
 
             {signal.top_activity_types.length > 0 && (
@@ -112,9 +129,29 @@ function formatDate(dateString: string): string {
     margin-bottom: 0.35rem;
   }
 
+  .signal__pattern {
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+
   .signal__summary {
     margin-top: 0.25rem;
     margin-bottom: 0.75rem;
+  }
+
+  .signal__notice {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .signal__notice h4 {
+    margin-top: 0;
+    margin-bottom: 0.35rem;
+    font-size: 1rem;
+  }
+
+  .signal__notice ul {
+    margin-top: 0;
   }
 
   .signal__meta,
