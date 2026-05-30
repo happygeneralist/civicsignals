@@ -10,9 +10,9 @@ type GenerateOptions = {
 
 const DEFAULT_OPTIONS = {
   periodDays: 7,
-  minimumLinksPerSignal: 3,
-  minimumSourcesPerSignal: 2,
-  maximumSignals: 5
+  minimumLinksPerSignal: 5,
+  minimumSourcesPerSignal: 3,
+  maximumSignals: 3
 }
 
 function toDateOnly(date: Date): string {
@@ -70,10 +70,22 @@ function createTitle(primaryTopic: string, relatedTopics: string[]): string {
   const topRelatedTopic = relatedTopics[0]
 
   if (topRelatedTopic) {
-    return `${primaryTopic} is showing up around ${topRelatedTopic.toLowerCase()}`
+    return `${primaryTopic} is showing up around ${topRelatedTopic}`
   }
 
-  return `More links this week about ${primaryTopic.toLowerCase()}`
+  return `More links this week about ${primaryTopic}`
+}
+
+function getPrimaryPairKey(primaryTopic: string, relatedTopics: string[]): string | null {
+  const topRelatedTopic = relatedTopics[0]
+
+  if (!topRelatedTopic) {
+    return null
+  }
+
+  return [primaryTopic, topRelatedTopic]
+    .sort((a, b) => a.localeCompare(b))
+    .join('|')
 }
 
 export function generateRulesSignals(
@@ -112,17 +124,32 @@ export function generateRulesSignals(
         links: uniqueLinks,
         sourceCount,
         relatedTopics,
+        pairKey: getPrimaryPairKey(primaryTopic, relatedTopics),
         score: uniqueLinks.length * 10 + sourceCount + relatedTopics.length
       }
     })
     .filter((candidate) => (
       candidate.links.length >= config.minimumLinksPerSignal &&
-      candidate.sourceCount >= config.minimumSourcesPerSignal
+      candidate.sourceCount >= config.minimumSourcesPerSignal &&
+      candidate.relatedTopics.length > 0
     ))
     .sort((a, b) => b.score - a.score || a.primaryTopic.localeCompare(b.primaryTopic))
-    .slice(0, config.maximumSignals)
 
-  const signals: Signal[] = candidateSignals.map((candidate, index) => ({
+  const usedPairKeys = new Set<string>()
+  const distinctSignals = candidateSignals.filter((candidate) => {
+    if (!candidate.pairKey) {
+      return true
+    }
+
+    if (usedPairKeys.has(candidate.pairKey)) {
+      return false
+    }
+
+    usedPairKeys.add(candidate.pairKey)
+    return true
+  }).slice(0, config.maximumSignals)
+
+  const signals: Signal[] = distinctSignals.map((candidate, index) => ({
     id: createSignalId(index),
     title: createTitle(candidate.primaryTopic, candidate.relatedTopics),
     primary_topic: candidate.primaryTopic,
