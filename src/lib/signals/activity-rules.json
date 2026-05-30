@@ -1,0 +1,34 @@
+[
+  {
+    "label": "Policy or strategy",
+    "keywords": ["policy", "strategy", "legislation", "regulation", "white paper", "blueprint", "roadmap"]
+  },
+  {
+    "label": "Governance or assurance",
+    "keywords": ["governance", "assurance", "oversight", "accountability", "controls", "review", "risk", "service assessment"]
+  },
+  {
+    "label": "Procurement or market activity",
+    "keywords": ["procurement", "commercial", "supplier", "framework", "contract", "marketplace", "buying"]
+  },
+  {
+    "label": "Delivery update",
+    "keywords": ["delivery", "implementation", "rollout", "launched", "go live", "what we built", "progress update"]
+  },
+  {
+    "label": "Research or evidence",
+    "keywords": ["research", "user research", "discovery", "interviews", "findings", "evidence", "usability testing"]
+  },
+  {
+    "label": "Guidance or standards",
+    "keywords": ["guidance", "standard", "standards", "principles", "pattern", "playbook", "manual"]
+  },
+  {
+    "label": "Capability or workforce",
+    "keywords": ["capability", "skills", "profession", "training", "workforce", "recruitment", "learning"]
+  },
+  {
+    "label": "Community discussion",
+    "keywords": ["community", "weeknote", "weeknotes", "event", "meetup", "conference", "call for", "join us"]
+  }
+]
