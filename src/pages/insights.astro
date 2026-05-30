@@ -2,8 +2,11 @@
 import SiteFooter from '../components/SiteFooter.astro'
 import SiteNav from '../components/SiteNav.astro'
 import ThisWeeksSignals from '../components/ThisWeeksSignals.astro'
-import signalsData from '../data/signals/latest.json'
+import signalsDataJson from '../data/signals/latest.json'
+import type { SignalsOutput } from '../lib/signals/types'
 import '../styles/global.css'
+
+const signalsData = signalsDataJson as SignalsOutput
 ---
 
 <html lang="en-GB">
