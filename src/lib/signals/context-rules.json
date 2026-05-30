@@ -1,0 +1,34 @@
+[
+  {
+    "label": "Central government",
+    "keywords": ["central government", "gov.uk", "gds", "cabinet office", "dsit", "department", "hmrc", "dfe", "dvla"]
+  },
+  {
+    "label": "Local government",
+    "keywords": ["local government", "council", "local authority", "unitary", "devolution", "lgr"]
+  },
+  {
+    "label": "Cross-government platforms",
+    "keywords": ["one login", "gov.uk app", "government gateway", "platform", "shared service", "common component"]
+  },
+  {
+    "label": "Supplier market",
+    "keywords": ["supplier", "commercial", "procurement", "framework", "contract", "marketplace", "vendor"]
+  },
+  {
+    "label": "Professional practice",
+    "keywords": ["content design", "service design", "user research", "product management", "delivery management", "design system"]
+  },
+  {
+    "label": "Service delivery",
+    "keywords": ["service", "delivery", "implementation", "rollout", "user journey", "end-to-end", "end to end"]
+  },
+  {
+    "label": "Standards and assurance",
+    "keywords": ["standard", "standards", "assurance", "assessment", "review", "controls"]
+  },
+  {
+    "label": "Public service reform",
+    "keywords": ["reform", "transformation", "modernisation", "public service", "mission", "outcomes"]
+  }
+]
