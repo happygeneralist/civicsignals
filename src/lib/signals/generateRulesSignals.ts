@@ -13,7 +13,8 @@ type CandidateSignal = {
   links: CivicLink[]
   sourceCount: number
   relatedTopics: string[]
-  pairKey: string | null
+  topActivityTypes: string[]
+  topContexts: string[]
   score: number
 }
 
@@ -23,8 +24,6 @@ const DEFAULT_OPTIONS = {
   minimumSourcesPerSignal: 3,
   maximumSignals: 3
 }
-
-const MAXIMUM_LINK_OVERLAP = 0.5
 
 function toDateOnly(date: Date): string {
   return date.toISOString().slice(0, 10)
@@ -60,86 +59,48 @@ function createSignalId(index: number): string {
   return `signal_${String(index + 1).padStart(3, '0')}`
 }
 
-function getRelatedTopics(primaryTopic: string, links: CivicLink[]): string[] {
+function countValues(values: string[]): Map<string, number> {
   const counts = new Map<string, number>()
 
-  for (const link of links) {
-    for (const topic of link.topics ?? []) {
-      if (topic === primaryTopic) continue
-
-      counts.set(topic, (counts.get(topic) ?? 0) + 1)
-    }
+  for (const value of values) {
+    counts.set(value, (counts.get(value) ?? 0) + 1)
   }
 
-  return Array.from(counts.entries())
+  return counts
+}
+
+function getTopValues(values: string[], limit = 3): string[] {
+  return Array.from(countValues(values).entries())
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-    .slice(0, 3)
-    .map(([topic]) => topic)
+    .slice(0, limit)
+    .map(([value]) => value)
 }
 
-function createTitle(primaryTopic: string, relatedTopics: string[]): string {
-  const topRelatedTopic = relatedTopics[0]
-
-  if (topRelatedTopic) {
-    return `${primaryTopic} is showing up around ${topRelatedTopic}`
-  }
-
-  return `More links this week about ${primaryTopic}`
+function getRelatedTopics(primaryTopic: string, links: CivicLink[]): string[] {
+  return getTopValues(
+    links.flatMap((link) => (link.topics ?? []).filter((topic) => topic !== primaryTopic)),
+    3
+  )
 }
 
-function getPrimaryPairKey(primaryTopic: string, relatedTopics: string[]): string | null {
-  const topRelatedTopic = relatedTopics[0]
+function createSummary(candidate: CandidateSignal): string {
+  const activityText = candidate.topActivityTypes.length > 0
+    ? ` mostly through ${formatList(candidate.topActivityTypes)} activity`
+    : ''
 
-  if (!topRelatedTopic) {
-    return null
-  }
+  const contextText = candidate.topContexts.length > 0
+    ? ` in ${formatList(candidate.topContexts)}`
+    : ''
 
-  return [primaryTopic, topRelatedTopic]
-    .sort((a, b) => a.localeCompare(b))
-    .join('|')
+  return `${candidate.primaryTopic} appears across recent links${activityText}${contextText}.`
 }
 
-function getLinkOverlap(candidate: CandidateSignal, selected: CandidateSignal): number {
-  const selectedLinkIds = new Set(selected.links.map((link) => link.id))
-  const sharedLinkCount = candidate.links.filter((link) => selectedLinkIds.has(link.id)).length
-  const smallerSignalSize = Math.min(candidate.links.length, selected.links.length)
+function formatList(values: string[]): string {
+  if (values.length === 0) return ''
+  if (values.length === 1) return values[0]
+  if (values.length === 2) return `${values[0]} and ${values[1]}`
 
-  if (smallerSignalSize === 0) {
-    return 0
-  }
-
-  return sharedLinkCount / smallerSignalSize
-}
-
-function isTooSimilar(candidate: CandidateSignal, selectedSignals: CandidateSignal[]): boolean {
-  return selectedSignals.some((selected) => {
-    const samePair = candidate.pairKey !== null && candidate.pairKey === selected.pairKey
-    const sameTopRelatedTopic = candidate.relatedTopics[0] === selected.relatedTopics[0]
-    const tooMuchLinkOverlap = getLinkOverlap(candidate, selected) > MAXIMUM_LINK_OVERLAP
-
-    return samePair || sameTopRelatedTopic || tooMuchLinkOverlap
-  })
-}
-
-function selectDistinctSignals(
-  candidates: CandidateSignal[],
-  maximumSignals: number
-): CandidateSignal[] {
-  const selectedSignals: CandidateSignal[] = []
-
-  for (const candidate of candidates) {
-    if (isTooSimilar(candidate, selectedSignals)) {
-      continue
-    }
-
-    selectedSignals.push(candidate)
-
-    if (selectedSignals.length >= maximumSignals) {
-      break
-    }
-  }
-
-  return selectedSignals
+  return `${values.slice(0, -1).join(', ')} and ${values[values.length - 1]}`
 }
 
 export function generateRulesSignals(
@@ -172,30 +133,35 @@ export function generateRulesSignals(
       )
       const sourceCount = countSources(uniqueLinks)
       const relatedTopics = getRelatedTopics(primaryTopic, uniqueLinks)
+      const topActivityTypes = getTopValues(uniqueLinks.flatMap((link) => link.activity_types ?? []), 3)
+      const topContexts = getTopValues(uniqueLinks.flatMap((link) => link.contexts ?? []), 2)
 
       return {
         primaryTopic,
         links: uniqueLinks,
         sourceCount,
         relatedTopics,
-        pairKey: getPrimaryPairKey(primaryTopic, relatedTopics),
-        score: uniqueLinks.length * 10 + sourceCount + relatedTopics.length
+        topActivityTypes,
+        topContexts,
+        score: uniqueLinks.length * 10 + sourceCount + topActivityTypes.length + topContexts.length
       }
     })
     .filter((candidate) => (
       candidate.links.length >= config.minimumLinksPerSignal &&
       candidate.sourceCount >= config.minimumSourcesPerSignal &&
-      candidate.relatedTopics.length > 0
+      (candidate.topActivityTypes.length > 0 || candidate.topContexts.length > 0)
     ))
     .sort((a, b) => b.score - a.score || a.primaryTopic.localeCompare(b.primaryTopic))
+    .slice(0, config.maximumSignals)
 
-  const distinctSignals = selectDistinctSignals(candidateSignals, config.maximumSignals)
-
-  const signals: Signal[] = distinctSignals.map((candidate, index) => ({
+  const signals: Signal[] = candidateSignals.map((candidate, index) => ({
     id: createSignalId(index),
-    title: createTitle(candidate.primaryTopic, candidate.relatedTopics),
+    title: candidate.primaryTopic,
+    summary: createSummary(candidate),
     primary_topic: candidate.primaryTopic,
     related_topics: candidate.relatedTopics,
+    top_activity_types: candidate.topActivityTypes,
+    top_contexts: candidate.topContexts,
     link_count: candidate.links.length,
     source_count: candidate.sourceCount,
     organisation_count: candidate.sourceCount,
