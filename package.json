@@ -10,6 +10,8 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "ingest": "tsx scripts/ingest.ts",
+    "signals:generate": "SIGNALS_PROVIDER=rules tsx scripts/generate-signals.ts",
+    "signals:generate:rules": "SIGNALS_PROVIDER=rules tsx scripts/generate-signals.ts",
     "check:sources": "tsx scripts/check-sources.ts",
     "check": "astro check"
   },
