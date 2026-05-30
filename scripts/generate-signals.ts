@@ -1,10 +1,11 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { applySignalDiversity } from '../src/lib/signals/applySignalDiversity'
+import { enhanceWithGemini } from '../src/lib/signals/enhanceWithGemini'
 import { generateRulesSignals } from '../src/lib/signals/generateRulesSignals'
 import { generateWeeklyThemes } from '../src/lib/signals/generateWeeklyThemes'
 import { itemToCivicLink, tagLinks } from '../src/lib/signals/tagLinks'
-import type { ClassificationRule, FeedItem, TopicRule } from '../src/lib/signals/types'
+import type { ClassificationRule, FeedItem, SignalsOutput, TopicRule } from '../src/lib/signals/types'
 import { validateSignalsOutput } from '../src/lib/signals/validateSignals'
 
 const itemsPath = 'src/data/items.json'
@@ -24,20 +25,45 @@ async function writeJsonFile(filePath: string, value: unknown): Promise<void> {
   await writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`)
 }
 
-async function main() {
-  const provider = process.env.SIGNALS_PROVIDER ?? 'rules'
-
-  if (provider !== 'rules') {
-    throw new Error('Only SIGNALS_PROVIDER=rules is implemented. Use rules for now.')
+async function enhanceSignals(
+  provider: string,
+  rulesOutput: SignalsOutput,
+  links: ReturnType<typeof tagLinks>
+): Promise<SignalsOutput> {
+  if (provider === 'rules') {
+    return rulesOutput
   }
 
+  if (provider !== 'gemini') {
+    throw new Error(`Unsupported SIGNALS_PROVIDER: ${provider}`)
+  }
+
+  try {
+    return await enhanceWithGemini(rulesOutput, links)
+  } catch (error) {
+    console.warn('Gemini enhancement failed. Falling back to rules output.')
+    console.warn(error)
+
+    return {
+      ...rulesOutput,
+      provider: 'rules_fallback',
+      signals: rulesOutput.signals.map((signal) => ({
+        ...signal,
+        generation_note: 'Gemini enhancement failed; using rules-based fallback.'
+      }))
+    }
+  }
+}
+
+async function main() {
+  const provider = process.env.SIGNALS_PROVIDER ?? 'rules'
   const items = await readJsonFile<FeedItem[]>(itemsPath)
   const topicRules = await readJsonFile<TopicRule[]>(topicRulesPath)
   const activityRules = await readJsonFile<ClassificationRule[]>(activityRulesPath)
   const contextRules = await readJsonFile<ClassificationRule[]>(contextRulesPath)
   const links = tagLinks(items.map(itemToCivicLink), topicRules, activityRules, contextRules)
-  const rulesOutput = generateRulesSignals(links)
-  const output = applySignalDiversity(rulesOutput)
+  const rulesOutput = applySignalDiversity(generateRulesSignals(links))
+  const output = await enhanceSignals(provider, rulesOutput, links)
   const weeklyThemes = generateWeeklyThemes(links)
   const validationErrors = validateSignalsOutput(output, links)
 
