@@ -1,0 +1,35 @@
+---
+import SiteFooter from '../components/SiteFooter.astro'
+import SiteNav from '../components/SiteNav.astro'
+import ThisWeeksSignals from '../components/ThisWeeksSignals.astro'
+import signalsData from '../data/signals/latest.json'
+import '../styles/global.css'
+---
+
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Insights — Civic Signals</title>
+  </head>
+
+  <body>
+    <main class="page">
+      <header class="masthead">
+        <p class="site-label">Civic Signals</p>
+
+        <h1>Insights</h1>
+
+        <p class="lede">
+          Understand the themes showing up across recent public digital government links.
+        </p>
+
+        <SiteNav current="insights" />
+      </header>
+
+      <ThisWeeksSignals data={signalsData} />
+
+      <SiteFooter />
+    </main>
+  </body>
+</html>
