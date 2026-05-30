@@ -1,0 +1,151 @@
+---
+import SiteFooter from '../components/SiteFooter.astro'
+import SiteNav from '../components/SiteNav.astro'
+import themesDataJson from '../data/signals/weekly-themes.json'
+import type { WeeklyThemesOutput } from '../lib/signals/types'
+import '../styles/global.css'
+
+const themesData = themesDataJson as WeeklyThemesOutput
+
+const formatter = new Intl.DateTimeFormat('en-GB', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric'
+})
+
+function formatDate(dateString: string): string {
+  return formatter.format(new Date(`${dateString.slice(0, 10)}T00:00:00Z`))
+}
+---
+
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Weekly themes — Civic Signals</title>
+  </head>
+
+  <body>
+    <main class="page">
+      <header class="masthead">
+        <p class="site-label">Civic Signals</p>
+
+        <h1>Weekly themes</h1>
+
+        <p class="lede">
+          Browse this week’s collected links by recurring theme.
+        </p>
+
+        <SiteNav current="" />
+      </header>
+
+      <section class="weekly-themes" aria-labelledby="weekly-themes-heading">
+        <h2 id="weekly-themes-heading">Themes in recent links</h2>
+
+        <p>
+          These themes are generated from public links collected between {formatDate(themesData.period_start)} and {formatDate(themesData.period_end)}.
+          They are provided as a browse view, not as a ranking or judgement of importance.
+        </p>
+
+        {themesData.themes.length === 0 ? (
+          <p>No weekly themes have been generated yet.</p>
+        ) : (
+          <div class="theme-list">
+            {themesData.themes.map((theme) => (
+              <article class="theme" id={theme.id}>
+                <h3>{theme.topic}</h3>
+
+                <p class="theme__meta">
+                  {theme.link_count} links from {theme.source_count} {theme.source_count === 1 ? 'source' : 'sources'}.
+                </p>
+
+                {theme.top_activity_types.length > 0 && (
+                  <p class="theme__detail">
+                    <strong>Activity types:</strong> {theme.top_activity_types.join(', ')}.
+                  </p>
+                )}
+
+                {theme.top_contexts.length > 0 && (
+                  <p class="theme__detail">
+                    <strong>Common contexts:</strong> {theme.top_contexts.join(', ')}.
+                  </p>
+                )}
+
+                <details class="theme__sources">
+                  <summary>View links</summary>
+
+                  <ul>
+                    {theme.links.map((link) => (
+                      <li>
+                        <a href={link.url}>{link.title}</a>, {link.source}, {formatDate(link.published_at)}
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              </article>
+            ))}
+          </div>
+        )}
+      </section>
+
+      <SiteFooter />
+    </main>
+  </body>
+</html>
+
+<style>
+  .weekly-themes {
+    max-width: 720px;
+  }
+
+  .theme-list {
+    display: grid;
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+  }
+
+  .theme {
+    padding-top: 1rem;
+    border-top: 1px solid #b1b4b6;
+  }
+
+  .theme h3 {
+    margin-top: 0;
+    margin-bottom: 0.35rem;
+  }
+
+  .theme__meta,
+  .theme__detail {
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .theme__sources {
+    margin-top: 0.75rem;
+  }
+
+  .theme__sources summary {
+    color: #1d70b8;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 0.06em;
+    text-underline-offset: 0.16em;
+  }
+
+  .theme__sources summary:hover {
+    color: #003078;
+    text-decoration-thickness: 0.12em;
+  }
+
+  .theme__sources summary:focus {
+    outline: 3px solid #ffdd00;
+    outline-offset: 0;
+    background: #ffdd00;
+    color: #000000;
+  }
+
+  .theme__sources ul {
+    margin-top: 0.75rem;
+  }
+</style>
