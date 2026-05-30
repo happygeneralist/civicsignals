@@ -1,0 +1,82 @@
+[
+  {
+    "topic": "AI and automation",
+    "keywords": ["ai", "artificial intelligence", "automation", "algorithmic", "machine learning", "llm", "generative ai", "copilot"]
+  },
+  {
+    "topic": "Accessibility",
+    "keywords": ["accessibility", "accessible", "wcag", "inclusive design", "assistive technology"]
+  },
+  {
+    "topic": "Assurance",
+    "keywords": ["assurance", "review", "assessment", "spend control", "gateway", "service assessment"]
+  },
+  {
+    "topic": "Content design",
+    "keywords": ["content design", "content", "plain english", "publishing", "guidance"]
+  },
+  {
+    "topic": "Data",
+    "keywords": ["data", "open data", "data sharing", "analytics", "statistics", "dashboard"]
+  },
+  {
+    "topic": "Delivery",
+    "keywords": ["delivery", "agile", "roadmap", "delivery management", "programme", "implementation"]
+  },
+  {
+    "topic": "Design",
+    "keywords": ["design", "interaction design", "design system", "prototype", "patterns"]
+  },
+  {
+    "topic": "Digital identity",
+    "keywords": ["digital identity", "identity", "one login", "verification", "authentication", "fraud", "government gateway"]
+  },
+  {
+    "topic": "Funding",
+    "keywords": ["funding", "budget", "investment", "spending", "cost"]
+  },
+  {
+    "topic": "Governance",
+    "keywords": ["governance", "oversight", "accountability", "decision making", "controls"]
+  },
+  {
+    "topic": "Local government",
+    "keywords": ["local government", "council", "local authority", "unitary", "devolution"]
+  },
+  {
+    "topic": "Policy",
+    "keywords": ["policy", "legislation", "regulation", "strategy", "white paper"]
+  },
+  {
+    "topic": "Procurement",
+    "keywords": ["procurement", "commercial", "supplier", "framework", "contract", "buying", "marketplace"]
+  },
+  {
+    "topic": "Product management",
+    "keywords": ["product", "product management", "product manager", "outcomes", "backlog"]
+  },
+  {
+    "topic": "Research",
+    "keywords": ["research", "user research", "discovery", "interviews", "insight", "testing"]
+  },
+  {
+    "topic": "Security",
+    "keywords": ["security", "cyber", "privacy", "threat", "risk"]
+  },
+  {
+    "topic": "Service design",
+    "keywords": ["service design", "service", "journey", "service blueprint", "end-to-end", "end to end"]
+  },
+  {
+    "topic": "Standards",
+    "keywords": ["standards", "service standard", "technical standard", "guidance", "principles"]
+  },
+  {
+    "topic": "Transformation",
+    "keywords": ["transformation", "modernisation", "reform", "change programme"]
+  },
+  {
+    "topic": "Workforce and capability",
+    "keywords": ["workforce", "capability", "skills", "profession", "training", "recruitment"]
+  }
+]
