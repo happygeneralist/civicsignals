@@ -50,6 +50,10 @@ export type Signal = {
   related_topics: string[]
   top_activity_types: string[]
   top_contexts: string[]
+  pattern?: string
+  what_to_notice?: string[]
+  evidence_note?: string
+  generation_note?: string
   link_count: number
   source_count: number
   organisation_count: number
