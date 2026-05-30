@@ -1,13 +1,5 @@
 import type { Signal, SignalsOutput } from './types'
 
-function getTitleTopics(signal: Signal): string[] {
-  const topRelatedTopic = signal.related_topics[0]
-
-  return topRelatedTopic
-    ? [signal.primary_topic, topRelatedTopic]
-    : [signal.primary_topic]
-}
-
 function renumberSignals(signals: Signal[]): Signal[] {
   return signals.map((signal, index) => ({
     ...signal,
@@ -16,22 +8,16 @@ function renumberSignals(signals: Signal[]): Signal[] {
 }
 
 export function applySignalDiversity(output: SignalsOutput): SignalsOutput {
-  const usedTitleTopics = new Set<string>()
+  const usedPrimaryTopics = new Set<string>()
   const signals: Signal[] = []
 
   for (const signal of output.signals) {
-    const titleTopics = getTitleTopics(signal)
-    const reusesTitleTopic = titleTopics.some((topic) => usedTitleTopics.has(topic))
-
-    if (reusesTitleTopic) {
+    if (usedPrimaryTopics.has(signal.primary_topic)) {
       continue
     }
 
     signals.push(signal)
-
-    for (const topic of titleTopics) {
-      usedTitleTopics.add(topic)
-    }
+    usedPrimaryTopics.add(signal.primary_topic)
   }
 
   return {
