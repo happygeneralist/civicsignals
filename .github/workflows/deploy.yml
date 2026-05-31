@@ -37,12 +37,8 @@ jobs:
       - name: Ingest feeds
         run: npm run ingest
 
-      - name: Generate signals
-        run: npm run signals:generate
-        env:
-          SIGNALS_PROVIDER: gemini
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-flash-latest' }}
+      - name: Generate rules-based signals
+        run: npm run signals:generate:rules
 
       - name: Show generated status
         run: cat src/data/status.json
