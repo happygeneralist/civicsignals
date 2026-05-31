@@ -1,0 +1,121 @@
+---
+import SiteFooter from '../components/SiteFooter.astro'
+import SiteNav from '../components/SiteNav.astro'
+import '../styles/global.css'
+
+const suggestionsSheetUrl = 'https://docs.google.com/spreadsheets/d/1fpTkJmAByHD-Xsj54zGI23ofJhP-GWw1eDeg3Nny0oo/edit?gid=0#gid=0'
+---
+
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Suggest a source — Civic Signals</title>
+  </head>
+
+  <body>
+    <main class="page">
+      <header class="masthead">
+        <p class="site-label">Civic Signals</p>
+
+        <h1>Suggest a source</h1>
+
+        <p class="lede">
+          Help Civic Signals find strong public sources relevant to UK digital government.
+        </p>
+
+        <SiteNav current="" />
+      </header>
+
+      <section class="suggest-source" aria-labelledby="suggest-source-heading">
+        <h2 id="suggest-source-heading">Add a source suggestion</h2>
+
+        <p>
+          Civic Signals is built from public sources that help people working in and around UK digital government keep up with the wider ecosystem.
+        </p>
+
+        <p>
+          Suggested sources are reviewed before they are added. A source does not need to publish often to be useful. Rare, strong material is welcome if it is relevant.
+        </p>
+
+        <p>
+          You do not need a GitHub account. Add your suggestion to the public spreadsheet.
+        </p>
+
+        <p class="suggest-source__action">
+          <a class="button-link" href={suggestionsSheetUrl}>Open the source suggestions spreadsheet</a>
+        </p>
+
+        <h2>What to add</h2>
+
+        <p>
+          Add as much as you know. The source URL and why the source is useful are the most important fields.
+        </p>
+
+        <ul>
+          <li>Source name</li>
+          <li>Source URL</li>
+          <li>Feed URL, if you know it</li>
+          <li>Source type</li>
+          <li>Relevance area</li>
+          <li>Whether it is UK-focused or international context relevant to the UK</li>
+          <li>Why this source is useful</li>
+          <li>Your name or contact details, if you want to include them</li>
+        </ul>
+
+        <h2>Useful sources</h2>
+
+        <p>
+          Civic Signals is interested in sources that help people understand digital government, public services, civic technology, public-sector reform and professional practice.
+        </p>
+
+        <p>
+          International sources are welcome when they help UK practitioners understand good practice, standards, comparable approaches or where the bar is moving.
+        </p>
+
+        <h2>Review process</h2>
+
+        <p>
+          Suggestions start with the status <strong>New</strong>. They may later be marked as in review, accepted, not included or needing more information.
+        </p>
+
+        <p>
+          Accepted sources are added to Civic Signals through the normal review process, rather than being added automatically from the spreadsheet.
+        </p>
+      </section>
+
+      <SiteFooter />
+    </main>
+  </body>
+</html>
+
+<style>
+  .suggest-source {
+    max-width: 720px;
+  }
+
+  .suggest-source__action {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .button-link {
+    display: inline-block;
+    padding: 0.65rem 0.9rem;
+    background: #00703c;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .button-link:hover {
+    background: #005a30;
+  }
+
+  .button-link:focus {
+    outline: 3px solid #ffdd00;
+    outline-offset: 0;
+    background: #ffdd00;
+    color: #000000;
+  }
+</style>
