@@ -1,6 +1,994 @@
 {
-  "period_start": "2026-05-24",
-  "period_end": "2026-05-30",
-  "generated_at": "2026-05-30T00:00:00.000Z",
-  "themes": []
+  "period_start": "2026-05-25",
+  "period_end": "2026-05-31",
+  "generated_at": "2026-05-31T09:31:14.972Z",
+  "themes": [
+    {
+      "id": "data",
+      "topic": "Data",
+      "link_count": 11,
+      "source_count": 2,
+      "top_activity_types": [
+        "Procurement or market activity",
+        "Guidance or standards",
+        "Policy or strategy",
+        "Capability or workforce"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Supplier market",
+        "Cross-government platforms",
+        "Public service reform"
+      ],
+      "links": [
+        {
+          "id": "40eb9224455ad5e8",
+          "title": "One Login ‘working towards’ alignment with updated NCSC cyber framework",
+          "url": "https://www.publictechnology.net/2026/05/29/news/one-login-working-towards-alignment-with-updated-ncsc-cyber-framework/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "6ea6e9d72a1f4f9b",
+          "title": "Manchester NHS plans £600k ‘digital front door‘ to improve ADHD services",
+          "url": "https://www.publictechnology.net/2026/05/29/health-and-social-care/manchester-nhs-plans-600k-digital-front-door-to-improve-adhd-services/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "91b44c8d792515a0",
+          "title": "Research warns that AI giants are adopting tobacco firms’ policy playbook",
+          "url": "https://www.publictechnology.net/2026/05/29/business-and-industry/research-warns-that-ai-giants-are-adopting-tobacco-firms-policy-playbook/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "c58ab8bf1c4ae773",
+          "title": "GDS leader picks AI agents as area with ‘biggest work to do – but most potential’",
+          "url": "https://www.publictechnology.net/2026/05/28/society-and-welfare/gds-leader-picks-ai-agents-as-area-with-biggest-work-to-do-but-most-potential/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "cc55d359117a3b33",
+          "title": "Shaping the future Fast Stream: digital and cyber security schemes",
+          "url": "https://cddo.blog.gov.uk/2026/05/28/shaping-the-future-fast-stream-digital-and-cyber-security-schemes/",
+          "source": "Government Digital and Data",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "f7a6c5560dd1212e",
+          "title": "HMRC preps new digital service for large company accounting officers",
+          "url": "https://www.publictechnology.net/2026/05/28/economics-and-finance/hmrc-preps-new-digital-service-for-large-company-accounting-officers/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "1f82f90e23d7a4dc",
+          "title": "Scotland installs minister for public sector reform",
+          "url": "https://www.publictechnology.net/2026/05/28/government-and-politics/scotland-installs-minister-for-public-sector-reform/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "93a55b4639b36782",
+          "title": "Digital ID plan was ‘rushed and poorly thought through’, MPs find",
+          "url": "https://www.publictechnology.net/2026/05/27/society-and-welfare/digital-id-plan-was-rushed-and-poorly-thought-through-mps-find/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-27"
+        },
+        {
+          "id": "d1167406c09beb63",
+          "title": "NHS preps version 2.0 of £2bn digital health framework",
+          "url": "https://www.publictechnology.net/2026/05/27/health-and-social-care/nhs-preps-version-2-0-of-2bn-digital-health-framework/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-27"
+        },
+        {
+          "id": "e1175a94aff21152",
+          "title": "Wiltshire offers £130k for leader of new strategy and digital function",
+          "url": "https://www.publictechnology.net/2026/05/27/communities-housing-and-planning/wiltshire-offers-130k-for-leader-of-new-strategy-and-digital-function/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-27"
+        },
+        {
+          "id": "b0c109c34cccfc59",
+          "title": "GDS-led guidance needs ‘different structures that are a bit more adaptive’, says first government chief AI officer",
+          "url": "https://www.publictechnology.net/2026/05/26/education-and-skills/gds-led-guidance-needs-different-structures-that-are-a-bit-more-adaptive-says-first-government-chief-ai-officer/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-26"
+        }
+      ]
+    },
+    {
+      "id": "policy",
+      "topic": "Policy",
+      "link_count": 11,
+      "source_count": 7,
+      "top_activity_types": [
+        "Policy or strategy",
+        "Research or evidence",
+        "Delivery update",
+        "Guidance or standards"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Public service reform",
+        "Service delivery",
+        "Supplier market"
+      ],
+      "links": [
+        {
+          "id": "db0aad46d1aa8066",
+          "title": "G7 nations agree first-ever joint approach to protecting children online and drive safe AI growth that delivers for all",
+          "url": "https://www.gov.uk/government/news/g7-nations-agree-first-ever-joint-approach-to-protecting-children-online-and-drive-safe-ai-growth-that-delivers-for-all",
+          "source": "Department for Science, Innovation and Technology",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "4ff1d4cb2676a65b",
+          "title": "Plan to toughen protections for subsea internet cables: Liz Lloyd's speech at RUSI",
+          "url": "https://www.gov.uk/government/speeches/plan-to-toughen-protections-for-subsea-internet-cables-liz-lloyds-speech-at-rusi",
+          "source": "Department for Science, Innovation and Technology",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "796fd6acca1e2a9d",
+          "title": "Weekly Roundup - May 25-29, 2026",
+          "url": "https://www.businessofgovernment.org/blog/weekly-roundup-may-25-29-2026",
+          "source": "IBM Center for The Business of Government",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "8beaad4454f66fc9",
+          "title": "Plan to toughen protections for subsea internet cables amid heightened Russian activity",
+          "url": "https://www.gov.uk/government/news/plan-to-toughen-protections-for-subsea-internet-cables-amid-heightened-russian-activity",
+          "source": "Department for Science, Innovation and Technology",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "91b44c8d792515a0",
+          "title": "Research warns that AI giants are adopting tobacco firms’ policy playbook",
+          "url": "https://www.publictechnology.net/2026/05/29/business-and-industry/research-warns-that-ai-giants-are-adopting-tobacco-firms-policy-playbook/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "db5da7ad7e631293",
+          "title": "Millions to benefit from Sci Tech deal between UK and France",
+          "url": "https://www.gov.uk/government/news/millions-to-benefit-from-sci-tech-deal-between-uk-and-france",
+          "source": "Department for Science, Innovation and Technology",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "f8f6c82e5aa90439",
+          "title": "Digital waste tracking: where we&#039;ve been, what we&#039;ve built, and why the market is our primary user",
+          "url": "https://defradigital.blog.gov.uk/2026/05/28/digital-waste-tracking-where-weve-been-what-weve-built-and-why-the-market-is-our-primary-user/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "1c407f3f134881d9",
+          "title": "Putting customers first:  DVLA and  CustomerFirst  partnering to improve Drivers Medical service",
+          "url": "https://gds.blog.gov.uk/2026/05/28/putting-customers-first-dvla-and-customerfirst-partnering-to-improve-drivers-medical-service/",
+          "source": "Government Digital Service Blog",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "cc55d359117a3b33",
+          "title": "Shaping the future Fast Stream: digital and cyber security schemes",
+          "url": "https://cddo.blog.gov.uk/2026/05/28/shaping-the-future-fast-stream-digital-and-cyber-security-schemes/",
+          "source": "Government Digital and Data",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "c12d83f726852b2a",
+          "title": "Adam's leaving blog",
+          "url": "https://connectedbydata.org/blog/2026/05/28/adam-leaving-blog",
+          "source": "Connected by Data",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "165281d3db9e6b0d",
+          "title": "UK and Australia pact on fast-moving AI security risks",
+          "url": "https://www.gov.uk/government/news/uk-and-australia-pact-on-fast-moving-ai-security-risks",
+          "source": "Department for Science, Innovation and Technology",
+          "published_at": "2026-05-25"
+        }
+      ]
+    },
+    {
+      "id": "procurement",
+      "topic": "Procurement",
+      "link_count": 9,
+      "source_count": 6,
+      "top_activity_types": [
+        "Procurement or market activity",
+        "Guidance or standards",
+        "Community discussion",
+        "Delivery update"
+      ],
+      "top_contexts": [
+        "Supplier market",
+        "Service delivery",
+        "Central government",
+        "Cross-government platforms"
+      ],
+      "links": [
+        {
+          "id": "796fd6acca1e2a9d",
+          "title": "Weekly Roundup - May 25-29, 2026",
+          "url": "https://www.businessofgovernment.org/blog/weekly-roundup-may-25-29-2026",
+          "source": "IBM Center for The Business of Government",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "40eb9224455ad5e8",
+          "title": "One Login ‘working towards’ alignment with updated NCSC cyber framework",
+          "url": "https://www.publictechnology.net/2026/05/29/news/one-login-working-towards-alignment-with-updated-ncsc-cyber-framework/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "6ea6e9d72a1f4f9b",
+          "title": "Manchester NHS plans £600k ‘digital front door‘ to improve ADHD services",
+          "url": "https://www.publictechnology.net/2026/05/29/health-and-social-care/manchester-nhs-plans-600k-digital-front-door-to-improve-adhd-services/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "f8f6c82e5aa90439",
+          "title": "Digital waste tracking: where we&#039;ve been, what we&#039;ve built, and why the market is our primary user",
+          "url": "https://defradigital.blog.gov.uk/2026/05/28/digital-waste-tracking-where-weve-been-what-weve-built-and-why-the-market-is-our-primary-user/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "c12d83f726852b2a",
+          "title": "Adam's leaving blog",
+          "url": "https://connectedbydata.org/blog/2026/05/28/adam-leaving-blog",
+          "source": "Connected by Data",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "b70881dc98931a37",
+          "title": "Ruby on Rails - A Developer’s Perspective by Miriam Thomas",
+          "url": "https://blog.scottlogic.com/2026/05/28/ruby-on-rails-a-developers-perspective.html",
+          "source": "Scott Logic Blog",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "7e69d47404b81793",
+          "title": "Adopting open-source in local government",
+          "url": "https://technology.blog.gov.uk/2026/05/27/adopting-open-source-in-local-government/",
+          "source": "Technology in Government",
+          "published_at": "2026-05-27"
+        },
+        {
+          "id": "d1167406c09beb63",
+          "title": "NHS preps version 2.0 of £2bn digital health framework",
+          "url": "https://www.publictechnology.net/2026/05/27/health-and-social-care/nhs-preps-version-2-0-of-2bn-digital-health-framework/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-27"
+        },
+        {
+          "id": "b0c109c34cccfc59",
+          "title": "GDS-led guidance needs ‘different structures that are a bit more adaptive’, says first government chief AI officer",
+          "url": "https://www.publictechnology.net/2026/05/26/education-and-skills/gds-led-guidance-needs-different-structures-that-are-a-bit-more-adaptive-says-first-government-chief-ai-officer/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-26"
+        }
+      ]
+    },
+    {
+      "id": "transformation",
+      "topic": "Transformation",
+      "link_count": 9,
+      "source_count": 7,
+      "top_activity_types": [
+        "Delivery update",
+        "Capability or workforce",
+        "Guidance or standards",
+        "Policy or strategy"
+      ],
+      "top_contexts": [
+        "Public service reform",
+        "Service delivery",
+        "Central government",
+        "Standards and assurance"
+      ],
+      "links": [
+        {
+          "id": "796fd6acca1e2a9d",
+          "title": "Weekly Roundup - May 25-29, 2026",
+          "url": "https://www.businessofgovernment.org/blog/weekly-roundup-may-25-29-2026",
+          "source": "IBM Center for The Business of Government",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "1c407f3f134881d9",
+          "title": "Putting customers first:  DVLA and  CustomerFirst  partnering to improve Drivers Medical service",
+          "url": "https://gds.blog.gov.uk/2026/05/28/putting-customers-first-dvla-and-customerfirst-partnering-to-improve-drivers-medical-service/",
+          "source": "Government Digital Service Blog",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "c58ab8bf1c4ae773",
+          "title": "GDS leader picks AI agents as area with ‘biggest work to do – but most potential’",
+          "url": "https://www.publictechnology.net/2026/05/28/society-and-welfare/gds-leader-picks-ai-agents-as-area-with-biggest-work-to-do-but-most-potential/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "cc55d359117a3b33",
+          "title": "Shaping the future Fast Stream: digital and cyber security schemes",
+          "url": "https://cddo.blog.gov.uk/2026/05/28/shaping-the-future-fast-stream-digital-and-cyber-security-schemes/",
+          "source": "Government Digital and Data",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "1f82f90e23d7a4dc",
+          "title": "Scotland installs minister for public sector reform",
+          "url": "https://www.publictechnology.net/2026/05/28/government-and-politics/scotland-installs-minister-for-public-sector-reform/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "b70881dc98931a37",
+          "title": "Ruby on Rails - A Developer’s Perspective by Miriam Thomas",
+          "url": "https://blog.scottlogic.com/2026/05/28/ruby-on-rails-a-developers-perspective.html",
+          "source": "Scott Logic Blog",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "6a182a54dd13f36f",
+          "title": "Beyond the hype: Practical AI for resilient local government finance",
+          "url": "https://socitm.net/resource-hub/webinars/260527-workday-beyond-the-hype/",
+          "source": "Socitm",
+          "published_at": "2026-05-27"
+        },
+        {
+          "id": "6a7059603094e4e0",
+          "title": "Experimenting with generative AI to support delivery officers at DfE",
+          "url": "https://www.dxw.com/2026/05/experimenting-with-generative-ai-to-support-delivery-officers-at-dfe/",
+          "source": "dxw",
+          "published_at": "2026-05-27"
+        },
+        {
+          "id": "34b7bf7a03306e13",
+          "title": "Governing Pandora: Leadership, Trust, and Risk in the Age of Exponential Technology",
+          "url": "https://www.businessofgovernment.org/node/5758",
+          "source": "IBM Center for The Business of Government",
+          "published_at": "2026-05-26"
+        }
+      ]
+    },
+    {
+      "id": "ai-and-automation",
+      "topic": "AI and automation",
+      "link_count": 8,
+      "source_count": 7,
+      "top_activity_types": [
+        "Delivery update",
+        "Governance or assurance",
+        "Guidance or standards",
+        "Policy or strategy"
+      ],
+      "top_contexts": [
+        "Service delivery",
+        "Supplier market",
+        "Central government",
+        "Public service reform"
+      ],
+      "links": [
+        {
+          "id": "796fd6acca1e2a9d",
+          "title": "Weekly Roundup - May 25-29, 2026",
+          "url": "https://www.businessofgovernment.org/blog/weekly-roundup-may-25-29-2026",
+          "source": "IBM Center for The Business of Government",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "91b44c8d792515a0",
+          "title": "Research warns that AI giants are adopting tobacco firms’ policy playbook",
+          "url": "https://www.publictechnology.net/2026/05/29/business-and-industry/research-warns-that-ai-giants-are-adopting-tobacco-firms-policy-playbook/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "cc55d359117a3b33",
+          "title": "Shaping the future Fast Stream: digital and cyber security schemes",
+          "url": "https://cddo.blog.gov.uk/2026/05/28/shaping-the-future-fast-stream-digital-and-cyber-security-schemes/",
+          "source": "Government Digital and Data",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "c12d83f726852b2a",
+          "title": "Adam's leaving blog",
+          "url": "https://connectedbydata.org/blog/2026/05/28/adam-leaving-blog",
+          "source": "Connected by Data",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "b70881dc98931a37",
+          "title": "Ruby on Rails - A Developer’s Perspective by Miriam Thomas",
+          "url": "https://blog.scottlogic.com/2026/05/28/ruby-on-rails-a-developers-perspective.html",
+          "source": "Scott Logic Blog",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "7e69d47404b81793",
+          "title": "Adopting open-source in local government",
+          "url": "https://technology.blog.gov.uk/2026/05/27/adopting-open-source-in-local-government/",
+          "source": "Technology in Government",
+          "published_at": "2026-05-27"
+        },
+        {
+          "id": "6a7059603094e4e0",
+          "title": "Experimenting with generative AI to support delivery officers at DfE",
+          "url": "https://www.dxw.com/2026/05/experimenting-with-generative-ai-to-support-delivery-officers-at-dfe/",
+          "source": "dxw",
+          "published_at": "2026-05-27"
+        },
+        {
+          "id": "34b7bf7a03306e13",
+          "title": "Governing Pandora: Leadership, Trust, and Risk in the Age of Exponential Technology",
+          "url": "https://www.businessofgovernment.org/node/5758",
+          "source": "IBM Center for The Business of Government",
+          "published_at": "2026-05-26"
+        }
+      ]
+    },
+    {
+      "id": "local-government",
+      "topic": "Local government",
+      "link_count": 7,
+      "source_count": 4,
+      "top_activity_types": [
+        "Community discussion",
+        "Delivery update",
+        "Capability or workforce",
+        "Governance or assurance"
+      ],
+      "top_contexts": [
+        "Local government",
+        "Public service reform",
+        "Service delivery",
+        "Central government"
+      ],
+      "links": [
+        {
+          "id": "29656e4bb9bc1bf1",
+          "title": "Stay the course on a Total Place race",
+          "url": "https://www.newlocal.org.uk/articles/stay-the-course-on-a-total-place-race/",
+          "source": "New Local",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "f104335712a374b0",
+          "title": "Innovation Exchange: Transforming healthcare through neighbourhood models",
+          "url": "https://www.newlocal.org.uk/events/innovation-exchange/innovation-exchange-transforming-healthcare-through-neighbourhood-models/",
+          "source": "New Local",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "6a182a54dd13f36f",
+          "title": "Beyond the hype: Practical AI for resilient local government finance",
+          "url": "https://socitm.net/resource-hub/webinars/260527-workday-beyond-the-hype/",
+          "source": "Socitm",
+          "published_at": "2026-05-27"
+        },
+        {
+          "id": "ea84251550c1651b",
+          "title": "Reimagining Local Government for real outcomes: how a “delivery” mindset undermines the creation of outcomes",
+          "url": "https://www.newlocal.org.uk/events/reorganising-for-outcomes/reimagining-local-government-for-real-outcomes-how-a-delivery-mindset-undermines-the-creation-of-outcomes/",
+          "source": "New Local",
+          "published_at": "2026-05-27"
+        },
+        {
+          "id": "7e69d47404b81793",
+          "title": "Adopting open-source in local government",
+          "url": "https://technology.blog.gov.uk/2026/05/27/adopting-open-source-in-local-government/",
+          "source": "Technology in Government",
+          "published_at": "2026-05-27"
+        },
+        {
+          "id": "92f5e67b3b7d19b2",
+          "title": "Mission: Local economy",
+          "url": "https://www.newlocal.org.uk/articles/mission-local-economy/",
+          "source": "New Local",
+          "published_at": "2026-05-26"
+        },
+        {
+          "id": "6218299427957de9",
+          "title": "Weeknotes w/c 26 May 2026",
+          "url": "https://luton.localgov.blog/2026/05/26/weeknotes-w-c-26-may-2026/",
+          "source": "Digital Luton",
+          "published_at": "2026-05-26",
+          "source_type": "weeknote"
+        }
+      ]
+    },
+    {
+      "id": "accessibility",
+      "topic": "Accessibility",
+      "link_count": 5,
+      "source_count": 5,
+      "top_activity_types": [
+        "Delivery update",
+        "Guidance or standards",
+        "Community discussion",
+        "Policy or strategy"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Public service reform",
+        "Service delivery",
+        "Standards and assurance"
+      ],
+      "links": [
+        {
+          "id": "f8f6c82e5aa90439",
+          "title": "Digital waste tracking: where we&#039;ve been, what we&#039;ve built, and why the market is our primary user",
+          "url": "https://defradigital.blog.gov.uk/2026/05/28/digital-waste-tracking-where-weve-been-what-weve-built-and-why-the-market-is-our-primary-user/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "1c407f3f134881d9",
+          "title": "Putting customers first:  DVLA and  CustomerFirst  partnering to improve Drivers Medical service",
+          "url": "https://gds.blog.gov.uk/2026/05/28/putting-customers-first-dvla-and-customerfirst-partnering-to-improve-drivers-medical-service/",
+          "source": "Government Digital Service Blog",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "0ffbc858b8900ac0",
+          "title": "Making Games",
+          "url": "https://acuity.design/making-games/",
+          "source": "Acuity Design",
+          "published_at": "2026-05-27"
+        },
+        {
+          "id": "6cfa1b113508b7cb",
+          "title": "Good design keeps ballot envelopes moving",
+          "url": "https://civicdesign.org/design-keeps-ballot-envelopes-moving/",
+          "source": "Center for Civic Design",
+          "published_at": "2026-05-27"
+        },
+        {
+          "id": "7e69d47404b81793",
+          "title": "Adopting open-source in local government",
+          "url": "https://technology.blog.gov.uk/2026/05/27/adopting-open-source-in-local-government/",
+          "source": "Technology in Government",
+          "published_at": "2026-05-27"
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "topic": "Research",
+      "link_count": 5,
+      "source_count": 4,
+      "top_activity_types": [
+        "Research or evidence",
+        "Community discussion",
+        "Capability or workforce",
+        "Delivery update"
+      ],
+      "top_contexts": [
+        "Professional practice",
+        "Central government",
+        "Public service reform",
+        "Service delivery"
+      ],
+      "links": [
+        {
+          "id": "796fd6acca1e2a9d",
+          "title": "Weekly Roundup - May 25-29, 2026",
+          "url": "https://www.businessofgovernment.org/blog/weekly-roundup-may-25-29-2026",
+          "source": "IBM Center for The Business of Government",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "f7ec5969df3a03ad",
+          "title": "How bacteria solved the mystery of inheritance",
+          "url": "https://worksinprogress.co/issue/how-bacteria-solved-the-mystery-of-inheritance/",
+          "source": "Works in Progress",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "81a418268d582c1d",
+          "title": "Building Lorikeet: How AI Humility and a Dual-Agent Architecture Are Redefining Customer Support",
+          "url": "https://www.producttalk.org/building-lorikeet-how-ai-humility-and-a-dual-agent-architecture-are-redefining-customer-support/",
+          "source": "Product Talk — Teresa Torres",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "cc55d359117a3b33",
+          "title": "Shaping the future Fast Stream: digital and cyber security schemes",
+          "url": "https://cddo.blog.gov.uk/2026/05/28/shaping-the-future-fast-stream-digital-and-cyber-security-schemes/",
+          "source": "Government Digital and Data",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "2d769448fe20fcd2",
+          "title": "Is Technology Good? - All Things Product Podcast with Teresa Torres & Petra Wille",
+          "url": "https://www.producttalk.org/is-technology-good-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "source": "Product Talk — Teresa Torres",
+          "published_at": "2026-05-26"
+        }
+      ]
+    },
+    {
+      "id": "workforce-and-capability",
+      "topic": "Workforce and capability",
+      "link_count": 5,
+      "source_count": 5,
+      "top_activity_types": [
+        "Capability or workforce",
+        "Community discussion",
+        "Delivery update",
+        "Guidance or standards"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Public service reform",
+        "Service delivery",
+        "Professional practice"
+      ],
+      "links": [
+        {
+          "id": "796fd6acca1e2a9d",
+          "title": "Weekly Roundup - May 25-29, 2026",
+          "url": "https://www.businessofgovernment.org/blog/weekly-roundup-may-25-29-2026",
+          "source": "IBM Center for The Business of Government",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "1c407f3f134881d9",
+          "title": "Putting customers first:  DVLA and  CustomerFirst  partnering to improve Drivers Medical service",
+          "url": "https://gds.blog.gov.uk/2026/05/28/putting-customers-first-dvla-and-customerfirst-partnering-to-improve-drivers-medical-service/",
+          "source": "Government Digital Service Blog",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "cc55d359117a3b33",
+          "title": "Shaping the future Fast Stream: digital and cyber security schemes",
+          "url": "https://cddo.blog.gov.uk/2026/05/28/shaping-the-future-fast-stream-digital-and-cyber-security-schemes/",
+          "source": "Government Digital and Data",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "b0c109c34cccfc59",
+          "title": "GDS-led guidance needs ‘different structures that are a bit more adaptive’, says first government chief AI officer",
+          "url": "https://www.publictechnology.net/2026/05/26/education-and-skills/gds-led-guidance-needs-different-structures-that-are-a-bit-more-adaptive-says-first-government-chief-ai-officer/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-26"
+        },
+        {
+          "id": "6218299427957de9",
+          "title": "Weeknotes w/c 26 May 2026",
+          "url": "https://luton.localgov.blog/2026/05/26/weeknotes-w-c-26-may-2026/",
+          "source": "Digital Luton",
+          "published_at": "2026-05-26",
+          "source_type": "weeknote"
+        }
+      ]
+    },
+    {
+      "id": "governance",
+      "topic": "Governance",
+      "link_count": 4,
+      "source_count": 3,
+      "top_activity_types": [
+        "Governance or assurance",
+        "Community discussion",
+        "Procurement or market activity",
+        "Delivery update"
+      ],
+      "top_contexts": [
+        "Supplier market",
+        "Central government",
+        "Public service reform",
+        "Service delivery"
+      ],
+      "links": [
+        {
+          "id": "796fd6acca1e2a9d",
+          "title": "Weekly Roundup - May 25-29, 2026",
+          "url": "https://www.businessofgovernment.org/blog/weekly-roundup-may-25-29-2026",
+          "source": "IBM Center for The Business of Government",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "c12d83f726852b2a",
+          "title": "Adam's leaving blog",
+          "url": "https://connectedbydata.org/blog/2026/05/28/adam-leaving-blog",
+          "source": "Connected by Data",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "7e69d47404b81793",
+          "title": "Adopting open-source in local government",
+          "url": "https://technology.blog.gov.uk/2026/05/27/adopting-open-source-in-local-government/",
+          "source": "Technology in Government",
+          "published_at": "2026-05-27"
+        },
+        {
+          "id": "34b7bf7a03306e13",
+          "title": "Governing Pandora: Leadership, Trust, and Risk in the Age of Exponential Technology",
+          "url": "https://www.businessofgovernment.org/node/5758",
+          "source": "IBM Center for The Business of Government",
+          "published_at": "2026-05-26"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "topic": "Security",
+      "link_count": 4,
+      "source_count": 4,
+      "top_activity_types": [
+        "Delivery update",
+        "Governance or assurance",
+        "Policy or strategy",
+        "Capability or workforce"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Public service reform",
+        "Service delivery",
+        "Cross-government platforms"
+      ],
+      "links": [
+        {
+          "id": "796fd6acca1e2a9d",
+          "title": "Weekly Roundup - May 25-29, 2026",
+          "url": "https://www.businessofgovernment.org/blog/weekly-roundup-may-25-29-2026",
+          "source": "IBM Center for The Business of Government",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "cc55d359117a3b33",
+          "title": "Shaping the future Fast Stream: digital and cyber security schemes",
+          "url": "https://cddo.blog.gov.uk/2026/05/28/shaping-the-future-fast-stream-digital-and-cyber-security-schemes/",
+          "source": "Government Digital and Data",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "7e69d47404b81793",
+          "title": "Adopting open-source in local government",
+          "url": "https://technology.blog.gov.uk/2026/05/27/adopting-open-source-in-local-government/",
+          "source": "Technology in Government",
+          "published_at": "2026-05-27"
+        },
+        {
+          "id": "165281d3db9e6b0d",
+          "title": "UK and Australia pact on fast-moving AI security risks",
+          "url": "https://www.gov.uk/government/news/uk-and-australia-pact-on-fast-moving-ai-security-risks",
+          "source": "Department for Science, Innovation and Technology",
+          "published_at": "2026-05-25"
+        }
+      ]
+    },
+    {
+      "id": "service-design",
+      "topic": "Service design",
+      "link_count": 4,
+      "source_count": 4,
+      "top_activity_types": [
+        "Delivery update",
+        "Policy or strategy",
+        "Capability or workforce",
+        "Community discussion"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Service delivery",
+        "Public service reform",
+        "Supplier market"
+      ],
+      "links": [
+        {
+          "id": "f8f6c82e5aa90439",
+          "title": "Digital waste tracking: where we&#039;ve been, what we&#039;ve built, and why the market is our primary user",
+          "url": "https://defradigital.blog.gov.uk/2026/05/28/digital-waste-tracking-where-weve-been-what-weve-built-and-why-the-market-is-our-primary-user/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "cc55d359117a3b33",
+          "title": "Shaping the future Fast Stream: digital and cyber security schemes",
+          "url": "https://cddo.blog.gov.uk/2026/05/28/shaping-the-future-fast-stream-digital-and-cyber-security-schemes/",
+          "source": "Government Digital and Data",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "0ffbc858b8900ac0",
+          "title": "Making Games",
+          "url": "https://acuity.design/making-games/",
+          "source": "Acuity Design",
+          "published_at": "2026-05-27"
+        },
+        {
+          "id": "6a7059603094e4e0",
+          "title": "Experimenting with generative AI to support delivery officers at DfE",
+          "url": "https://www.dxw.com/2026/05/experimenting-with-generative-ai-to-support-delivery-officers-at-dfe/",
+          "source": "dxw",
+          "published_at": "2026-05-27"
+        }
+      ]
+    },
+    {
+      "id": "funding",
+      "topic": "Funding",
+      "link_count": 2,
+      "source_count": 2,
+      "top_activity_types": [
+        "Guidance or standards",
+        "Procurement or market activity",
+        "Capability or workforce",
+        "Community discussion"
+      ],
+      "top_contexts": [
+        "Public service reform",
+        "Service delivery",
+        "Standards and assurance",
+        "Supplier market"
+      ],
+      "links": [
+        {
+          "id": "796fd6acca1e2a9d",
+          "title": "Weekly Roundup - May 25-29, 2026",
+          "url": "https://www.businessofgovernment.org/blog/weekly-roundup-may-25-29-2026",
+          "source": "IBM Center for The Business of Government",
+          "published_at": "2026-05-29"
+        },
+        {
+          "id": "b70881dc98931a37",
+          "title": "Ruby on Rails - A Developer’s Perspective by Miriam Thomas",
+          "url": "https://blog.scottlogic.com/2026/05/28/ruby-on-rails-a-developers-perspective.html",
+          "source": "Scott Logic Blog",
+          "published_at": "2026-05-28"
+        }
+      ]
+    },
+    {
+      "id": "product-management",
+      "topic": "Product management",
+      "link_count": 2,
+      "source_count": 2,
+      "top_activity_types": [
+        "Delivery update",
+        "Policy or strategy",
+        "Capability or workforce",
+        "Guidance or standards"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Public service reform",
+        "Service delivery",
+        "Cross-government platforms"
+      ],
+      "links": [
+        {
+          "id": "f8f6c82e5aa90439",
+          "title": "Digital waste tracking: where we&#039;ve been, what we&#039;ve built, and why the market is our primary user",
+          "url": "https://defradigital.blog.gov.uk/2026/05/28/digital-waste-tracking-where-weve-been-what-weve-built-and-why-the-market-is-our-primary-user/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-05-28"
+        },
+        {
+          "id": "cc55d359117a3b33",
+          "title": "Shaping the future Fast Stream: digital and cyber security schemes",
+          "url": "https://cddo.blog.gov.uk/2026/05/28/shaping-the-future-fast-stream-digital-and-cyber-security-schemes/",
+          "source": "Government Digital and Data",
+          "published_at": "2026-05-28"
+        }
+      ]
+    },
+    {
+      "id": "assurance",
+      "topic": "Assurance",
+      "link_count": 1,
+      "source_count": 1,
+      "top_activity_types": [
+        "Community discussion",
+        "Delivery update",
+        "Governance or assurance",
+        "Guidance or standards"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Cross-government platforms",
+        "Local government",
+        "Public service reform"
+      ],
+      "links": [
+        {
+          "id": "7e69d47404b81793",
+          "title": "Adopting open-source in local government",
+          "url": "https://technology.blog.gov.uk/2026/05/27/adopting-open-source-in-local-government/",
+          "source": "Technology in Government",
+          "published_at": "2026-05-27"
+        }
+      ]
+    },
+    {
+      "id": "content-design",
+      "topic": "Content design",
+      "link_count": 1,
+      "source_count": 1,
+      "top_activity_types": [
+        "Delivery update",
+        "Guidance or standards",
+        "Policy or strategy",
+        "Procurement or market activity"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Public service reform",
+        "Service delivery",
+        "Supplier market"
+      ],
+      "links": [
+        {
+          "id": "f8f6c82e5aa90439",
+          "title": "Digital waste tracking: where we&#039;ve been, what we&#039;ve built, and why the market is our primary user",
+          "url": "https://defradigital.blog.gov.uk/2026/05/28/digital-waste-tracking-where-weve-been-what-weve-built-and-why-the-market-is-our-primary-user/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-05-28"
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "topic": "Design",
+      "link_count": 1,
+      "source_count": 1,
+      "top_activity_types": [
+        "Guidance or standards",
+        "Procurement or market activity"
+      ],
+      "top_contexts": [
+        "Cross-government platforms",
+        "Public service reform",
+        "Service delivery",
+        "Standards and assurance"
+      ],
+      "links": [
+        {
+          "id": "b70881dc98931a37",
+          "title": "Ruby on Rails - A Developer’s Perspective by Miriam Thomas",
+          "url": "https://blog.scottlogic.com/2026/05/28/ruby-on-rails-a-developers-perspective.html",
+          "source": "Scott Logic Blog",
+          "published_at": "2026-05-28"
+        }
+      ]
+    },
+    {
+      "id": "digital-identity",
+      "topic": "Digital identity",
+      "link_count": 1,
+      "source_count": 1,
+      "top_activity_types": [
+        "Guidance or standards",
+        "Procurement or market activity"
+      ],
+      "top_contexts": [
+        "Cross-government platforms",
+        "Standards and assurance",
+        "Supplier market"
+      ],
+      "links": [
+        {
+          "id": "40eb9224455ad5e8",
+          "title": "One Login ‘working towards’ alignment with updated NCSC cyber framework",
+          "url": "https://www.publictechnology.net/2026/05/29/news/one-login-working-towards-alignment-with-updated-ncsc-cyber-framework/",
+          "source": "PublicTechnology",
+          "published_at": "2026-05-29"
+        }
+      ]
+    }
+  ]
 }
