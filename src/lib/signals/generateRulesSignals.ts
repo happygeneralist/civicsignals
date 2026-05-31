@@ -22,7 +22,7 @@ const DEFAULT_OPTIONS = {
   periodDays: 7,
   minimumLinksPerSignal: 5,
   minimumSourcesPerSignal: 3,
-  maximumSignals: 3
+  maximumSignals: 6
 }
 
 function toDateOnly(date: Date): string {
