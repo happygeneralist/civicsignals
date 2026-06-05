@@ -74,11 +74,19 @@ async function main() {
     ].join('\n'))
   }
 
+  const archiveDirectory = `src/data/signals/archive/${output.period_end}`
+  const archivedSignalsOutputPath = path.join(archiveDirectory, 'signals.json')
+  const archivedThemesOutputPath = path.join(archiveDirectory, 'themes.json')
+
   await writeJsonFile(signalsOutputPath, output)
   await writeJsonFile(weeklyThemesOutputPath, weeklyThemes)
+  await writeJsonFile(archivedSignalsOutputPath, output)
+  await writeJsonFile(archivedThemesOutputPath, weeklyThemes)
 
   console.log(`Generated ${output.signals.length} signals at ${signalsOutputPath}`)
   console.log(`Generated ${weeklyThemes.themes.length} weekly themes at ${weeklyThemesOutputPath}`)
+  console.log(`Archived signals at ${archivedSignalsOutputPath}`)
+  console.log(`Archived weekly themes at ${archivedThemesOutputPath}`)
 }
 
 main().catch((error) => {
