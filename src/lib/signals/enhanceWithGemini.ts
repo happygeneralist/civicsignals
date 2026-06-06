@@ -117,14 +117,71 @@ function getTextFromGeminiResponse(value: unknown): string {
     .trim() ?? ''
 }
 
-function parseGeminiJson(text: string): GeminiResponse {
-  const cleaned = text
+function stripCodeFence(text: string): string {
+  return text
     .replace(/^```json\s*/i, '')
     .replace(/^```\s*/i, '')
     .replace(/```$/i, '')
     .trim()
+}
 
-  return JSON.parse(cleaned) as GeminiResponse
+function extractFirstJsonObject(text: string): string {
+  const start = text.indexOf('{')
+
+  if (start === -1) {
+    throw new Error('Gemini response did not contain a JSON object.')
+  }
+
+  let depth = 0
+  let inString = false
+  let escaped = false
+
+  for (let index = start; index < text.length; index += 1) {
+    const character = text[index]
+
+    if (escaped) {
+      escaped = false
+      continue
+    }
+
+    if (character === '\\') {
+      escaped = true
+      continue
+    }
+
+    if (character === '"') {
+      inString = !inString
+      continue
+    }
+
+    if (inString) {
+      continue
+    }
+
+    if (character === '{') {
+      depth += 1
+    }
+
+    if (character === '}') {
+      depth -= 1
+
+      if (depth === 0) {
+        return text.slice(start, index + 1)
+      }
+    }
+  }
+
+  throw new Error('Gemini response contained an incomplete JSON object.')
+}
+
+function parseGeminiJson(text: string): GeminiResponse {
+  const cleaned = stripCodeFence(text)
+
+  try {
+    return JSON.parse(cleaned) as GeminiResponse
+  } catch (_error) {
+    return JSON.parse(extractFirstJsonObject(cleaned)) as GeminiResponse
+  }
 }
 
 function containsUnsupportedWording(value: string): boolean {
