@@ -1,13 +1,172 @@
 {
   "period_start": "2026-05-31",
   "period_end": "2026-06-06",
-  "generated_at": "2026-06-06T15:31:15.582Z",
-  "provider": "rules_fallback",
+  "generated_at": "2026-06-06T21:47:02.260Z",
+  "provider": "gemini",
   "signals": [
     {
       "id": "signal_001",
+      "title": "Policy",
+      "summary": "Public bodies and sector organisations are publishing frameworks, templates, and strategies to guide the adoption of emerging technologies and improve service delivery.",
+      "primary_topic": "Policy",
+      "related_topics": [
+        "Transformation",
+        "Local government",
+        "AI and automation"
+      ],
+      "top_activity_types": [
+        "Policy or strategy",
+        "Research or evidence",
+        "Capability or workforce"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Local government"
+      ],
+      "link_count": 18,
+      "source_count": 6,
+      "organisation_count": 6,
+      "links": [
+        {
+          "id": "9b42b485a13a0adb",
+          "title": "Entry-level jobs support, AI bootcamps and tech training as government supports young people into the jobs of the future",
+          "url": "https://www.gov.uk/government/news/entry-level-jobs-support-ai-bootcamps-and-tech-training-as-government-supports-young-people-into-the-jobs-of-the-future",
+          "source": "Department for Science, Innovation and Technology",
+          "published_at": "2026-06-06"
+        },
+        {
+          "id": "7f0296b42a4bc1a9",
+          "title": "Weekly Roundup - June 1-5, 2026",
+          "url": "https://www.businessofgovernment.org/blog/weekly-roundup-june-1-5-2026",
+          "source": "IBM Center for The Business of Government",
+          "published_at": "2026-06-05"
+        },
+        {
+          "id": "a644adf443aeaa1a",
+          "title": "More leading researchers brought to the UK, while Horizon Europe performance strengthens in 2024",
+          "url": "https://www.gov.uk/government/news/more-leading-researchers-brought-to-the-uk-while-horizon-europe-performance-strengthens-in-2024",
+          "source": "Department for Science, Innovation and Technology",
+          "published_at": "2026-06-05"
+        },
+        {
+          "id": "f1070269288e6589",
+          "title": "What We Do: Emily Schofield, Head of Public Affairs and Strategy, Oxfordshire County Council",
+          "url": "https://www.newlocal.org.uk/articles/what-we-do-emily-schofield-head-of-public-affairs-and-strategy-oxfordshire-county-council/",
+          "source": "New Local",
+          "published_at": "2026-06-05"
+        },
+        {
+          "id": "d48caf8ad9e0a966",
+          "title": "Faster support for children to get school ready as Tech Sec vows to better connect public services",
+          "url": "https://www.gov.uk/government/news/faster-support-for-children-to-get-school-ready-as-tech-sec-vows-to-better-connect-public-services",
+          "source": "Department for Science, Innovation and Technology",
+          "published_at": "2026-06-04"
+        },
+        {
+          "id": "f7d9ded7cffdbf56",
+          "title": "Data maturity: the foundation for AI ready public sector data",
+          "url": "https://gds.blog.gov.uk/2026/06/04/data-maturity-the-foundation-for-ai-ready-public-sector-data/",
+          "source": "Government Digital Service Blog",
+          "published_at": "2026-06-04"
+        },
+        {
+          "id": "12a15eecf16856c4",
+          "title": "From intent to impact: an international pattern",
+          "url": "https://publicpolicydesign.blog.gov.uk/2026/06/04/from-intent-to-impact-an-international-pattern/",
+          "source": "Public Policy Design",
+          "published_at": "2026-06-04"
+        },
+        {
+          "id": "64bc50cd82125c0a",
+          "title": "Agile and Adaptive Leadership in the Public Sector",
+          "url": "https://www.businessofgovernment.org/report/agile-adaptive",
+          "source": "IBM Center for The Business of Government",
+          "published_at": "2026-06-03"
+        },
+        {
+          "id": "6347b1f01675340a",
+          "title": "Sir Ian Cheshire confirmed as new Ofcom chair",
+          "url": "https://www.gov.uk/government/news/sir-ian-cheshire-confirmed-as-new-ofcom-chair",
+          "source": "Department for Science, Innovation and Technology",
+          "published_at": "2026-06-03"
+        },
+        {
+          "id": "2bd35d6769977eb0",
+          "title": "Building for the future: Making change simple on GOV.UK Pay",
+          "url": "https://gds.blog.gov.uk/2026/06/02/building-for-the-future-making-change-simple-on-gov-uk-pay/",
+          "source": "Government Digital Service Blog",
+          "published_at": "2026-06-02"
+        },
+        {
+          "id": "fa4c442cc769800a",
+          "title": "Appendices",
+          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-appendix/",
+          "source": "Socitm",
+          "published_at": "2026-06-01"
+        },
+        {
+          "id": "37df429e86888075",
+          "title": "Glossary",
+          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-glossary/",
+          "source": "Socitm",
+          "published_at": "2026-06-01"
+        },
+        {
+          "id": "0d5be11716c20f97",
+          "title": "Authors and acknowledgements",
+          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-authors-and-acknowledgements/",
+          "source": "Socitm",
+          "published_at": "2026-06-01"
+        },
+        {
+          "id": "5a6352d3d951dd31",
+          "title": "Purpose and how to use this policy template",
+          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-purpose-and-how-to-use-this-policy-template/",
+          "source": "Socitm",
+          "published_at": "2026-06-01"
+        },
+        {
+          "id": "ad223405e5f0ece6",
+          "title": "Policy for the use of generative artificial intelligence",
+          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-document/",
+          "source": "Socitm",
+          "published_at": "2026-06-01"
+        },
+        {
+          "id": "b48b90ac64758293",
+          "title": "Background, what’s new and future considerations",
+          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-background-updates-and-future-considerations/",
+          "source": "Socitm",
+          "published_at": "2026-06-01"
+        },
+        {
+          "id": "67c1467e5ae9ff1d",
+          "title": "Policy for the use of generative artificial intelligence",
+          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/",
+          "source": "Socitm",
+          "published_at": "2026-06-01"
+        },
+        {
+          "id": "b8fd4ae34d5de160",
+          "title": "Regional leaders to get more power over innovation funding to drive local jobs and growth",
+          "url": "https://www.gov.uk/government/news/regional-leaders-to-get-more-power-over-innovation-funding-to-drive-local-jobs-and-growth",
+          "source": "Department for Science, Innovation and Technology",
+          "published_at": "2026-05-31"
+        }
+      ],
+      "pattern": "Policy and strategy",
+      "what_to_notice": [
+        "Socitm has released a set of policy templates and glossaries specifically designed to help local councils manage generative artificial intelligence.",
+        "The Government Digital Service partnered with The National Archives to test data maturity as a framework for preparing legal data for AI use.",
+        "A joint UK and Canadian initiative is exploring design patterns to help align early policy intent with practical service delivery."
+      ],
+      "evidence_note": "Supported by 18 links from 6 sources.",
+      "generation_note": "Enhanced from public link metadata."
+    },
+    {
+      "id": "signal_002",
       "title": "Transformation",
-      "summary": "Transformation appears across recent links mostly through Policy or strategy, Research or evidence and Community discussion activity in Local government and Central government.",
+      "summary": "Public sector organisations are sharing practical approaches to restructuring digital services, from local council analytics communities to central government benefit platform reforms.",
       "primary_topic": "Transformation",
       "related_topics": [
         "Local government",
@@ -155,12 +314,19 @@
           "published_at": "2026-06-01"
         }
       ],
-      "generation_note": "Gemini enhancement failed; using rules-based fallback."
+      "pattern": "Delivery and implementation",
+      "what_to_notice": [
+        "The Department for Work and Pensions is seeking market input on a forty-million-pound plan to transition Universal Credit to a microservices architecture.",
+        "Suffolk County Council is establishing a collaborative analytics community focused on using R and Python.",
+        "North Northamptonshire Council is developing a new performance management approach following local government reorganisation."
+      ],
+      "evidence_note": "Supported by 18 links from 6 sources.",
+      "generation_note": "Enhanced from public link metadata."
     },
     {
-      "id": "signal_002",
+      "id": "signal_003",
       "title": "Local government",
-      "summary": "Local government appears across recent links mostly through Policy or strategy, Research or evidence and Community discussion activity in Local government and Central government.",
+      "summary": "Local authorities are sharing progress on digital platforms, data stewardship initiatives, and collaborative frameworks to improve municipal services and democratic participation.",
       "primary_topic": "Local government",
       "related_topics": [
         "Transformation",
@@ -309,157 +475,19 @@
           "published_at": "2026-06-01"
         }
       ],
-      "generation_note": "Gemini enhancement failed; using rules-based fallback."
-    },
-    {
-      "id": "signal_003",
-      "title": "Policy",
-      "summary": "Policy appears across recent links mostly through Policy or strategy, Research or evidence and Capability or workforce activity in Central government and Local government.",
-      "primary_topic": "Policy",
-      "related_topics": [
-        "Transformation",
-        "Local government",
-        "AI and automation"
+      "pattern": "Local adoption",
+      "what_to_notice": [
+        "Luton Council has shared progress from its third sprint to make its new digital platform more visible and ready for testing.",
+        "A report by mySociety and Sitra explores how a European civic tech hub could support democratic participation at a local level.",
+        "Gloucestershire County Council has published details on its approach to ethical data stewardship."
       ],
-      "top_activity_types": [
-        "Policy or strategy",
-        "Research or evidence",
-        "Capability or workforce"
-      ],
-      "top_contexts": [
-        "Central government",
-        "Local government"
-      ],
-      "link_count": 17,
-      "source_count": 6,
-      "organisation_count": 6,
-      "links": [
-        {
-          "id": "7f0296b42a4bc1a9",
-          "title": "Weekly Roundup - June 1-5, 2026",
-          "url": "https://www.businessofgovernment.org/blog/weekly-roundup-june-1-5-2026",
-          "source": "IBM Center for The Business of Government",
-          "published_at": "2026-06-05"
-        },
-        {
-          "id": "a644adf443aeaa1a",
-          "title": "More leading researchers brought to the UK, while Horizon Europe performance strengthens in 2024",
-          "url": "https://www.gov.uk/government/news/more-leading-researchers-brought-to-the-uk-while-horizon-europe-performance-strengthens-in-2024",
-          "source": "Department for Science, Innovation and Technology",
-          "published_at": "2026-06-05"
-        },
-        {
-          "id": "f1070269288e6589",
-          "title": "What We Do: Emily Schofield, Head of Public Affairs and Strategy, Oxfordshire County Council",
-          "url": "https://www.newlocal.org.uk/articles/what-we-do-emily-schofield-head-of-public-affairs-and-strategy-oxfordshire-county-council/",
-          "source": "New Local",
-          "published_at": "2026-06-05"
-        },
-        {
-          "id": "d48caf8ad9e0a966",
-          "title": "Faster support for children to get school ready as Tech Sec vows to better connect public services",
-          "url": "https://www.gov.uk/government/news/faster-support-for-children-to-get-school-ready-as-tech-sec-vows-to-better-connect-public-services",
-          "source": "Department for Science, Innovation and Technology",
-          "published_at": "2026-06-04"
-        },
-        {
-          "id": "f7d9ded7cffdbf56",
-          "title": "Data maturity: the foundation for AI ready public sector data",
-          "url": "https://gds.blog.gov.uk/2026/06/04/data-maturity-the-foundation-for-ai-ready-public-sector-data/",
-          "source": "Government Digital Service Blog",
-          "published_at": "2026-06-04"
-        },
-        {
-          "id": "12a15eecf16856c4",
-          "title": "From intent to impact: an international pattern",
-          "url": "https://publicpolicydesign.blog.gov.uk/2026/06/04/from-intent-to-impact-an-international-pattern/",
-          "source": "Public Policy Design",
-          "published_at": "2026-06-04"
-        },
-        {
-          "id": "64bc50cd82125c0a",
-          "title": "Agile and Adaptive Leadership in the Public Sector",
-          "url": "https://www.businessofgovernment.org/report/agile-adaptive",
-          "source": "IBM Center for The Business of Government",
-          "published_at": "2026-06-03"
-        },
-        {
-          "id": "6347b1f01675340a",
-          "title": "Sir Ian Cheshire confirmed as new Ofcom chair",
-          "url": "https://www.gov.uk/government/news/sir-ian-cheshire-confirmed-as-new-ofcom-chair",
-          "source": "Department for Science, Innovation and Technology",
-          "published_at": "2026-06-03"
-        },
-        {
-          "id": "2bd35d6769977eb0",
-          "title": "Building for the future: Making change simple on GOV.UK Pay",
-          "url": "https://gds.blog.gov.uk/2026/06/02/building-for-the-future-making-change-simple-on-gov-uk-pay/",
-          "source": "Government Digital Service Blog",
-          "published_at": "2026-06-02"
-        },
-        {
-          "id": "fa4c442cc769800a",
-          "title": "Appendices",
-          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-appendix/",
-          "source": "Socitm",
-          "published_at": "2026-06-01"
-        },
-        {
-          "id": "37df429e86888075",
-          "title": "Glossary",
-          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-glossary/",
-          "source": "Socitm",
-          "published_at": "2026-06-01"
-        },
-        {
-          "id": "0d5be11716c20f97",
-          "title": "Authors and acknowledgements",
-          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-authors-and-acknowledgements/",
-          "source": "Socitm",
-          "published_at": "2026-06-01"
-        },
-        {
-          "id": "5a6352d3d951dd31",
-          "title": "Purpose and how to use this policy template",
-          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-purpose-and-how-to-use-this-policy-template/",
-          "source": "Socitm",
-          "published_at": "2026-06-01"
-        },
-        {
-          "id": "ad223405e5f0ece6",
-          "title": "Policy for the use of generative artificial intelligence",
-          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-document/",
-          "source": "Socitm",
-          "published_at": "2026-06-01"
-        },
-        {
-          "id": "b48b90ac64758293",
-          "title": "Background, what’s new and future considerations",
-          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-background-updates-and-future-considerations/",
-          "source": "Socitm",
-          "published_at": "2026-06-01"
-        },
-        {
-          "id": "67c1467e5ae9ff1d",
-          "title": "Policy for the use of generative artificial intelligence",
-          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/",
-          "source": "Socitm",
-          "published_at": "2026-06-01"
-        },
-        {
-          "id": "b8fd4ae34d5de160",
-          "title": "Regional leaders to get more power over innovation funding to drive local jobs and growth",
-          "url": "https://www.gov.uk/government/news/regional-leaders-to-get-more-power-over-innovation-funding-to-drive-local-jobs-and-growth",
-          "source": "Department for Science, Innovation and Technology",
-          "published_at": "2026-05-31"
-        }
-      ],
-      "generation_note": "Gemini enhancement failed; using rules-based fallback."
+      "evidence_note": "Supported by 18 links from 5 sources.",
+      "generation_note": "Enhanced from public link metadata."
     },
     {
       "id": "signal_004",
       "title": "Data",
-      "summary": "Data appears across recent links mostly through Capability or workforce, Governance or assurance and Community discussion activity in Central government and Service delivery.",
+      "summary": "Public sector data management is facing scrutiny over procurement choices, regulatory compliance, and the security of digital platforms.",
       "primary_topic": "Data",
       "related_topics": [
         "Workforce and capability",
@@ -564,31 +592,45 @@
           "published_at": "2026-06-02"
         }
       ],
-      "generation_note": "Gemini enhancement failed; using rules-based fallback."
+      "pattern": "Governance and assurance",
+      "what_to_notice": [
+        "The Scottish Government was found in contempt of court for failing to comply with instructions to publish files requested by the information commissioner.",
+        "A parliamentary committee has criticised the decision to move the Government Digital Service to the Department for Science, Innovation and Technology.",
+        "The procurement of Palantir for a nine-million-pound national gun database has drawn opposition from members of parliament and human rights groups."
+      ],
+      "evidence_note": "Supported by 12 links from 3 sources.",
+      "generation_note": "Enhanced from public link metadata."
     },
     {
       "id": "signal_005",
       "title": "Workforce and capability",
-      "summary": "Workforce and capability appears across recent links mostly through Capability or workforce, Governance or assurance and Guidance or standards activity in Service delivery and Central government.",
+      "summary": "Government departments and educational bodies are addressing skills gaps through targeted training, flexible recruitment strategies, and adaptive leadership frameworks.",
       "primary_topic": "Workforce and capability",
       "related_topics": [
+        "Policy",
         "Data",
-        "Governance",
-        "Policy"
+        "Governance"
       ],
       "top_activity_types": [
         "Capability or workforce",
         "Governance or assurance",
-        "Guidance or standards"
+        "Policy or strategy"
       ],
       "top_contexts": [
-        "Service delivery",
-        "Central government"
+        "Central government",
+        "Service delivery"
       ],
-      "link_count": 7,
-      "source_count": 4,
-      "organisation_count": 4,
+      "link_count": 8,
+      "source_count": 5,
+      "organisation_count": 5,
       "links": [
+        {
+          "id": "9b42b485a13a0adb",
+          "title": "Entry-level jobs support, AI bootcamps and tech training as government supports young people into the jobs of the future",
+          "url": "https://www.gov.uk/government/news/entry-level-jobs-support-ai-bootcamps-and-tech-training-as-government-supports-young-people-into-the-jobs-of-the-future",
+          "source": "Department for Science, Innovation and Technology",
+          "published_at": "2026-06-06"
+        },
         {
           "id": "7f0296b42a4bc1a9",
           "title": "Weekly Roundup - June 1-5, 2026",
@@ -639,12 +681,19 @@
           "published_at": "2026-06-03"
         }
       ],
-      "generation_note": "Gemini enhancement failed; using rules-based fallback."
+      "pattern": "Capability and workforce",
+      "what_to_notice": [
+        "The Department for Science, Innovation and Technology is asking the Treasury for greater flexibility to meet its target of ten percent digital staff.",
+        "The exams regulator Ofqual has highlighted the difficulty of managing high-tech cheating methods, such as smart watches and smart glasses.",
+        "A report from the IBM Center reframes agile as an adaptive leadership mindset rather than just a project management methodology."
+      ],
+      "evidence_note": "Supported by 8 links from 5 sources.",
+      "generation_note": "Enhanced from public link metadata."
     },
     {
       "id": "signal_006",
       "title": "Procurement",
-      "summary": "Procurement appears across recent links mostly through Procurement or market activity, Policy or strategy and Research or evidence activity in Supplier market and Service delivery.",
+      "summary": "Public sector organisations are updating their procurement processes and selecting new suppliers to modernise transaction platforms and manage emerging technologies.",
       "primary_topic": "Procurement",
       "related_topics": [
         "Policy",
@@ -707,7 +756,14 @@
           "published_at": "2026-06-01"
         }
       ],
-      "generation_note": "Gemini enhancement failed; using rules-based fallback."
+      "pattern": "Procurement and supplier activity",
+      "what_to_notice": [
+        "GOV.UK Pay has selected Adyen as its new payment services provider for non-Crown card payments and pay-by-bank transactions, replacing Stripe.",
+        "Socitm's generative artificial intelligence template includes a framework to guide the procurement of AI tools within local councils.",
+        "An industry podcast features discussions criticizing the complexity and administrative burden of modern corporate procurement processes."
+      ],
+      "evidence_note": "Supported by 6 links from 4 sources.",
+      "generation_note": "Enhanced from public link metadata."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "period_start": "2026-05-31",
   "period_end": "2026-06-06",
-  "generated_at": "2026-06-06T15:31:38.484Z",
+  "generated_at": "2026-06-06T21:47:24.789Z",
   "themes": [
     {
       "id": "local-government",
@@ -148,6 +148,152 @@
           "url": "https://www.newlocal.org.uk/articles/how-we-did-it-embedding-co-produced-activities-in-hyperlocal-places-of-trust/",
           "source": "New Local",
           "published_at": "2026-06-01"
+        }
+      ]
+    },
+    {
+      "id": "policy",
+      "topic": "Policy",
+      "link_count": 18,
+      "source_count": 6,
+      "top_activity_types": [
+        "Policy or strategy",
+        "Research or evidence",
+        "Capability or workforce",
+        "Governance or assurance"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Local government",
+        "Service delivery",
+        "Public service reform"
+      ],
+      "links": [
+        {
+          "id": "9b42b485a13a0adb",
+          "title": "Entry-level jobs support, AI bootcamps and tech training as government supports young people into the jobs of the future",
+          "url": "https://www.gov.uk/government/news/entry-level-jobs-support-ai-bootcamps-and-tech-training-as-government-supports-young-people-into-the-jobs-of-the-future",
+          "source": "Department for Science, Innovation and Technology",
+          "published_at": "2026-06-06"
+        },
+        {
+          "id": "7f0296b42a4bc1a9",
+          "title": "Weekly Roundup - June 1-5, 2026",
+          "url": "https://www.businessofgovernment.org/blog/weekly-roundup-june-1-5-2026",
+          "source": "IBM Center for The Business of Government",
+          "published_at": "2026-06-05"
+        },
+        {
+          "id": "a644adf443aeaa1a",
+          "title": "More leading researchers brought to the UK, while Horizon Europe performance strengthens in 2024",
+          "url": "https://www.gov.uk/government/news/more-leading-researchers-brought-to-the-uk-while-horizon-europe-performance-strengthens-in-2024",
+          "source": "Department for Science, Innovation and Technology",
+          "published_at": "2026-06-05"
+        },
+        {
+          "id": "f1070269288e6589",
+          "title": "What We Do: Emily Schofield, Head of Public Affairs and Strategy, Oxfordshire County Council",
+          "url": "https://www.newlocal.org.uk/articles/what-we-do-emily-schofield-head-of-public-affairs-and-strategy-oxfordshire-county-council/",
+          "source": "New Local",
+          "published_at": "2026-06-05"
+        },
+        {
+          "id": "d48caf8ad9e0a966",
+          "title": "Faster support for children to get school ready as Tech Sec vows to better connect public services",
+          "url": "https://www.gov.uk/government/news/faster-support-for-children-to-get-school-ready-as-tech-sec-vows-to-better-connect-public-services",
+          "source": "Department for Science, Innovation and Technology",
+          "published_at": "2026-06-04"
+        },
+        {
+          "id": "f7d9ded7cffdbf56",
+          "title": "Data maturity: the foundation for AI ready public sector data",
+          "url": "https://gds.blog.gov.uk/2026/06/04/data-maturity-the-foundation-for-ai-ready-public-sector-data/",
+          "source": "Government Digital Service Blog",
+          "published_at": "2026-06-04"
+        },
+        {
+          "id": "12a15eecf16856c4",
+          "title": "From intent to impact: an international pattern",
+          "url": "https://publicpolicydesign.blog.gov.uk/2026/06/04/from-intent-to-impact-an-international-pattern/",
+          "source": "Public Policy Design",
+          "published_at": "2026-06-04"
+        },
+        {
+          "id": "64bc50cd82125c0a",
+          "title": "Agile and Adaptive Leadership in the Public Sector",
+          "url": "https://www.businessofgovernment.org/report/agile-adaptive",
+          "source": "IBM Center for The Business of Government",
+          "published_at": "2026-06-03"
+        },
+        {
+          "id": "6347b1f01675340a",
+          "title": "Sir Ian Cheshire confirmed as new Ofcom chair",
+          "url": "https://www.gov.uk/government/news/sir-ian-cheshire-confirmed-as-new-ofcom-chair",
+          "source": "Department for Science, Innovation and Technology",
+          "published_at": "2026-06-03"
+        },
+        {
+          "id": "2bd35d6769977eb0",
+          "title": "Building for the future: Making change simple on GOV.UK Pay",
+          "url": "https://gds.blog.gov.uk/2026/06/02/building-for-the-future-making-change-simple-on-gov-uk-pay/",
+          "source": "Government Digital Service Blog",
+          "published_at": "2026-06-02"
+        },
+        {
+          "id": "fa4c442cc769800a",
+          "title": "Appendices",
+          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-appendix/",
+          "source": "Socitm",
+          "published_at": "2026-06-01"
+        },
+        {
+          "id": "37df429e86888075",
+          "title": "Glossary",
+          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-glossary/",
+          "source": "Socitm",
+          "published_at": "2026-06-01"
+        },
+        {
+          "id": "0d5be11716c20f97",
+          "title": "Authors and acknowledgements",
+          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-authors-and-acknowledgements/",
+          "source": "Socitm",
+          "published_at": "2026-06-01"
+        },
+        {
+          "id": "5a6352d3d951dd31",
+          "title": "Purpose and how to use this policy template",
+          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-purpose-and-how-to-use-this-policy-template/",
+          "source": "Socitm",
+          "published_at": "2026-06-01"
+        },
+        {
+          "id": "ad223405e5f0ece6",
+          "title": "Policy for the use of generative artificial intelligence",
+          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-document/",
+          "source": "Socitm",
+          "published_at": "2026-06-01"
+        },
+        {
+          "id": "b48b90ac64758293",
+          "title": "Background, what’s new and future considerations",
+          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-background-updates-and-future-considerations/",
+          "source": "Socitm",
+          "published_at": "2026-06-01"
+        },
+        {
+          "id": "67c1467e5ae9ff1d",
+          "title": "Policy for the use of generative artificial intelligence",
+          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/",
+          "source": "Socitm",
+          "published_at": "2026-06-01"
+        },
+        {
+          "id": "b8fd4ae34d5de160",
+          "title": "Regional leaders to get more power over innovation funding to drive local jobs and growth",
+          "url": "https://www.gov.uk/government/news/regional-leaders-to-get-more-power-over-innovation-funding-to-drive-local-jobs-and-growth",
+          "source": "Department for Science, Innovation and Technology",
+          "published_at": "2026-05-31"
         }
       ]
     },
@@ -299,145 +445,6 @@
       ]
     },
     {
-      "id": "policy",
-      "topic": "Policy",
-      "link_count": 17,
-      "source_count": 6,
-      "top_activity_types": [
-        "Policy or strategy",
-        "Research or evidence",
-        "Capability or workforce",
-        "Governance or assurance"
-      ],
-      "top_contexts": [
-        "Central government",
-        "Local government",
-        "Service delivery",
-        "Public service reform"
-      ],
-      "links": [
-        {
-          "id": "7f0296b42a4bc1a9",
-          "title": "Weekly Roundup - June 1-5, 2026",
-          "url": "https://www.businessofgovernment.org/blog/weekly-roundup-june-1-5-2026",
-          "source": "IBM Center for The Business of Government",
-          "published_at": "2026-06-05"
-        },
-        {
-          "id": "a644adf443aeaa1a",
-          "title": "More leading researchers brought to the UK, while Horizon Europe performance strengthens in 2024",
-          "url": "https://www.gov.uk/government/news/more-leading-researchers-brought-to-the-uk-while-horizon-europe-performance-strengthens-in-2024",
-          "source": "Department for Science, Innovation and Technology",
-          "published_at": "2026-06-05"
-        },
-        {
-          "id": "f1070269288e6589",
-          "title": "What We Do: Emily Schofield, Head of Public Affairs and Strategy, Oxfordshire County Council",
-          "url": "https://www.newlocal.org.uk/articles/what-we-do-emily-schofield-head-of-public-affairs-and-strategy-oxfordshire-county-council/",
-          "source": "New Local",
-          "published_at": "2026-06-05"
-        },
-        {
-          "id": "d48caf8ad9e0a966",
-          "title": "Faster support for children to get school ready as Tech Sec vows to better connect public services",
-          "url": "https://www.gov.uk/government/news/faster-support-for-children-to-get-school-ready-as-tech-sec-vows-to-better-connect-public-services",
-          "source": "Department for Science, Innovation and Technology",
-          "published_at": "2026-06-04"
-        },
-        {
-          "id": "f7d9ded7cffdbf56",
-          "title": "Data maturity: the foundation for AI ready public sector data",
-          "url": "https://gds.blog.gov.uk/2026/06/04/data-maturity-the-foundation-for-ai-ready-public-sector-data/",
-          "source": "Government Digital Service Blog",
-          "published_at": "2026-06-04"
-        },
-        {
-          "id": "12a15eecf16856c4",
-          "title": "From intent to impact: an international pattern",
-          "url": "https://publicpolicydesign.blog.gov.uk/2026/06/04/from-intent-to-impact-an-international-pattern/",
-          "source": "Public Policy Design",
-          "published_at": "2026-06-04"
-        },
-        {
-          "id": "64bc50cd82125c0a",
-          "title": "Agile and Adaptive Leadership in the Public Sector",
-          "url": "https://www.businessofgovernment.org/report/agile-adaptive",
-          "source": "IBM Center for The Business of Government",
-          "published_at": "2026-06-03"
-        },
-        {
-          "id": "6347b1f01675340a",
-          "title": "Sir Ian Cheshire confirmed as new Ofcom chair",
-          "url": "https://www.gov.uk/government/news/sir-ian-cheshire-confirmed-as-new-ofcom-chair",
-          "source": "Department for Science, Innovation and Technology",
-          "published_at": "2026-06-03"
-        },
-        {
-          "id": "2bd35d6769977eb0",
-          "title": "Building for the future: Making change simple on GOV.UK Pay",
-          "url": "https://gds.blog.gov.uk/2026/06/02/building-for-the-future-making-change-simple-on-gov-uk-pay/",
-          "source": "Government Digital Service Blog",
-          "published_at": "2026-06-02"
-        },
-        {
-          "id": "fa4c442cc769800a",
-          "title": "Appendices",
-          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-appendix/",
-          "source": "Socitm",
-          "published_at": "2026-06-01"
-        },
-        {
-          "id": "37df429e86888075",
-          "title": "Glossary",
-          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-glossary/",
-          "source": "Socitm",
-          "published_at": "2026-06-01"
-        },
-        {
-          "id": "0d5be11716c20f97",
-          "title": "Authors and acknowledgements",
-          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-authors-and-acknowledgements/",
-          "source": "Socitm",
-          "published_at": "2026-06-01"
-        },
-        {
-          "id": "5a6352d3d951dd31",
-          "title": "Purpose and how to use this policy template",
-          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-purpose-and-how-to-use-this-policy-template/",
-          "source": "Socitm",
-          "published_at": "2026-06-01"
-        },
-        {
-          "id": "ad223405e5f0ece6",
-          "title": "Policy for the use of generative artificial intelligence",
-          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-document/",
-          "source": "Socitm",
-          "published_at": "2026-06-01"
-        },
-        {
-          "id": "b48b90ac64758293",
-          "title": "Background, what’s new and future considerations",
-          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/genai-template-background-updates-and-future-considerations/",
-          "source": "Socitm",
-          "published_at": "2026-06-01"
-        },
-        {
-          "id": "67c1467e5ae9ff1d",
-          "title": "Policy for the use of generative artificial intelligence",
-          "url": "https://socitm.net/resource-hub/socitm-research/template-policy-for-the-use-of-generative-ai/",
-          "source": "Socitm",
-          "published_at": "2026-06-01"
-        },
-        {
-          "id": "b8fd4ae34d5de160",
-          "title": "Regional leaders to get more power over innovation funding to drive local jobs and growth",
-          "url": "https://www.gov.uk/government/news/regional-leaders-to-get-more-power-over-innovation-funding-to-drive-local-jobs-and-growth",
-          "source": "Department for Science, Innovation and Technology",
-          "published_at": "2026-05-31"
-        }
-      ]
-    },
-    {
       "id": "data",
       "topic": "Data",
       "link_count": 12,
@@ -544,21 +551,28 @@
     {
       "id": "workforce-and-capability",
       "topic": "Workforce and capability",
-      "link_count": 7,
-      "source_count": 4,
+      "link_count": 8,
+      "source_count": 5,
       "top_activity_types": [
         "Capability or workforce",
         "Governance or assurance",
-        "Guidance or standards",
-        "Policy or strategy"
+        "Policy or strategy",
+        "Guidance or standards"
       ],
       "top_contexts": [
-        "Service delivery",
         "Central government",
+        "Service delivery",
         "Public service reform",
         "Supplier market"
       ],
       "links": [
+        {
+          "id": "9b42b485a13a0adb",
+          "title": "Entry-level jobs support, AI bootcamps and tech training as government supports young people into the jobs of the future",
+          "url": "https://www.gov.uk/government/news/entry-level-jobs-support-ai-bootcamps-and-tech-training-as-government-supports-young-people-into-the-jobs-of-the-future",
+          "source": "Department for Science, Innovation and Technology",
+          "published_at": "2026-06-06"
+        },
         {
           "id": "7f0296b42a4bc1a9",
           "title": "Weekly Roundup - June 1-5, 2026",
