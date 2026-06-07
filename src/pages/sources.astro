@@ -26,7 +26,10 @@ type SourceCategory = {
 }
 
 const sourcesFile = readFileSync('data/sources.yml', 'utf8')
-const sources = (YAML.parse(sourcesFile) ?? []) as Source[]
+const sourcesReviewFile = readFileSync('data/sources-review.yml', 'utf8')
+const existingSources = (YAML.parse(sourcesFile) ?? []) as Source[]
+const reviewSources = (YAML.parse(sourcesReviewFile) ?? []) as Source[]
+const sources = [...existingSources, ...reviewSources]
 
 const normalise = (value: string) => value.trim().toLowerCase()
 
