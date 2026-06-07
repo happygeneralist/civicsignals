@@ -1,0 +1,339 @@
+- id: tim-paul
+  name: Tim Paul
+  url: https://www.timpaul.co.uk/
+  feedUrl: https://www.timpaul.co.uk/feed.xml
+  status: needs-review
+  organisation: Tim Paul
+  tags:
+    - interaction-design
+    - govuk-design-system
+    - design-leadership
+    - digital-government
+    - public-sector
+    - practitioners
+    - functional-experts
+- id: lou-downe
+  name: Lou Downe
+  url: https://loudowne.com/
+  feedUrl: https://loudowne.com/feed/
+  status: needs-review
+  organisation: Lou Downe
+  tags:
+    - service-design
+    - good-services
+    - service-standards
+    - design-leadership
+    - public-sector
+    - practitioners
+    - functional-experts
+- id: school-of-good-services
+  name: School of Good Services
+  url: https://good.services/writing
+  feedUrl: https://good.services/writing?format=rss
+  status: needs-review
+  organisation: School of Good Services
+  tags:
+    - service-design
+    - good-services
+    - service-literacy
+    - public-services
+    - design-leadership
+    - functional-experts
+- id: sarah-drummond
+  name: Sarah Drummond
+  url: https://sarah-drummond.com/full-stack-service-design/
+  feedUrl: https://sarah-drummond.com/feed/
+  status: needs-review
+  organisation: Sarah Drummond
+  tags:
+    - service-design
+    - full-stack-service-design
+    - systems-thinking
+    - organisational-design
+    - public-sector
+    - practitioners
+    - functional-experts
+- id: leisa-reichelt
+  name: Leisa Reichelt
+  url: https://userresearch.blog.gov.uk/author/leisa-reichelt/
+  feedUrl: https://userresearch.blog.gov.uk/author/leisa-reichelt/feed/
+  status: needs-review
+  organisation: Government Digital Service
+  tags:
+    - user-research
+    - user-centred-design
+    - digital-government
+    - research-practice
+    - central-government
+    - practitioners
+    - functional-experts
+- id: tom-loosemore
+  name: Tom Loosemore
+  url: https://loosemore.com/
+  feedUrl: https://loosemore.com/feed/
+  status: needs-review
+  organisation: Tom Loosemore
+  tags:
+    - digital-government
+    - digital-strategy
+    - government-as-a-platform
+    - organisational-change
+    - public-sector
+    - practitioners
+    - functional-experts
+- id: mike-bracken
+  name: Mike Bracken
+  url: https://mikebracken.com/
+  feedUrl: https://mikebracken.com/feed/
+  status: needs-review
+  organisation: Mike Bracken
+  tags:
+    - digital-government
+    - digital-transformation
+    - government-as-a-platform
+    - public-sector
+    - leadership
+    - practitioners
+    - functional-experts
+- id: paul-downey
+  name: Paul Downey
+  url: https://gds.blog.gov.uk/author/paul-downey/
+  feedUrl: https://gds.blog.gov.uk/author/paul-downey/feed/
+  status: needs-review
+  organisation: Government Digital Service
+  tags:
+    - open-standards
+    - technical-architecture
+    - digital-government
+    - govuk
+    - public-sector
+    - practitioners
+    - functional-experts
+- id: kara-kane
+  name: Kara Kane
+  url: https://services.blog.gov.uk/author/karakane/
+  feedUrl: https://services.blog.gov.uk/author/karakane/feed/
+  status: needs-review
+  organisation: Cabinet Office
+  tags:
+    - service-design
+    - user-centred-design
+    - design-leadership
+    - service-transformation
+    - central-government
+    - practitioners
+    - functional-experts
+- id: martin-jordan
+  name: Martin Jordan
+  url: https://www.martinjordan.com/
+  feedUrl: https://www.martinjordan.com/feed.xml
+  status: needs-review
+  organisation: Martin Jordan
+  tags:
+    - service-design
+    - digital-government
+    - public-administration
+    - germany
+    - practitioners
+    - functional-experts
+- id: govuk-service-manual-design
+  name: GOV.UK Service Manual — Design
+  url: https://www.gov.uk/service-manual/design
+  feedUrl: https://www.gov.uk/service-manual/design.atom
+  status: needs-review
+  organisation: Government Digital Service
+  tags:
+    - service-manual
+    - design-guidance
+    - service-design
+    - user-centred-design
+    - central-government
+    - functional-experts
+- id: govuk-design-principles
+  name: GOV.UK Design Principles
+  url: https://www.gov.uk/guidance/government-design-principles
+  feedUrl: https://www.gov.uk/guidance/government-design-principles.atom
+  status: needs-review
+  organisation: Government Digital Service
+  tags:
+    - design-principles
+    - user-needs
+    - service-design
+    - digital-government
+    - central-government
+    - guidance
+- id: govuk-design-system
+  name: GOV.UK Design System
+  url: https://design-system.service.gov.uk/
+  feedUrl: https://design-system.service.gov.uk/community/blog-posts-videos-and-podcasts/feed.xml
+  status: needs-review
+  organisation: Government Digital Service
+  tags:
+    - govuk-design-system
+    - interaction-design
+    - accessibility
+    - design-patterns
+    - central-government
+    - guidance
+- id: govuk-service-patterns
+  name: GOV.UK Service Patterns
+  url: https://services.blog.gov.uk/category/service-design/
+  feedUrl: https://services.blog.gov.uk/category/service-design/feed/
+  status: needs-review
+  organisation: GOV.UK
+  tags:
+    - service-patterns
+    - service-design
+    - service-transformation
+    - user-centred-design
+    - central-government
+    - functional-experts
+- id: govuk-accessibility-strategy
+  name: GOV.UK Design System Accessibility Strategy
+  url: https://design-system.service.gov.uk/accessibility/accessibility-strategy/
+  feedUrl: https://accessibility.blog.gov.uk/feed/
+  status: needs-review
+  organisation: Government Digital Service
+  tags:
+    - accessibility
+    - govuk-design-system
+    - wcag
+    - inclusive-design
+    - central-government
+    - guidance
+- id: public-design-evidence-review
+  name: Public Design Evidence Review
+  url: https://www.gov.uk/government/publications/the-public-design-evidence-review
+  feedUrl: https://www.gov.uk/search/policy-papers-and-consultations.atom?keywords=public+design+evidence+review
+  status: needs-review
+  organisation: Cabinet Office
+  tags:
+    - public-design
+    - policy-design
+    - evidence
+    - research
+    - public-sector
+    - reports
+- id: lucy-kimbell
+  name: Lucy Kimbell
+  url: https://fieldstudio.design/
+  feedUrl: https://fieldstudio.design/feed/
+  status: needs-review
+  organisation: Fieldstudio Design
+  tags:
+    - public-design
+    - policy-design
+    - design-research
+    - social-design
+    - public-sector
+    - practitioners
+    - functional-experts
+- id: andrew-knight-public-policy-design
+  name: Andrew Knight — Public Policy Design
+  url: https://publicpolicydesign.blog.gov.uk/author/andrewknight/
+  feedUrl: https://publicpolicydesign.blog.gov.uk/author/andrewknight/feed/
+  status: needs-review
+  organisation: UK Government Policy Design Community
+  tags:
+    - policy-design
+    - public-design
+    - public-value
+    - central-government
+    - practitioners
+    - functional-experts
+- id: content-design-london-sarah-winters
+  name: Sarah Winters — Content Design London
+  url: https://contentdesign.london/blog
+  feedUrl: https://contentdesign.london/feed.xml
+  status: needs-review
+  organisation: Content Design London
+  tags:
+    - content-design
+    - content-strategy
+    - accessibility
+    - governance
+    - public-sector
+    - practitioners
+    - functional-experts
+- id: caroline-jarrett
+  name: Caroline Jarrett
+  url: https://www.effortmark.co.uk/
+  feedUrl: https://www.effortmark.co.uk/feed/
+  status: needs-review
+  organisation: Effortmark
+  tags:
+    - forms
+    - surveys
+    - content-design
+    - accessibility
+    - public-sector
+    - practitioners
+    - functional-experts
+- id: dean-vipond
+  name: Dean Vipond
+  url: https://medium.com/@deanvipond
+  feedUrl: https://medium.com/feed/@deanvipond
+  status: needs-review
+  organisation: Dean Vipond
+  tags:
+    - design-systems
+    - nhs
+    - service-design
+    - accessibility
+    - public-sector
+    - practitioners
+    - functional-experts
+- id: nick-colley
+  name: Nick Colley
+  url: https://nickcolley.co.uk/
+  feedUrl: https://nickcolley.co.uk/feed.xml
+  status: needs-review
+  organisation: Nick Colley
+  tags:
+    - accessibility
+    - govuk-design-system
+    - interaction-design
+    - front-end
+    - public-sector
+    - practitioners
+    - functional-experts
+- id: richard-pope-platformland
+  name: Richard Pope — Platformland
+  url: https://platformland.org/
+  feedUrl: https://platformland.org/feed.xml
+  status: needs-review
+  organisation: Richard Pope
+  tags:
+    - digital-government
+    - government-as-a-platform
+    - digital-public-infrastructure
+    - policy
+    - public-sector
+    - practitioners
+    - functional-experts
+- id: gds-digital-centre-design
+  name: GDS Digital Centre Design
+  url: https://gds.blog.gov.uk/category/digital-centre/
+  feedUrl: https://gds.blog.gov.uk/category/digital-centre/feed/
+  status: needs-review
+  organisation: Government Digital Service
+  tags:
+    - digital-centre
+    - digital-strategy
+    - interaction-design
+    - service-design
+    - central-government
+    - functional-experts
+- id: government-digital-data-capability-framework
+  name: Government Digital and Data Capability Framework
+  url: https://ddat-capability-framework.service.gov.uk/
+  feedUrl: https://designnotes.blog.gov.uk/feed/
+  status: needs-review
+  organisation: Government Digital and Data Profession
+  tags:
+    - capability-framework
+    - design-skills
+    - user-centred-design
+    - digital-government
+    - central-government
+    - functional-experts
