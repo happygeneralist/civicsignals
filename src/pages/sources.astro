@@ -219,6 +219,13 @@ const activeCount = sources.filter((source) => source.status === 'active').lengt
 const needsReviewCount = sources.filter((source) => source.status === 'needs-review').length
 const pausedCount = sources.filter((source) => source.status === 'paused').length
 
+const statusFilters: Array<{ id: 'all' | SourceStatus; label: string; count: number }> = [
+  { id: 'all', label: 'All statuses', count: sources.length },
+  { id: 'needs-review', label: 'Needs review', count: needsReviewCount },
+  { id: 'active', label: 'Active', count: activeCount },
+  { id: 'paused', label: 'Paused', count: pausedCount }
+]
+
 const statusLabel = (status: SourceStatus) => {
   if (status === 'active') return 'Active'
   if (status === 'needs-review') return 'Needs review'
@@ -283,13 +290,25 @@ const statusClass = (status: SourceStatus) => {
           Showing <span data-visible-count>{sources.length}</span> of {sources.length} sources.
         </p>
 
+        <h3 class="govuk-heading-s">Status</h3>
+
+        <div class="app-filter-buttons" aria-label="Filter sources by status">
+          {statusFilters.map((status) => (
+            <button class={`app-filter-button${status.id === 'all' ? ' app-filter-button--selected' : ''}`} type="button" data-status-filter={status.id} aria-pressed={status.id === 'all' ? 'true' : 'false'}>
+              {status.label} <span>{status.count}</span>
+            </button>
+          ))}
+        </div>
+
+        <h3 class="govuk-heading-s">Category</h3>
+
         <div class="app-filter-buttons" aria-label="Filter sources by category">
-          <button class="app-filter-button app-filter-button--selected" type="button" data-filter="all" aria-pressed="true">
-            All <span>{sources.length}</span>
+          <button class="app-filter-button app-filter-button--selected" type="button" data-category-filter="all" aria-pressed="true">
+            All categories <span>{sources.length}</span>
           </button>
 
           {categories.map((category) => (
-            <button class="app-filter-button" type="button" data-filter={category.id} aria-pressed="false">
+            <button class="app-filter-button" type="button" data-category-filter={category.id} aria-pressed="false">
               {category.label} <span>{categoryCounts[category.id]}</span>
             </button>
           ))}
@@ -307,7 +326,7 @@ const statusClass = (status: SourceStatus) => {
           const sourceCategories = getSourceCategories(source)
 
           return (
-            <li class="app-source-card" data-categories={sourceCategories.map((category) => category.id).join(' ')}>
+            <li class="app-source-card" data-categories={sourceCategories.map((category) => category.id).join(' ')} data-status={source.status}>
               <div class="app-source-card__header">
                 <h2 class="govuk-heading-m">
                   <a class="govuk-link" href={source.url}>{source.name}</a>
@@ -358,8 +377,12 @@ const statusClass = (status: SourceStatus) => {
     </main>
 
 <script>
-  const buttons = Array.from(
-    document.querySelectorAll('[data-filter]')
+  const categoryButtons = Array.from(
+    document.querySelectorAll('[data-category-filter]')
+  ) as HTMLElement[]
+
+  const statusButtons = Array.from(
+    document.querySelectorAll('[data-status-filter]')
   ) as HTMLElement[]
 
   const cards = Array.from(
@@ -368,12 +391,24 @@ const statusClass = (status: SourceStatus) => {
 
   const visibleCount = document.querySelector('[data-visible-count]')
 
-  function setFilter(filter: string) {
+  function updateButtonStates(buttons: HTMLElement[], attribute: string, value: string) {
+    buttons.forEach((button) => {
+      const selected = button.getAttribute(attribute) === value
+
+      button.classList.toggle('app-filter-button--selected', selected)
+      button.setAttribute('aria-pressed', selected ? 'true' : 'false')
+    })
+  }
+
+  function setFilters(categoryFilter: string, statusFilter: string) {
     let count = 0
 
     cards.forEach((card) => {
       const categories = card.getAttribute('data-categories') || ''
-      const show = filter === 'all' || categories.split(' ').includes(filter)
+      const status = card.getAttribute('data-status') || ''
+      const categoryMatches = categoryFilter === 'all' || categories.split(' ').includes(categoryFilter)
+      const statusMatches = statusFilter === 'all' || status === statusFilter
+      const show = categoryMatches && statusMatches
 
       card.hidden = !show
 
@@ -382,12 +417,8 @@ const statusClass = (status: SourceStatus) => {
       }
     })
 
-    buttons.forEach((button) => {
-      const selected = button.getAttribute('data-filter') === filter
-
-      button.classList.toggle('app-filter-button--selected', selected)
-      button.setAttribute('aria-pressed', selected ? 'true' : 'false')
-    })
+    updateButtonStates(categoryButtons, 'data-category-filter', categoryFilter)
+    updateButtonStates(statusButtons, 'data-status-filter', statusFilter)
 
     if (visibleCount) {
       visibleCount.textContent = String(count)
@@ -395,25 +426,53 @@ const statusClass = (status: SourceStatus) => {
 
     const url = new URL(window.location.href)
 
-    if (filter === 'all') {
+    if (categoryFilter === 'all') {
       url.searchParams.delete('category')
     } else {
-      url.searchParams.set('category', filter)
+      url.searchParams.set('category', categoryFilter)
+    }
+
+    if (statusFilter === 'all') {
+      url.searchParams.delete('status')
+    } else {
+      url.searchParams.set('status', statusFilter)
     }
 
     window.history.replaceState({}, '', url)
   }
 
-  buttons.forEach((button) => {
+  function getSelectedFilter(buttons: HTMLElement[], attribute: string) {
+    return buttons.find((button) => button.getAttribute('aria-pressed') === 'true')?.getAttribute(attribute) || 'all'
+  }
+
+  categoryButtons.forEach((button) => {
     button.addEventListener('click', () => {
-      setFilter(button.getAttribute('data-filter') || 'all')
+      setFilters(
+        button.getAttribute('data-category-filter') || 'all',
+        getSelectedFilter(statusButtons, 'data-status-filter')
+      )
     })
   })
 
-  const initialFilter = new URLSearchParams(window.location.search).get('category') || 'all'
-  const initialButton = buttons.find((button) => button.getAttribute('data-filter') === initialFilter)
+  statusButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      setFilters(
+        getSelectedFilter(categoryButtons, 'data-category-filter'),
+        button.getAttribute('data-status-filter') || 'all'
+      )
+    })
+  })
 
-  setFilter(initialButton ? initialFilter : 'all')
+  const urlParams = new URLSearchParams(window.location.search)
+  const initialCategoryFilter = urlParams.get('category') || 'all'
+  const initialStatusFilter = urlParams.get('status') || 'all'
+  const initialCategoryButton = categoryButtons.find((button) => button.getAttribute('data-category-filter') === initialCategoryFilter)
+  const initialStatusButton = statusButtons.find((button) => button.getAttribute('data-status-filter') === initialStatusFilter)
+
+  setFilters(
+    initialCategoryButton ? initialCategoryFilter : 'all',
+    initialStatusButton ? initialStatusFilter : 'all'
+  )
 </script>
   </body>
 </html>
