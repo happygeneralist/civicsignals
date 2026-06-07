@@ -1915,8 +1915,8 @@
 - id: uka-local-digital
   name: UKAuthority Local Digital
   url: https://www.ukauthority.com/topics/uka-local-digital
-  feedUrl: https://www.ukauthority.com/rss.xml
-  status: needs-review
+  feedUrl: https://www.ukauthority.com/rss
+  status: active
   organisation: UKAuthority
   tags:
     - local-government
