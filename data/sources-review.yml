@@ -337,3 +337,137 @@
     - digital-government
     - central-government
     - functional-experts
+- id: amy-hupe
+  name: Amy Hupe
+  url: https://amyhupe.co.uk/
+  feedUrl: https://amyhupe.co.uk/feed.xml
+  status: needs-review
+  organisation: Amy Hupe
+  tags:
+    - content-design
+    - design-systems
+    - govuk-design-system
+    - accessibility
+    - public-sector
+    - practitioners
+    - functional-experts
+- id: lauren-pope
+  name: Lauren Pope
+  url: https://laurenpope.co.uk/
+  feedUrl: https://laurenpope.co.uk/feed.xml
+  status: needs-review
+  organisation: Lauren Pope
+  tags:
+    - content-design
+    - content-strategy
+    - content-operations
+    - governance
+    - public-sector
+    - practitioners
+    - functional-experts
+- id: padma-gillen
+  name: Padma Gillen
+  url: https://www.llibertat.co.uk/blog/
+  feedUrl: https://www.llibertat.co.uk/blog/feed/
+  status: needs-review
+  organisation: Llibertat
+  tags:
+    - content-design
+    - content-strategy
+    - digital-transformation
+    - public-sector
+    - practitioners
+    - functional-experts
+- id: rachel-mcconnell
+  name: Rachel McConnell
+  url: https://rachelmcconnell.me/
+  feedUrl: https://rachelmcconnell.me/feed/
+  status: needs-review
+  organisation: Rachel McConnell
+  tags:
+    - content-design
+    - content-systems
+    - design-systems
+    - content-strategy
+    - practitioners
+    - functional-experts
+- id: candi-williams
+  name: Candi Williams
+  url: https://www.candiwrites.com/
+  feedUrl: https://www.candiwrites.com/feed.xml
+  status: needs-review
+  organisation: Candi Williams
+  tags:
+    - content-design
+    - inclusive-design
+    - equity
+    - product-management
+    - public-sector
+    - practitioners
+    - functional-experts
+- id: karen-mcgrane
+  name: Karen McGrane
+  url: https://karenmcgrane.com/
+  feedUrl: https://karenmcgrane.com/feed.xml
+  status: needs-review
+  organisation: Karen McGrane
+  tags:
+    - content-strategy
+    - structured-content
+    - adaptive-content
+    - accessibility
+    - practitioners
+    - functional-experts
+- id: kristina-halvorson-brain-traffic
+  name: Kristina Halvorson — Brain Traffic
+  url: https://www.braintraffic.com/blog
+  feedUrl: https://www.braintraffic.com/blog?format=rss
+  status: needs-review
+  organisation: Brain Traffic
+  tags:
+    - content-strategy
+    - content-design
+    - content-governance
+    - content-operations
+    - practitioners
+    - functional-experts
+- id: carrie-hane
+  name: Carrie Hane
+  url: https://www.tanzenconsulting.com/blog
+  feedUrl: https://www.tanzenconsulting.com/blog?format=rss
+  status: needs-review
+  organisation: Tanzen Consulting
+  tags:
+    - content-strategy
+    - structured-content
+    - information-architecture
+    - content-modelling
+    - practitioners
+    - functional-experts
+- id: lisa-maria-martin
+  name: Lisa Maria Martin
+  url: https://thefutureislikepie.com/
+  feedUrl: https://thefutureislikepie.com/feed/
+  status: needs-review
+  organisation: Lisa Maria Martin
+  tags:
+    - content-strategy
+    - information-architecture
+    - structured-content
+    - content-design
+    - practitioners
+    - functional-experts
+- id: gerry-mcgovern
+  name: Gerry McGovern
+  url: https://gerrymcgovern.com/new-thinking/
+  feedUrl: https://gerrymcgovern.com/feed/
+  status: needs-review
+  organisation: Gerry McGovern
+  tags:
+    - top-tasks
+    - content-strategy
+    - user-needs
+    - service-design
+    - public-sector
+    - practitioners
+    - functional-experts
