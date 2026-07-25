@@ -180,6 +180,12 @@ export function generateRulesSignals(
     period_end: periodEnd,
     generated_at: now.toISOString(),
     provider: 'rules',
+    generation_diagnostics: {
+      requested_provider: 'rules',
+      provider_used: 'rules',
+      status: 'succeeded',
+      attempts: 0
+    },
     signals
   }
 }

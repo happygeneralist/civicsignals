@@ -65,7 +65,31 @@ export type SignalsOutput = {
   period_end: string
   generated_at: string
   provider: 'rules' | 'gemini' | 'rules_fallback'
+  generation_diagnostics: SignalGenerationDiagnostics
   signals: Signal[]
+}
+
+export type GeminiFailureCategory =
+  | 'configuration'
+  | 'authentication'
+  | 'permission'
+  | 'rate_limit'
+  | 'client_error'
+  | 'server_error'
+  | 'network'
+  | 'empty_response'
+  | 'response_parse'
+  | 'response_validation'
+  | 'unknown'
+
+export type SignalGenerationDiagnostics = {
+  requested_provider: 'rules' | 'gemini'
+  provider_used: 'rules' | 'gemini' | 'rules_fallback'
+  status: 'succeeded' | 'fallback'
+  model?: string
+  attempts: number
+  failure_category?: GeminiFailureCategory
+  http_status?: number
 }
 
 export type WeeklyTheme = {

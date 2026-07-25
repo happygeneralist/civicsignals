@@ -41,7 +41,41 @@ jobs:
         env:
           SIGNALS_PROVIDER: gemini
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-flash-latest' }}
+          # Change this only through a reviewed source change; do not follow a moving alias.
+          GEMINI_MODEL: gemini-2.5-flash
+
+      - name: Report signal generation outcome
+        run: |
+          diagnostics_path='src/data/signals/latest.json'
+          provider_used=$(jq -r '.generation_diagnostics.provider_used' "$diagnostics_path")
+          requested_provider=$(jq -r '.generation_diagnostics.requested_provider' "$diagnostics_path")
+          status=$(jq -r '.generation_diagnostics.status' "$diagnostics_path")
+          model=$(jq -r '.generation_diagnostics.model // "not applicable"' "$diagnostics_path")
+          attempts=$(jq -r '.generation_diagnostics.attempts' "$diagnostics_path")
+          category=$(jq -r '.generation_diagnostics.failure_category // "not applicable"' "$diagnostics_path")
+          http_status=$(jq -r '.generation_diagnostics.http_status // "not applicable"' "$diagnostics_path")
+
+          {
+            echo '## Weekly signal generation'
+            echo
+            if [ "$provider_used" = 'gemini' ] && [ "$status" = 'succeeded' ]; then
+              echo 'Gemini enhancement succeeded.'
+            elif [ "$requested_provider" = 'rules' ]; then
+              echo 'Rules provider was deliberately selected.'
+            else
+              echo 'Gemini enhancement failed and rules fallback was used.'
+            fi
+            echo
+            echo "- Provider used: $provider_used"
+            echo "- Model: $model"
+            echo "- Attempts: $attempts"
+            echo "- Failure category: $category"
+            echo "- HTTP status: $http_status"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if [ "$provider_used" = 'rules_fallback' ]; then
+            echo "::warning title=Gemini signal generation fallback::category=$category; http_status=$http_status; model=$model; attempts=$attempts"
+          fi
 
       - name: Commit weekly signal data
         run: |
