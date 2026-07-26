@@ -15,9 +15,26 @@ export function validateSignalsOutput(
   sourceLinks: CivicLink[]
 ): string[] {
   const errors: string[] = []
+  const diagnostics = output.generation_diagnostics
   const sourceLinkIds = new Set(sourceLinks.map((link) => link.id))
   const signalIds = new Set<string>()
   const primaryTopics = new Set<string>()
+
+  if (!diagnostics) {
+    errors.push('Signal generation diagnostics are missing.')
+  } else {
+    if (diagnostics.provider_used !== output.provider) {
+      errors.push('Signal generation diagnostics do not match the output provider.')
+    }
+
+    if (!Number.isInteger(diagnostics.attempts) || diagnostics.attempts < 0) {
+      errors.push('Signal generation diagnostics have an invalid attempt count.')
+    }
+
+    if (diagnostics.status === 'fallback' && !diagnostics.failure_category) {
+      errors.push('Fallback signal generation diagnostics are missing a failure category.')
+    }
+  }
 
   for (const signal of output.signals) {
     if (!signal.title.trim()) {

@@ -45,8 +45,33 @@ npm run build
 For signals changes, also run:
 
 ```bash
+npm run signals:generate:rules
+```
+
+## Gemini signal generation
+
+The rules engine remains authoritative for selecting signals, supporting links and counts. Gemini only enhances the pattern, summary and `what_to_notice` fields from existing public link metadata.
+
+Rules-only generation is the default and does not need any Gemini configuration:
+
+```bash
+npm run signals:generate:rules
+```
+
+To exercise Gemini locally, provide an API key through the environment (never commit it) and use the production model unless deliberately testing another model:
+
+```bash
+SIGNALS_PROVIDER=gemini \
+GEMINI_API_KEY=your_key \
+GEMINI_MODEL=gemini-2.5-flash \
 npm run signals:generate
 ```
+
+`GEMINI_API_KEY` is required only for Gemini generation. `GEMINI_MODEL` is optional locally and defaults to `gemini-2.5-flash`. The scheduled workflow pins that same model in source control. A production model change must be an intentional reviewed code change, rather than a moving `latest` alias or repository-variable update.
+
+Every generated `src/data/signals/latest.json` records a public-safe `generation_diagnostics` object with the requested and used provider, outcome, model, attempts, and (for a fallback) a safe failure category and HTTP status. It never stores prompts, response bodies, keys, URLs, headers or stack traces.
+
+Gemini uses structured output, bounded retries for transient failures and complete-ID validation. If it is unavailable or produces an invalid response, generation uses the rules output instead. The site still builds and deploys; the weekly GitHub Actions job emits a warning and adds the outcome to its job summary when that fallback occurs.
 
 ## Direct commits to main
 
