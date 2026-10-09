@@ -1,0 +1,971 @@
+{
+  "period_start": "2026-10-03",
+  "period_end": "2026-10-09",
+  "generated_at": "2026-10-09T20:35:06.767Z",
+  "themes": [
+    {
+      "id": "data",
+      "topic": "Data",
+      "link_count": 31,
+      "source_count": 3,
+      "top_activity_types": [
+        "Capability or workforce",
+        "Guidance or standards",
+        "Procurement or market activity",
+        "Research or evidence"
+      ],
+      "top_contexts": [
+        "Local government",
+        "Service delivery",
+        "Central government",
+        "Public service reform"
+      ],
+      "links": [
+        {
+          "id": "45ba797b72dbd667",
+          "title": "NHS signs £10m deal to discern how new online hospital ‘interacts with the rest of the system’",
+          "url": "https://www.publictechnology.net/2026/10/09/health-and-social-care/nhs-signs-10m-deal-to-discern-how-new-online-hospital-interacts-with-the-rest-of-the-system/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-09"
+        },
+        {
+          "id": "dc3e8118a7b19558",
+          "title": "Citrix NetScaler warning - NCSC",
+          "url": "http://www.ukauthority.com/articles/citrix-netscaler-warning-ncsc",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-09"
+        },
+        {
+          "id": "81e5d3c0fc75cdd9",
+          "title": "MHRA AI in health recommendations accepted by government",
+          "url": "http://www.ukauthority.com/articles/mhra-ai-in-health-recommendations-accepted-by-government",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-09"
+        },
+        {
+          "id": "f093fab3368fae23",
+          "title": "Admin a burden - NHS staff survey finds",
+          "url": "http://www.ukauthority.com/articles/admin-a-burden-nhs-staff-survey-finds",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-09"
+        },
+        {
+          "id": "8cd8d95d46010801",
+          "title": "London Fire Brigade standardise finance and procurement",
+          "url": "http://www.ukauthority.com/articles/london-fire-brigade-standardise-finance-and-procurement",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-09"
+        },
+        {
+          "id": "81aadc567e54ebbf",
+          "title": "Environment Agency tackles waste permit backlog with new digital services",
+          "url": "https://www.publictechnology.net/2026/10/09/environment/environment-agency-tackles-waste-permit-backlog-with-new-digital-services/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-09"
+        },
+        {
+          "id": "7c3bc82a5a7076f9",
+          "title": "Cabinet Office logs £7.8m loss after scrapping recruitment platform",
+          "url": "https://www.publictechnology.net/2026/10/09/education-and-skills/cabinet-office-logs-7-8m-loss-after-scrapping-recruitment-platform/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-09"
+        },
+        {
+          "id": "db2187a80b6e10ca",
+          "title": "GDS leads £12m government initiative to support UK Plc data sharing",
+          "url": "https://www.publictechnology.net/2026/10/08/business-and-industry/gds-leads-12m-government-initiative-to-support-uk-plc-data-sharing/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-08"
+        },
+        {
+          "id": "8279e46bb49e792c",
+          "title": "Digital quiz proves an NHS success",
+          "url": "http://www.ukauthority.com/articles/digital-quiz-proves-an-nhs-success",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-08"
+        },
+        {
+          "id": "a6579bd09bb734cc",
+          "title": "GDS and MHCLG run 100 days of Digital Devolution sprint",
+          "url": "http://www.ukauthority.com/articles/gds-and-mhclg-run-100-days-of-digital-devolution-sprint",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-08"
+        },
+        {
+          "id": "863af834175e1682",
+          "title": "Marine Management Organisation rebuild Catch Recording App",
+          "url": "http://www.ukauthority.com/articles/marine-management-organisation-rebuild-catch-recording-app",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-08"
+        },
+        {
+          "id": "2d1f6a3bc0cf4907",
+          "title": "Social Security Scotland extend Mphasis deal",
+          "url": "http://www.ukauthority.com/articles/social-security-scotland-extend-mphasis-deal",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-08"
+        },
+        {
+          "id": "92f71506a8b630eb",
+          "title": "Met Police seeks partner to help dispose of criminal tech",
+          "url": "https://www.publictechnology.net/2026/10/08/public-order-justice-and-rights/met-police-seeks-partner-to-help-dispose-of-criminal-tech/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-08"
+        },
+        {
+          "id": "bf1f64fa99801264",
+          "title": "Watchdog steps up campaign for new facial-recognition laws",
+          "url": "https://www.publictechnology.net/2026/10/08/public-order-justice-and-rights/watchdog-steps-up-campaign-for-new-facial-recognition-laws/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-08"
+        },
+        {
+          "id": "f3776b38f052a5ae",
+          "title": "NHS preps £1bn primary care IT framework",
+          "url": "https://www.publictechnology.net/2026/10/07/health-and-social-care/nhs-preps-1bn-primary-care-it-framework/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-07"
+        },
+        {
+          "id": "1eb4923f8904490a",
+          "title": "Companies House seeks head of digital transformation",
+          "url": "https://www.publictechnology.net/2026/10/07/education-and-skills/companies-house-seeks-head-of-digital-transformation/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-07"
+        },
+        {
+          "id": "05b925c179978bec",
+          "title": "NCA dark web investigator hit with £1.8m confiscation order",
+          "url": "https://www.publictechnology.net/2026/10/07/public-order-justice-and-rights/nca-dark-web-investigator-hit-with-1-8m-confiscation-order/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-07"
+        },
+        {
+          "id": "31585f4082660480",
+          "title": "MHCLG builds reusable triage service",
+          "url": "http://www.ukauthority.com/articles/mhclg-builds-reusable-triage-service",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-07"
+        },
+        {
+          "id": "7aaadbfc9bdc4fc3",
+          "title": "Alex Murray OBE named as AI director for policing",
+          "url": "http://www.ukauthority.com/articles/alex-murray-obe-named-as-ai-director-for-policing",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-07"
+        },
+        {
+          "id": "0b015024c19701bb",
+          "title": "Courts expands tech support for vulnerable witnesses",
+          "url": "http://www.ukauthority.com/articles/courts-expands-tech-support-for-vulnerable-witnesses",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-07"
+        },
+        {
+          "id": "0f8fb59a31dafa96",
+          "title": "Medway trust moves fire risk management to digital system",
+          "url": "http://www.ukauthority.com/articles/medway-trust-moves-fire-risk-management-to-digital-system",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-07"
+        },
+        {
+          "id": "1c9e79adb99645e5",
+          "title": "HMRC bets on AI and digital to speed up large business tax investigations",
+          "url": "https://www.publictechnology.net/2026/10/06/business-and-industry/hmrc-bets-on-ai-and-digital-to-speed-up-large-business-tax-investigations/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-06"
+        },
+        {
+          "id": "ef28a962df4a5efe",
+          "title": "GDS Local identifies common capabilities",
+          "url": "http://www.ukauthority.com/articles/gds-local-identifies-common-capabilities",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-06"
+        },
+        {
+          "id": "02252935181f305a",
+          "title": "Atos wins £350m application management contract with Metropolitan Police",
+          "url": "http://www.ukauthority.com/articles/atos-wins-350m-application-management-contract-with-metropolitan-police",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-06"
+        },
+        {
+          "id": "67dfbd3ba96fc5ea",
+          "title": "Sustainability must be proportionate, evidence-based, and financially viable",
+          "url": "http://www.ukauthority.com/articles/sustainability-must-be-proportionate-evidence-based-and-financially-viable",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-06"
+        },
+        {
+          "id": "8db48eb65a94044f",
+          "title": "Work begins on next Public Sector Geospatial Agreement",
+          "url": "http://www.ukauthority.com/articles/work-begins-on-next-public-sector-geospatial-agreement",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-06"
+        },
+        {
+          "id": "5916531116de9bdd",
+          "title": "Building the foundations for better data sharing across the UK",
+          "url": "https://gds.blog.gov.uk/2026/10/05/building-the-foundations-for-better-data-sharing-across-the-uk/",
+          "source": "Government Digital Service Blog",
+          "published_at": "2026-10-05"
+        },
+        {
+          "id": "0f2c3ec2b597c9f8",
+          "title": "Environment Agency nuclear merger will digitise services",
+          "url": "http://www.ukauthority.com/articles/environment-agency-nuclear-merger-will-digitise-services",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-05"
+        },
+        {
+          "id": "1ca0acab0bb2a7b1",
+          "title": "Agile coach recognition delivering benefits",
+          "url": "http://www.ukauthority.com/articles/agile-coach-recognition-delivering-benefits",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-05"
+        },
+        {
+          "id": "1a97f23a4a653aed",
+          "title": "OfDIA authorises first use of UK CertifID trust mark",
+          "url": "http://www.ukauthority.com/articles/ofdia-authorises-first-use-of-uk-certifid-trust-mark",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-05"
+        },
+        {
+          "id": "3135af97075d2431",
+          "title": "Tyne and Wear Fire and Rescue Service and NFCC to host JESIP",
+          "url": "http://www.ukauthority.com/articles/tyne-and-wear-fire-and-rescue-service-and-nfcc-to-host-jesip",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "local-government",
+      "topic": "Local government",
+      "link_count": 24,
+      "source_count": 4,
+      "top_activity_types": [
+        "Capability or workforce",
+        "Guidance or standards",
+        "Procurement or market activity",
+        "Research or evidence"
+      ],
+      "top_contexts": [
+        "Local government",
+        "Service delivery",
+        "Public service reform",
+        "Standards and assurance"
+      ],
+      "links": [
+        {
+          "id": "4fa5c56198dd347d",
+          "title": "Spotlight: In conversation with Dr Catherine Howe",
+          "url": "https://www.newlocal.org.uk/member/spotlight-in-conversation-with-dr-catherine-howe/",
+          "source": "New Local",
+          "published_at": "2026-10-09"
+        },
+        {
+          "id": "dc3e8118a7b19558",
+          "title": "Citrix NetScaler warning - NCSC",
+          "url": "http://www.ukauthority.com/articles/citrix-netscaler-warning-ncsc",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-09"
+        },
+        {
+          "id": "81e5d3c0fc75cdd9",
+          "title": "MHRA AI in health recommendations accepted by government",
+          "url": "http://www.ukauthority.com/articles/mhra-ai-in-health-recommendations-accepted-by-government",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-09"
+        },
+        {
+          "id": "f093fab3368fae23",
+          "title": "Admin a burden - NHS staff survey finds",
+          "url": "http://www.ukauthority.com/articles/admin-a-burden-nhs-staff-survey-finds",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-09"
+        },
+        {
+          "id": "8cd8d95d46010801",
+          "title": "London Fire Brigade standardise finance and procurement",
+          "url": "http://www.ukauthority.com/articles/london-fire-brigade-standardise-finance-and-procurement",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-09"
+        },
+        {
+          "id": "fac07183912314bf",
+          "title": "Creating an accessibility agent with Copilot Studio",
+          "url": "https://luton.localgov.blog/2026/10/08/creating-an-accessibility-agent-with-copilot-studio/",
+          "source": "Digital Luton",
+          "published_at": "2026-10-08",
+          "source_type": "weeknote"
+        },
+        {
+          "id": "8279e46bb49e792c",
+          "title": "Digital quiz proves an NHS success",
+          "url": "http://www.ukauthority.com/articles/digital-quiz-proves-an-nhs-success",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-08"
+        },
+        {
+          "id": "a6579bd09bb734cc",
+          "title": "GDS and MHCLG run 100 days of Digital Devolution sprint",
+          "url": "http://www.ukauthority.com/articles/gds-and-mhclg-run-100-days-of-digital-devolution-sprint",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-08"
+        },
+        {
+          "id": "863af834175e1682",
+          "title": "Marine Management Organisation rebuild Catch Recording App",
+          "url": "http://www.ukauthority.com/articles/marine-management-organisation-rebuild-catch-recording-app",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-08"
+        },
+        {
+          "id": "2d1f6a3bc0cf4907",
+          "title": "Social Security Scotland extend Mphasis deal",
+          "url": "http://www.ukauthority.com/articles/social-security-scotland-extend-mphasis-deal",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-08"
+        },
+        {
+          "id": "31585f4082660480",
+          "title": "MHCLG builds reusable triage service",
+          "url": "http://www.ukauthority.com/articles/mhclg-builds-reusable-triage-service",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-07"
+        },
+        {
+          "id": "7aaadbfc9bdc4fc3",
+          "title": "Alex Murray OBE named as AI director for policing",
+          "url": "http://www.ukauthority.com/articles/alex-murray-obe-named-as-ai-director-for-policing",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-07"
+        },
+        {
+          "id": "0b015024c19701bb",
+          "title": "Courts expands tech support for vulnerable witnesses",
+          "url": "http://www.ukauthority.com/articles/courts-expands-tech-support-for-vulnerable-witnesses",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-07"
+        },
+        {
+          "id": "0f8fb59a31dafa96",
+          "title": "Medway trust moves fire risk management to digital system",
+          "url": "http://www.ukauthority.com/articles/medway-trust-moves-fire-risk-management-to-digital-system",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-07"
+        },
+        {
+          "id": "5e97b4f3bca106c9",
+          "title": "A faster start to local plan-making: introducing the &#039;Submit a site for a local plan&#039; tool",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/10/06/a-faster-start-to-local-plan-making-introducing-the-submit-a-site-for-a-local-plan-tool/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-10-06"
+        },
+        {
+          "id": "ad8d6a38d93bfc68",
+          "title": "Reimagining commissioning: towards relational, learning-centred approaches",
+          "url": "https://www.newlocal.org.uk/articles/reimagining-commissioning-towards-relational-learning-centred-approaches/",
+          "source": "New Local",
+          "published_at": "2026-10-06"
+        },
+        {
+          "id": "ef28a962df4a5efe",
+          "title": "GDS Local identifies common capabilities",
+          "url": "http://www.ukauthority.com/articles/gds-local-identifies-common-capabilities",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-06"
+        },
+        {
+          "id": "02252935181f305a",
+          "title": "Atos wins £350m application management contract with Metropolitan Police",
+          "url": "http://www.ukauthority.com/articles/atos-wins-350m-application-management-contract-with-metropolitan-police",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-06"
+        },
+        {
+          "id": "67dfbd3ba96fc5ea",
+          "title": "Sustainability must be proportionate, evidence-based, and financially viable",
+          "url": "http://www.ukauthority.com/articles/sustainability-must-be-proportionate-evidence-based-and-financially-viable",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-06"
+        },
+        {
+          "id": "8db48eb65a94044f",
+          "title": "Work begins on next Public Sector Geospatial Agreement",
+          "url": "http://www.ukauthority.com/articles/work-begins-on-next-public-sector-geospatial-agreement",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-06"
+        },
+        {
+          "id": "0f2c3ec2b597c9f8",
+          "title": "Environment Agency nuclear merger will digitise services",
+          "url": "http://www.ukauthority.com/articles/environment-agency-nuclear-merger-will-digitise-services",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-05"
+        },
+        {
+          "id": "1ca0acab0bb2a7b1",
+          "title": "Agile coach recognition delivering benefits",
+          "url": "http://www.ukauthority.com/articles/agile-coach-recognition-delivering-benefits",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-05"
+        },
+        {
+          "id": "1a97f23a4a653aed",
+          "title": "OfDIA authorises first use of UK CertifID trust mark",
+          "url": "http://www.ukauthority.com/articles/ofdia-authorises-first-use-of-uk-certifid-trust-mark",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-05"
+        },
+        {
+          "id": "3135af97075d2431",
+          "title": "Tyne and Wear Fire and Rescue Service and NFCC to host JESIP",
+          "url": "http://www.ukauthority.com/articles/tyne-and-wear-fire-and-rescue-service-and-nfcc-to-host-jesip",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "procurement",
+      "topic": "Procurement",
+      "link_count": 6,
+      "source_count": 4,
+      "top_activity_types": [
+        "Procurement or market activity",
+        "Guidance or standards",
+        "Capability or workforce",
+        "Research or evidence"
+      ],
+      "top_contexts": [
+        "Supplier market",
+        "Local government",
+        "Central government",
+        "Public service reform"
+      ],
+      "links": [
+        {
+          "id": "8cd8d95d46010801",
+          "title": "London Fire Brigade standardise finance and procurement",
+          "url": "http://www.ukauthority.com/articles/london-fire-brigade-standardise-finance-and-procurement",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-09"
+        },
+        {
+          "id": "f3776b38f052a5ae",
+          "title": "NHS preps £1bn primary care IT framework",
+          "url": "https://www.publictechnology.net/2026/10/07/health-and-social-care/nhs-preps-1bn-primary-care-it-framework/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-07"
+        },
+        {
+          "id": "5e97b4f3bca106c9",
+          "title": "A faster start to local plan-making: introducing the &#039;Submit a site for a local plan&#039; tool",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/10/06/a-faster-start-to-local-plan-making-introducing-the-submit-a-site-for-a-local-plan-tool/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-10-06"
+        },
+        {
+          "id": "ef28a962df4a5efe",
+          "title": "GDS Local identifies common capabilities",
+          "url": "http://www.ukauthority.com/articles/gds-local-identifies-common-capabilities",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-06"
+        },
+        {
+          "id": "02252935181f305a",
+          "title": "Atos wins £350m application management contract with Metropolitan Police",
+          "url": "http://www.ukauthority.com/articles/atos-wins-350m-application-management-contract-with-metropolitan-police",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-06"
+        },
+        {
+          "id": "5916531116de9bdd",
+          "title": "Building the foundations for better data sharing across the UK",
+          "url": "https://gds.blog.gov.uk/2026/10/05/building-the-foundations-for-better-data-sharing-across-the-uk/",
+          "source": "Government Digital Service Blog",
+          "published_at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "workforce-and-capability",
+      "topic": "Workforce and capability",
+      "link_count": 6,
+      "source_count": 3,
+      "top_activity_types": [
+        "Capability or workforce",
+        "Guidance or standards",
+        "Delivery update",
+        "Governance or assurance"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Local government",
+        "Service delivery",
+        "Public service reform"
+      ],
+      "links": [
+        {
+          "id": "7c3bc82a5a7076f9",
+          "title": "Cabinet Office logs £7.8m loss after scrapping recruitment platform",
+          "url": "https://www.publictechnology.net/2026/10/09/education-and-skills/cabinet-office-logs-7-8m-loss-after-scrapping-recruitment-platform/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-09"
+        },
+        {
+          "id": "a6579bd09bb734cc",
+          "title": "GDS and MHCLG run 100 days of Digital Devolution sprint",
+          "url": "http://www.ukauthority.com/articles/gds-and-mhclg-run-100-days-of-digital-devolution-sprint",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-08"
+        },
+        {
+          "id": "1eb4923f8904490a",
+          "title": "Companies House seeks head of digital transformation",
+          "url": "https://www.publictechnology.net/2026/10/07/education-and-skills/companies-house-seeks-head-of-digital-transformation/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-07"
+        },
+        {
+          "id": "5916531116de9bdd",
+          "title": "Building the foundations for better data sharing across the UK",
+          "url": "https://gds.blog.gov.uk/2026/10/05/building-the-foundations-for-better-data-sharing-across-the-uk/",
+          "source": "Government Digital Service Blog",
+          "published_at": "2026-10-05"
+        },
+        {
+          "id": "1ca0acab0bb2a7b1",
+          "title": "Agile coach recognition delivering benefits",
+          "url": "http://www.ukauthority.com/articles/agile-coach-recognition-delivering-benefits",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-05"
+        },
+        {
+          "id": "3135af97075d2431",
+          "title": "Tyne and Wear Fire and Rescue Service and NFCC to host JESIP",
+          "url": "http://www.ukauthority.com/articles/tyne-and-wear-fire-and-rescue-service-and-nfcc-to-host-jesip",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "transformation",
+      "topic": "Transformation",
+      "link_count": 5,
+      "source_count": 3,
+      "top_activity_types": [
+        "Policy or strategy",
+        "Capability or workforce",
+        "Delivery update",
+        "Procurement or market activity"
+      ],
+      "top_contexts": [
+        "Public service reform",
+        "Service delivery",
+        "Local government",
+        "Supplier market"
+      ],
+      "links": [
+        {
+          "id": "81aadc567e54ebbf",
+          "title": "Environment Agency tackles waste permit backlog with new digital services",
+          "url": "https://www.publictechnology.net/2026/10/09/environment/environment-agency-tackles-waste-permit-backlog-with-new-digital-services/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-09"
+        },
+        {
+          "id": "f3776b38f052a5ae",
+          "title": "NHS preps £1bn primary care IT framework",
+          "url": "https://www.publictechnology.net/2026/10/07/health-and-social-care/nhs-preps-1bn-primary-care-it-framework/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-07"
+        },
+        {
+          "id": "1eb4923f8904490a",
+          "title": "Companies House seeks head of digital transformation",
+          "url": "https://www.publictechnology.net/2026/10/07/education-and-skills/companies-house-seeks-head-of-digital-transformation/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-07"
+        },
+        {
+          "id": "8db48eb65a94044f",
+          "title": "Work begins on next Public Sector Geospatial Agreement",
+          "url": "http://www.ukauthority.com/articles/work-begins-on-next-public-sector-geospatial-agreement",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-06"
+        },
+        {
+          "id": "ceea563c76f276a8",
+          "title": "Why NHS Wales needs to rethink digital transformation",
+          "url": "https://www.transform.wales/blog/2026/why-nhs-wales-needs-to-rethink-digital-transformation/",
+          "source": "Transform Wales",
+          "published_at": "2026-10-03"
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "topic": "Research",
+      "link_count": 3,
+      "source_count": 3,
+      "top_activity_types": [
+        "Research or evidence",
+        "Community discussion",
+        "Capability or workforce",
+        "Guidance or standards"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Local government",
+        "Professional practice",
+        "Public service reform"
+      ],
+      "links": [
+        {
+          "id": "45ba797b72dbd667",
+          "title": "NHS signs £10m deal to discern how new online hospital ‘interacts with the rest of the system’",
+          "url": "https://www.publictechnology.net/2026/10/09/health-and-social-care/nhs-signs-10m-deal-to-discern-how-new-online-hospital-interacts-with-the-rest-of-the-system/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-09"
+        },
+        {
+          "id": "a29efe28a959f56c",
+          "title": "Recorded Conversations - All Things Product Podcast with Teresa Torres & Petra Wille",
+          "url": "https://www.producttalk.org/recorded-conversations-all-things-product/",
+          "source": "Product Talk — Teresa Torres",
+          "published_at": "2026-10-06"
+        },
+        {
+          "id": "5e97b4f3bca106c9",
+          "title": "A faster start to local plan-making: introducing the &#039;Submit a site for a local plan&#039; tool",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/10/06/a-faster-start-to-local-plan-making-introducing-the-submit-a-site-for-a-local-plan-tool/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "id": "accessibility",
+      "topic": "Accessibility",
+      "link_count": 2,
+      "source_count": 2,
+      "top_activity_types": [
+        "Community discussion",
+        "Guidance or standards",
+        "Research or evidence"
+      ],
+      "top_contexts": [
+        "Professional practice",
+        "Local government"
+      ],
+      "links": [
+        {
+          "id": "fac07183912314bf",
+          "title": "Creating an accessibility agent with Copilot Studio",
+          "url": "https://luton.localgov.blog/2026/10/08/creating-an-accessibility-agent-with-copilot-studio/",
+          "source": "Digital Luton",
+          "published_at": "2026-10-08",
+          "source_type": "weeknote"
+        },
+        {
+          "id": "4894e8ff99d57dee",
+          "title": "Clinics prototype, sea swims and design bookmarks",
+          "url": "https://www.benjystanton.co.uk/blog/clinics-prototype-sea-swims-and-design-bookmarks/",
+          "source": "Benjy Stanton",
+          "published_at": "2026-10-03",
+          "source_type": "weeknote"
+        }
+      ]
+    },
+    {
+      "id": "ai-and-automation",
+      "topic": "AI and automation",
+      "link_count": 2,
+      "source_count": 2,
+      "top_activity_types": [
+        "Community discussion"
+      ],
+      "top_contexts": [
+        "Local government",
+        "Professional practice"
+      ],
+      "links": [
+        {
+          "id": "f093fab3368fae23",
+          "title": "Admin a burden - NHS staff survey finds",
+          "url": "http://www.ukauthority.com/articles/admin-a-burden-nhs-staff-survey-finds",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-09"
+        },
+        {
+          "id": "fac07183912314bf",
+          "title": "Creating an accessibility agent with Copilot Studio",
+          "url": "https://luton.localgov.blog/2026/10/08/creating-an-accessibility-agent-with-copilot-studio/",
+          "source": "Digital Luton",
+          "published_at": "2026-10-08",
+          "source_type": "weeknote"
+        }
+      ]
+    },
+    {
+      "id": "content-design",
+      "topic": "Content design",
+      "link_count": 2,
+      "source_count": 2,
+      "top_activity_types": [
+        "Community discussion",
+        "Guidance or standards",
+        "Research or evidence",
+        "Capability or workforce"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Local government",
+        "Professional practice",
+        "Public service reform"
+      ],
+      "links": [
+        {
+          "id": "5e97b4f3bca106c9",
+          "title": "A faster start to local plan-making: introducing the &#039;Submit a site for a local plan&#039; tool",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/10/06/a-faster-start-to-local-plan-making-introducing-the-submit-a-site-for-a-local-plan-tool/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-10-06"
+        },
+        {
+          "id": "4894e8ff99d57dee",
+          "title": "Clinics prototype, sea swims and design bookmarks",
+          "url": "https://www.benjystanton.co.uk/blog/clinics-prototype-sea-swims-and-design-bookmarks/",
+          "source": "Benjy Stanton",
+          "published_at": "2026-10-03",
+          "source_type": "weeknote"
+        }
+      ]
+    },
+    {
+      "id": "governance",
+      "topic": "Governance",
+      "link_count": 2,
+      "source_count": 2,
+      "top_activity_types": [
+        "Governance or assurance",
+        "Capability or workforce",
+        "Guidance or standards",
+        "Policy or strategy"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Public service reform",
+        "Service delivery",
+        "Standards and assurance"
+      ],
+      "links": [
+        {
+          "id": "bf1f64fa99801264",
+          "title": "Watchdog steps up campaign for new facial-recognition laws",
+          "url": "https://www.publictechnology.net/2026/10/08/public-order-justice-and-rights/watchdog-steps-up-campaign-for-new-facial-recognition-laws/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-08"
+        },
+        {
+          "id": "5916531116de9bdd",
+          "title": "Building the foundations for better data sharing across the UK",
+          "url": "https://gds.blog.gov.uk/2026/10/05/building-the-foundations-for-better-data-sharing-across-the-uk/",
+          "source": "Government Digital Service Blog",
+          "published_at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "policy",
+      "topic": "Policy",
+      "link_count": 2,
+      "source_count": 2,
+      "top_activity_types": [
+        "Policy or strategy",
+        "Capability or workforce",
+        "Governance or assurance"
+      ],
+      "top_contexts": [
+        "Local government",
+        "Public service reform"
+      ],
+      "links": [
+        {
+          "id": "bf1f64fa99801264",
+          "title": "Watchdog steps up campaign for new facial-recognition laws",
+          "url": "https://www.publictechnology.net/2026/10/08/public-order-justice-and-rights/watchdog-steps-up-campaign-for-new-facial-recognition-laws/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-08"
+        },
+        {
+          "id": "ad8d6a38d93bfc68",
+          "title": "Reimagining commissioning: towards relational, learning-centred approaches",
+          "url": "https://www.newlocal.org.uk/articles/reimagining-commissioning-towards-relational-learning-centred-approaches/",
+          "source": "New Local",
+          "published_at": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "id": "service-design",
+      "topic": "Service design",
+      "link_count": 2,
+      "source_count": 2,
+      "top_activity_types": [
+        "Community discussion",
+        "Guidance or standards",
+        "Procurement or market activity",
+        "Research or evidence"
+      ],
+      "top_contexts": [
+        "Local government",
+        "Professional practice",
+        "Service delivery",
+        "Supplier market"
+      ],
+      "links": [
+        {
+          "id": "02252935181f305a",
+          "title": "Atos wins £350m application management contract with Metropolitan Police",
+          "url": "http://www.ukauthority.com/articles/atos-wins-350m-application-management-contract-with-metropolitan-police",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-10-06"
+        },
+        {
+          "id": "4894e8ff99d57dee",
+          "title": "Clinics prototype, sea swims and design bookmarks",
+          "url": "https://www.benjystanton.co.uk/blog/clinics-prototype-sea-swims-and-design-bookmarks/",
+          "source": "Benjy Stanton",
+          "published_at": "2026-10-03",
+          "source_type": "weeknote"
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "topic": "Delivery",
+      "link_count": 1,
+      "source_count": 1,
+      "top_activity_types": [
+        "Capability or workforce",
+        "Policy or strategy"
+      ],
+      "top_contexts": [
+        "Public service reform"
+      ],
+      "links": [
+        {
+          "id": "1eb4923f8904490a",
+          "title": "Companies House seeks head of digital transformation",
+          "url": "https://www.publictechnology.net/2026/10/07/education-and-skills/companies-house-seeks-head-of-digital-transformation/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "topic": "Design",
+      "link_count": 1,
+      "source_count": 1,
+      "top_activity_types": [
+        "Community discussion",
+        "Guidance or standards",
+        "Research or evidence"
+      ],
+      "top_contexts": [
+        "Professional practice"
+      ],
+      "links": [
+        {
+          "id": "4894e8ff99d57dee",
+          "title": "Clinics prototype, sea swims and design bookmarks",
+          "url": "https://www.benjystanton.co.uk/blog/clinics-prototype-sea-swims-and-design-bookmarks/",
+          "source": "Benjy Stanton",
+          "published_at": "2026-10-03",
+          "source_type": "weeknote"
+        }
+      ]
+    },
+    {
+      "id": "funding",
+      "topic": "Funding",
+      "link_count": 1,
+      "source_count": 1,
+      "top_activity_types": [
+        "Capability or workforce",
+        "Governance or assurance",
+        "Guidance or standards",
+        "Procurement or market activity"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Public service reform",
+        "Service delivery",
+        "Standards and assurance"
+      ],
+      "links": [
+        {
+          "id": "5916531116de9bdd",
+          "title": "Building the foundations for better data sharing across the UK",
+          "url": "https://gds.blog.gov.uk/2026/10/05/building-the-foundations-for-better-data-sharing-across-the-uk/",
+          "source": "Government Digital Service Blog",
+          "published_at": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "product-management",
+      "topic": "Product management",
+      "link_count": 1,
+      "source_count": 1,
+      "top_activity_types": [],
+      "top_contexts": [
+        "Public service reform",
+        "Service delivery"
+      ],
+      "links": [
+        {
+          "id": "81aadc567e54ebbf",
+          "title": "Environment Agency tackles waste permit backlog with new digital services",
+          "url": "https://www.publictechnology.net/2026/10/09/environment/environment-agency-tackles-waste-permit-backlog-with-new-digital-services/",
+          "source": "PublicTechnology",
+          "published_at": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "standards",
+      "topic": "Standards",
+      "link_count": 1,
+      "source_count": 1,
+      "top_activity_types": [
+        "Capability or workforce",
+        "Governance or assurance",
+        "Guidance or standards",
+        "Procurement or market activity"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Public service reform",
+        "Service delivery",
+        "Standards and assurance"
+      ],
+      "links": [
+        {
+          "id": "5916531116de9bdd",
+          "title": "Building the foundations for better data sharing across the UK",
+          "url": "https://gds.blog.gov.uk/2026/10/05/building-the-foundations-for-better-data-sharing-across-the-uk/",
+          "source": "Government Digital Service Blog",
+          "published_at": "2026-10-05"
+        }
+      ]
+    }
+  ]
+}
