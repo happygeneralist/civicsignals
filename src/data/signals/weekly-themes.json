@@ -1,826 +1,754 @@
 {
-  "period_start": "2026-10-31",
-  "period_end": "2026-11-06",
-  "generated_at": "2026-11-06T21:18:14.873Z",
+  "period_start": "2026-11-07",
+  "period_end": "2026-11-13",
+  "generated_at": "2026-11-13T21:49:09.260Z",
   "themes": [
     {
       "id": "data",
       "topic": "Data",
-      "link_count": 30,
-      "source_count": 2,
+      "link_count": 35,
+      "source_count": 5,
       "top_activity_types": [
+        "Capability or workforce",
+        "Governance or assurance",
         "Procurement or market activity",
-        "Guidance or standards",
-        "Policy or strategy",
-        "Capability or workforce"
+        "Research or evidence"
       ],
       "top_contexts": [
         "Local government",
         "Service delivery",
-        "Central government",
-        "Cross-government platforms"
+        "Cross-government platforms",
+        "Public service reform"
       ],
       "links": [
         {
-          "id": "3259b80c2a78272b",
-          "title": "How Chattanooga’s use of AI ‘restored faith in civic dialogue’ among its citizens",
-          "url": "https://www.publictechnology.net/2026/11/06/communities-housing-and-planning/how-chattanoogas-use-of-ai-restored-faith-in-civic-dialogue-among-its-citizens/",
+          "id": "1ed9514a65e97961",
+          "title": "Microsoft outage disrupts UK schools, police and Parliament",
+          "url": "http://www.ukauthority.com/articles/microsoft-outage-disrupts-uk-schools-police-and-parliament",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-13"
+        },
+        {
+          "id": "bb9fec348af1ddd9",
+          "title": "How joined-up data can improve the victim journey",
+          "url": "https://www.madetech.com/blog/how-joined-up-data-can-improve-the-victim-journey/",
+          "source": "Made Tech Digital Service Delivery",
+          "published_at": "2026-11-13"
+        },
+        {
+          "id": "bf5917432f12151a",
+          "title": "ICO CEO warns health leaders about improper file access",
+          "url": "http://www.ukauthority.com/articles/ico-ceo-warns-health-leaders-about-improper-file-access",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-13"
+        },
+        {
+          "id": "8d69bbbdfd041894",
+          "title": "Cyber resilience remains a challenge for police forces",
+          "url": "http://www.ukauthority.com/articles/cyber-resilience-remains-a-challenge-for-police-forces",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-13"
+        },
+        {
+          "id": "a84fc24f13affb36",
+          "title": "Passenger support not tech a challenge for Cambridge’s self-driving buses",
+          "url": "http://www.ukauthority.com/articles/passenger-support-not-tech-a-challenge-for-cambridge-s-self-driving-buses",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-13"
+        },
+        {
+          "id": "c122def8fff987a6",
+          "title": "EDMI trial cuts manual tasks for probation managers",
+          "url": "http://www.ukauthority.com/articles/edmi-trial-cuts-manual-tasks-for-probation-managers",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-13"
+        },
+        {
+          "id": "d072f28c90264db8",
+          "title": "NHS launches £200k project to shape how safety and performance of AI diagnostic tools are monitored",
+          "url": "https://www.publictechnology.net/2026/11/13/health-and-social-care/nhs-launches-200k-project-to-shape-how-safety-and-performance-of-ai-diagnostic-tools-are-monitored/",
           "source": "PublicTechnology",
-          "published_at": "2026-11-06"
+          "published_at": "2026-11-13"
         },
         {
-          "id": "f836dabfcd9758de",
-          "title": "Transformation DG Middleton made permanent civil servant after recruitment process",
-          "url": "https://www.publictechnology.net/2026/11/06/education-and-skills/transformation-dg-middleton-made-permanent-civil-servant-after-recruitment-process/",
+          "id": "d6cfacc16c176442",
+          "title": "Whitehall chief: ‘For the first time in history, public service is no longer constrained by the limits of human bandwidth’",
+          "url": "https://www.publictechnology.net/2026/11/13/education-and-skills/whitehall-chief-for-the-first-time-in-history-public-service-is-no-longer-constrained-by-the-limits-of-human-bandwidth/",
           "source": "PublicTechnology",
-          "published_at": "2026-11-06"
+          "published_at": "2026-11-13"
         },
         {
-          "id": "7537df7251d408ca",
-          "title": "MoD hires first innovation chief to oversee £1.6bn budget",
-          "url": "https://www.publictechnology.net/2026/11/06/defence-and-security/mod-hires-first-innovation-chief-to-oversee-1-6bn-budget/",
+          "id": "e2f19099547a4cb7",
+          "title": "Government pushed over missing info on IT sustainability",
+          "url": "https://www.publictechnology.net/2026/11/13/environment/government-pushed-over-missing-info-on-it-sustainability/",
           "source": "PublicTechnology",
-          "published_at": "2026-11-06"
+          "published_at": "2026-11-13"
         },
         {
-          "id": "edd328df88e0039e",
-          "title": "Police use of facial recognition tech gets watchdog",
-          "url": "http://www.ukauthority.com/articles/police-use-of-facial-recognition-tech-gets-watchdog",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-06"
-        },
-        {
-          "id": "29b8bb036f99b9cb",
-          "title": "Splink 5 released by MoJ",
-          "url": "http://www.ukauthority.com/articles/splink-5-released-by-moj",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-06"
-        },
-        {
-          "id": "f07fcd834664de94",
-          "title": "Jisc gives academic tech leaders an AI framework",
-          "url": "http://www.ukauthority.com/articles/jisc-gives-academic-tech-leaders-an-ai-framework",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-06"
-        },
-        {
-          "id": "1913bfc40caa302b",
-          "title": "GOSH expands AWS partnership",
-          "url": "http://www.ukauthority.com/articles/gosh-expands-aws-partnership",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-06"
-        },
-        {
-          "id": "1348d6347e19d951",
-          "title": "Tower Hamlets seeks £140k digital chief ‘to lead one of the most significant digital transformation agendas in local government’",
-          "url": "https://www.publictechnology.net/2026/11/05/communities-housing-and-planning/tower-hamlets-seeks-140k-digital-chief-to-lead-one-of-the-most-significant-digital-transformation-agendas-in-local-government/",
+          "id": "8d21cb5ed28dd544",
+          "title": "‘AI is only as good as the data behind it’ – GDS seeks senior data duo",
+          "url": "https://www.publictechnology.net/2026/11/12/education-and-skills/ai-is-only-as-good-as-the-data-behind-it-gds-seeks-senior-data-duo/",
           "source": "PublicTechnology",
-          "published_at": "2026-11-05"
+          "published_at": "2026-11-12"
         },
         {
-          "id": "c71833493ecfad64",
-          "title": "Home Office reveals plans for £1.2bn public cloud deals",
-          "url": "https://www.publictechnology.net/2026/11/05/business-and-industry/home-office-reveals-plans-for-1-2bn-public-cloud-deals/",
+          "id": "9f2e7d21dcad7fdd",
+          "title": "Welsh Government signs £1m digital deal to support automatic voter registration",
+          "url": "https://www.publictechnology.net/2026/11/12/communities-housing-and-planning/welsh-government-signs-1m-digital-deal-to-support-automatic-voter-registration/",
           "source": "PublicTechnology",
-          "published_at": "2026-11-05"
+          "published_at": "2026-11-12"
         },
         {
-          "id": "381732ae01c21968",
-          "title": "Government plans to bring some ‘small and micro’ cloud firms in scope of national security laws",
-          "url": "https://www.publictechnology.net/2026/11/05/business-and-industry/government-plans-to-bring-some-small-and-micro-cloud-firms-in-scope-of-national-security-laws/",
+          "id": "8736da533bb6ecb1",
+          "title": "Digital firm’s collapse shows ‘value of NHS resilience arrangements’",
+          "url": "https://www.publictechnology.net/2026/11/12/health-and-social-care/digital-firms-collapse-shows-value-of-nhs-resilience-arrangements/",
           "source": "PublicTechnology",
-          "published_at": "2026-11-05"
+          "published_at": "2026-11-12"
         },
         {
-          "id": "7096b7902d2e9633",
-          "title": "NHS App not accessible finds blind and partially sighted - APPG report",
-          "url": "http://www.ukauthority.com/articles/nhs-app-not-accessible-finds-blind-and-partially-sighted-appg-report",
+          "id": "8b9deae86e965674",
+          "title": "Developing AI policies that work for local government",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/12/developing-ai-policies-that-work-for-local-government/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-12"
+        },
+        {
+          "id": "b942c30a6147da90",
+          "title": "Staffordshire Police reprimanded for home address disclosure",
+          "url": "http://www.ukauthority.com/articles/staffordshire-police-reprimanded-for-home-address-disclosure",
           "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-05"
+          "published_at": "2026-11-12"
         },
         {
-          "id": "cea3b5638074f46a",
-          "title": "Barts decide on AI for breast cancer treatment",
-          "url": "http://www.ukauthority.com/articles/barts-decide-on-ai-for-breast-cancer-treatment",
+          "id": "f7349007b22b6d27",
+          "title": "The Future Will Belong to Those Who Learn to Think",
+          "url": "http://www.ukauthority.com/articles/the-future-will-belong-to-those-who-learn-to-think",
           "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-05"
+          "published_at": "2026-11-12"
         },
         {
-          "id": "2483d6843053217e",
-          "title": "Somerset standardises and modernises HR platform",
-          "url": "http://www.ukauthority.com/articles/somerset-standardises-and-modernises-hr-platform",
+          "id": "dbf72b3b0053ec4b",
+          "title": "Leicester needs data tech for multiple occupation challenge",
+          "url": "http://www.ukauthority.com/articles/leicester-needs-data-tech-for-multiple-occupation-challenge",
           "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-05"
+          "published_at": "2026-11-12"
         },
         {
-          "id": "14b4879e6b4e2fb3",
-          "title": "Beds digitises patient records",
-          "url": "http://www.ukauthority.com/articles/beds-digitises-patient-records",
+          "id": "855182537e20d3f2",
+          "title": "East Anglian police forces opt for Palantir platform",
+          "url": "http://www.ukauthority.com/articles/east-anglian-police-forces-opt-for-palantir-platform",
           "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-05"
+          "published_at": "2026-11-12"
         },
         {
-          "id": "d0fb1b86b6d535f4",
-          "title": "HMRC chief admits safeguards were ‘not strong enough’ after data exercise wrongly stopped 8,000 child benefit payments",
-          "url": "https://www.publictechnology.net/2026/11/04/society-and-welfare/hmrc-chief-admits-safeguards-were-not-strong-enough-after-data-exercise-wrongly-stopped-8000-child-benefit-payments/",
+          "id": "2c45ce596d7782ab",
+          "title": "Wales launch quit vaping app",
+          "url": "http://www.ukauthority.com/articles/wales-launch-quit-vaping-app",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-12"
+        },
+        {
+          "id": "8c04f950ba39ef9a",
+          "title": "Emily Weeknotes",
+          "url": "https://connectedbydata.org/weeknotes/2026/11/12/emily-weeknotes",
+          "source": "Connected by Data",
+          "published_at": "2026-11-12"
+        },
+        {
+          "id": "378c95e7887572e4",
+          "title": "NCSC warns of AI attacks on critical infrastructure in coming months",
+          "url": "https://www.publictechnology.net/2026/11/11/energy/ncsc-warns-of-ai-attacks-on-critical-infrastructure-in-coming-months/",
           "source": "PublicTechnology",
-          "published_at": "2026-11-04"
+          "published_at": "2026-11-11"
         },
         {
-          "id": "6abc20ac99af1562",
-          "title": "Leicester seeks tech tool to tackle rogue landlords",
-          "url": "https://www.publictechnology.net/2026/11/04/communities-housing-and-planning/leicester-seeks-tech-tool-to-tackle-rogue-landlords/",
+          "id": "cde087a9696621c5",
+          "title": "Fujitsu agrees Horizon handover for summer 2027",
+          "url": "https://www.publictechnology.net/2026/11/11/business-and-industry/fujitsu-agrees-horizon-handover-for-summer-2027/",
           "source": "PublicTechnology",
-          "published_at": "2026-11-04"
+          "published_at": "2026-11-11"
         },
         {
-          "id": "5fb024c39b0aef19",
-          "title": "Chancellor pledges government ‘will be first customer for innovative firms’",
-          "url": "https://www.publictechnology.net/2026/11/04/business-and-industry/chancellor-pledges-government-will-be-first-customer-for-innovative-firms/",
+          "id": "47cfae1e7962453f",
+          "title": "NS&I troubled transformation subject to extra oversight",
+          "url": "https://www.publictechnology.net/2026/11/11/economics-and-finance/nsi-troubled-transformation-subject-to-extra-oversight/",
           "source": "PublicTechnology",
-          "published_at": "2026-11-04"
+          "published_at": "2026-11-11"
         },
         {
-          "id": "fade72e92d07576b",
-          "title": "Scottish councils mark decade of collaborative working on cyber resilience",
-          "url": "http://www.ukauthority.com/articles/scottish-councils-mark-decade-of-collaborative-working-on-cyber-resilience",
+          "id": "52a6399519b855bf",
+          "title": "Data-led fire prevention pilot expands across Cheshire and Merseyside",
+          "url": "http://www.ukauthority.com/articles/data-led-fire-prevention-pilot-expands-across-cheshire-and-merseyside",
           "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-04"
+          "published_at": "2026-11-11"
         },
         {
-          "id": "26606fb9f0371fb3",
-          "title": "HMRC sign 15 year CRM deal with Salesforce",
-          "url": "http://www.ukauthority.com/articles/hmrc-sign-15-year-crm-deal-with-salesforce",
+          "id": "934117894e798c9c",
+          "title": "Councils offered ready-made AI workshop materials",
+          "url": "http://www.ukauthority.com/articles/councils-offered-ready-made-ai-workshop-materials",
           "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-04"
+          "published_at": "2026-11-11"
         },
         {
-          "id": "0307bef7232e0561",
-          "title": "Trader Support Service goes live",
-          "url": "http://www.ukauthority.com/articles/trader-support-service-goes-live",
+          "id": "c6c988552d04fb02",
+          "title": "Ministry of Defence's new director innovation announced",
+          "url": "http://www.ukauthority.com/articles/ministry-of-defences-new-director-innovation-announced",
           "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-04"
+          "published_at": "2026-11-11"
         },
         {
-          "id": "61450c91a4e465f4",
-          "title": "Salvation Army completes move from Citrix to Microsoft",
-          "url": "http://www.ukauthority.com/articles/salvation-army-completes-move-from-citrix-to-microsoft",
+          "id": "a334d4e7573c0a40",
+          "title": "Liverpool trains its educators in AI",
+          "url": "http://www.ukauthority.com/articles/liverpool-trains-its-educators-in-ai",
           "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-04"
+          "published_at": "2026-11-11"
         },
         {
-          "id": "7eac2e5161e7aa85",
-          "title": "DWP details AI tool designed to analyse citizens’ CVs and give career advice",
-          "url": "https://www.publictechnology.net/2026/11/03/society-and-welfare/dwp-details-ai-tool-designed-to-analyse-citizens-cvs-and-give-career-advice/",
+          "id": "1988ec266434317e",
+          "title": "Pembrokeshire select AI partner",
+          "url": "http://www.ukauthority.com/articles/pembrokeshire-select-ai-partner",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-11"
+        },
+        {
+          "id": "f8c67bed7922c890",
+          "title": "Eastern police forces sign £10m Palantir deal to support safeguarding – as reports claim NHS extension planned",
+          "url": "https://www.publictechnology.net/2026/11/10/public-order-justice-and-rights/eastern-police-forces-sign-10m-palantir-deal-to-support-safeguarding-as-reports-claim-nhs-extension-planned/",
           "source": "PublicTechnology",
-          "published_at": "2026-11-03"
+          "published_at": "2026-11-10"
         },
         {
-          "id": "0927bd99d8a0d5f9",
-          "title": "Legal Aid Agency cyber-attack data stretched back to 1978",
-          "url": "http://www.ukauthority.com/articles/legal-aid-agency-cyber-attack-data-stretched-back-to-1978",
+          "id": "5e0bf2943f87db4c",
+          "title": "NICE recommends five AI tools prostate cancer detection",
+          "url": "http://www.ukauthority.com/articles/nice-recommends-five-ai-tools-prostate-cancer-detection",
           "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-03"
+          "published_at": "2026-11-10"
         },
         {
-          "id": "c375d5ebc0271b81",
-          "title": "AI pilots cut legacy system analysis from weeks to hours - GDS",
-          "url": "http://www.ukauthority.com/articles/ai-pilots-cut-legacy-system-analysis-from-weeks-to-hours-gds",
+          "id": "70d564e323877635",
+          "title": "Local council meetings platform extended nationwide",
+          "url": "http://www.ukauthority.com/articles/local-council-meetings-platform-extended-nationwide",
           "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-03"
+          "published_at": "2026-11-10"
         },
         {
-          "id": "5a6b3b7222740598",
-          "title": "MHRA sets out 2030 strategy",
-          "url": "http://www.ukauthority.com/articles/mhra-sets-out-2030-strategy",
+          "id": "29c4beb6df7b4354",
+          "title": "Probation service hits 90% adoption of case management tool",
+          "url": "http://www.ukauthority.com/articles/probation-service-hits-90-adoption-of-case-management-tool",
           "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-03"
+          "published_at": "2026-11-10"
         },
         {
-          "id": "b2bd5bcd6c6943ee",
-          "title": "ICO reprimands Met over retail crime intelligence platform",
-          "url": "http://www.ukauthority.com/articles/ico-reprimands-met-over-retail-crime-intelligence-platform",
+          "id": "8f5ae16a011f1056",
+          "title": "UKHSA TB screening service passes Beta",
+          "url": "http://www.ukauthority.com/articles/ukhsa-tb-screening-service-passes-beta",
           "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-03"
+          "published_at": "2026-11-10"
         },
         {
-          "id": "f8555bfc1c90059f",
-          "title": "Site proposals accelerated by MHCLG online tool",
-          "url": "http://www.ukauthority.com/articles/site-proposals-accelerated-by-mhclg-online-tool",
+          "id": "03958b5999436cdb",
+          "title": "Planning Inspectorate simplifies national infrastructure planning services",
+          "url": "http://www.ukauthority.com/articles/planning-inspectorate-simplifies-national-infrastructure-planning-services",
           "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-02"
+          "published_at": "2026-11-09"
         },
         {
-          "id": "a3380f08a1dd292f",
-          "title": "Cross-government team publishes Quality Engineering Principles for digital services",
-          "url": "http://www.ukauthority.com/articles/cross-government-team-publishes-quality-engineering-principles-for-digital-services",
+          "id": "7b8fa131fe1d5d92",
+          "title": "Barnsley Tech Town AI education projects named",
+          "url": "http://www.ukauthority.com/articles/barnsley-tech-town-ai-education-projects-named",
           "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-02"
+          "published_at": "2026-11-09"
         },
         {
-          "id": "0ced4925804aec8f",
-          "title": "Government bond moves towards digitisation",
-          "url": "http://www.ukauthority.com/articles/government-bond-moves-towards-digitisation",
+          "id": "4784289d2e464410",
+          "title": "Call to energy arms -  battlefield energy demands challenge",
+          "url": "http://www.ukauthority.com/articles/call-to-energy-arms-battlefield-energy-demands-challenge",
           "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-02"
-        },
-        {
-          "id": "2461d619108b6435",
-          "title": "Gaelic digital platform gains government funding",
-          "url": "http://www.ukauthority.com/articles/gaelic-digital-platform-gains-government-funding",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-02"
+          "published_at": "2026-11-09"
         }
       ]
     },
     {
       "id": "local-government",
       "topic": "Local government",
-      "link_count": 28,
-      "source_count": 7,
+      "link_count": 29,
+      "source_count": 5,
       "top_activity_types": [
-        "Guidance or standards",
         "Capability or workforce",
-        "Policy or strategy",
+        "Community discussion",
+        "Governance or assurance",
         "Procurement or market activity"
       ],
       "top_contexts": [
         "Local government",
         "Service delivery",
-        "Central government",
-        "Public service reform"
+        "Professional practice",
+        "Supplier market"
       ],
       "links": [
         {
-          "id": "d94f2dff60e56876",
-          "title": "Feedback on the UK government Test Learn and Grow guide",
-          "url": "https://john-mortimer.medium.com/feedback-on-the-uk-government-test-learn-and-grow-guide-8f0b773db003?source=rss-d0a319c52dee------2",
-          "source": "John Mortimer",
-          "published_at": "2026-11-06"
-        },
-        {
-          "id": "edd328df88e0039e",
-          "title": "Police use of facial recognition tech gets watchdog",
-          "url": "http://www.ukauthority.com/articles/police-use-of-facial-recognition-tech-gets-watchdog",
+          "id": "1ed9514a65e97961",
+          "title": "Microsoft outage disrupts UK schools, police and Parliament",
+          "url": "http://www.ukauthority.com/articles/microsoft-outage-disrupts-uk-schools-police-and-parliament",
           "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-06"
+          "published_at": "2026-11-13"
         },
         {
-          "id": "29b8bb036f99b9cb",
-          "title": "Splink 5 released by MoJ",
-          "url": "http://www.ukauthority.com/articles/splink-5-released-by-moj",
+          "id": "bf5917432f12151a",
+          "title": "ICO CEO warns health leaders about improper file access",
+          "url": "http://www.ukauthority.com/articles/ico-ceo-warns-health-leaders-about-improper-file-access",
           "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-06"
+          "published_at": "2026-11-13"
         },
         {
-          "id": "f07fcd834664de94",
-          "title": "Jisc gives academic tech leaders an AI framework",
-          "url": "http://www.ukauthority.com/articles/jisc-gives-academic-tech-leaders-an-ai-framework",
+          "id": "8d69bbbdfd041894",
+          "title": "Cyber resilience remains a challenge for police forces",
+          "url": "http://www.ukauthority.com/articles/cyber-resilience-remains-a-challenge-for-police-forces",
           "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-06"
+          "published_at": "2026-11-13"
         },
         {
-          "id": "1913bfc40caa302b",
-          "title": "GOSH expands AWS partnership",
-          "url": "http://www.ukauthority.com/articles/gosh-expands-aws-partnership",
+          "id": "a84fc24f13affb36",
+          "title": "Passenger support not tech a challenge for Cambridge’s self-driving buses",
+          "url": "http://www.ukauthority.com/articles/passenger-support-not-tech-a-challenge-for-cambridge-s-self-driving-buses",
           "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-06"
+          "published_at": "2026-11-13"
         },
         {
-          "id": "1348d6347e19d951",
-          "title": "Tower Hamlets seeks £140k digital chief ‘to lead one of the most significant digital transformation agendas in local government’",
-          "url": "https://www.publictechnology.net/2026/11/05/communities-housing-and-planning/tower-hamlets-seeks-140k-digital-chief-to-lead-one-of-the-most-significant-digital-transformation-agendas-in-local-government/",
-          "source": "PublicTechnology",
-          "published_at": "2026-11-05"
+          "id": "c122def8fff987a6",
+          "title": "EDMI trial cuts manual tasks for probation managers",
+          "url": "http://www.ukauthority.com/articles/edmi-trial-cuts-manual-tasks-for-probation-managers",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-13"
         },
         {
-          "id": "89ccc8cef45cfbd1",
-          "title": "How the public sector can unleash the power of local communities",
-          "url": "https://www.newlocal.org.uk/articles/how-the-public-sector-can-unleash-the-power-of-local-communities/",
+          "id": "8616e377fa37ec4a",
+          "title": "Spotlight: Involving people in decision-making – Learning lessons from Camden Council and South Staffordshire",
+          "url": "https://www.newlocal.org.uk/member/spotlight-involving-people-in-decision-making-learning-lessons-from-camden-council-and-south-staffordshire-2/",
           "source": "New Local",
-          "published_at": "2026-11-05"
+          "published_at": "2026-11-12"
         },
         {
-          "id": "7096b7902d2e9633",
-          "title": "NHS App not accessible finds blind and partially sighted - APPG report",
-          "url": "http://www.ukauthority.com/articles/nhs-app-not-accessible-finds-blind-and-partially-sighted-appg-report",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-05"
-        },
-        {
-          "id": "cea3b5638074f46a",
-          "title": "Barts decide on AI for breast cancer treatment",
-          "url": "http://www.ukauthority.com/articles/barts-decide-on-ai-for-breast-cancer-treatment",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-05"
-        },
-        {
-          "id": "2483d6843053217e",
-          "title": "Somerset standardises and modernises HR platform",
-          "url": "http://www.ukauthority.com/articles/somerset-standardises-and-modernises-hr-platform",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-05"
-        },
-        {
-          "id": "14b4879e6b4e2fb3",
-          "title": "Beds digitises patient records",
-          "url": "http://www.ukauthority.com/articles/beds-digitises-patient-records",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-05"
-        },
-        {
-          "id": "fade72e92d07576b",
-          "title": "Scottish councils mark decade of collaborative working on cyber resilience",
-          "url": "http://www.ukauthority.com/articles/scottish-councils-mark-decade-of-collaborative-working-on-cyber-resilience",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-04"
-        },
-        {
-          "id": "26606fb9f0371fb3",
-          "title": "HMRC sign 15 year CRM deal with Salesforce",
-          "url": "http://www.ukauthority.com/articles/hmrc-sign-15-year-crm-deal-with-salesforce",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-04"
-        },
-        {
-          "id": "0307bef7232e0561",
-          "title": "Trader Support Service goes live",
-          "url": "http://www.ukauthority.com/articles/trader-support-service-goes-live",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-04"
-        },
-        {
-          "id": "61450c91a4e465f4",
-          "title": "Salvation Army completes move from Citrix to Microsoft",
-          "url": "http://www.ukauthority.com/articles/salvation-army-completes-move-from-citrix-to-microsoft",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-04"
-        },
-        {
-          "id": "2bcc15df907a8c3a",
-          "title": "AI-authored contributions to our codebases",
-          "url": "https://www.mysociety.org/2026/11/03/ai-authored-contributions-to-our-codebases/",
-          "source": "mySociety",
-          "published_at": "2026-11-03"
-        },
-        {
-          "id": "85b87465cd37832c",
-          "title": "So you’ve vibe coded a website and you’d like us to take a look",
-          "url": "https://www.mysociety.org/2026/11/03/so-youve-vibe-coded-a-website-and-youd-like-us-to-take-a-look/",
-          "source": "mySociety",
-          "published_at": "2026-11-03"
-        },
-        {
-          "id": "998eed0cd633a3aa",
-          "title": "AI in Action: practical AI workshops for local government",
-          "url": "https://mhclgdigital.blog.gov.uk/2026/11/03/ai-in-action-practical-ai-workshops-for-local-government/",
+          "id": "8b9deae86e965674",
+          "title": "Developing AI policies that work for local government",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/12/developing-ai-policies-that-work-for-local-government/",
           "source": "MHCLG Digital",
-          "published_at": "2026-11-03"
+          "published_at": "2026-11-12"
         },
         {
-          "id": "68b40139143b140f",
-          "title": "Rewiring the state, reimagining power",
-          "url": "https://www.newlocal.org.uk/publications/rewiring-the-state-reimagining-power/",
-          "source": "New Local",
-          "published_at": "2026-11-03"
-        },
-        {
-          "id": "0927bd99d8a0d5f9",
-          "title": "Legal Aid Agency cyber-attack data stretched back to 1978",
-          "url": "http://www.ukauthority.com/articles/legal-aid-agency-cyber-attack-data-stretched-back-to-1978",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-03"
-        },
-        {
-          "id": "c375d5ebc0271b81",
-          "title": "AI pilots cut legacy system analysis from weeks to hours - GDS",
-          "url": "http://www.ukauthority.com/articles/ai-pilots-cut-legacy-system-analysis-from-weeks-to-hours-gds",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-03"
-        },
-        {
-          "id": "5a6b3b7222740598",
-          "title": "MHRA sets out 2030 strategy",
-          "url": "http://www.ukauthority.com/articles/mhra-sets-out-2030-strategy",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-03"
-        },
-        {
-          "id": "b2bd5bcd6c6943ee",
-          "title": "ICO reprimands Met over retail crime intelligence platform",
-          "url": "http://www.ukauthority.com/articles/ico-reprimands-met-over-retail-crime-intelligence-platform",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-03"
-        },
-        {
-          "id": "7ea573382a00709e",
-          "title": "Architecture is for everyone: designing better public services together",
-          "url": "https://technology.blog.gov.uk/2026/11/02/architecture-is-for-everyone-designing-better-public-services-together/",
-          "source": "Technology in Government",
-          "published_at": "2026-11-02"
-        },
-        {
-          "id": "f8555bfc1c90059f",
-          "title": "Site proposals accelerated by MHCLG online tool",
-          "url": "http://www.ukauthority.com/articles/site-proposals-accelerated-by-mhclg-online-tool",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-02"
-        },
-        {
-          "id": "a3380f08a1dd292f",
-          "title": "Cross-government team publishes Quality Engineering Principles for digital services",
-          "url": "http://www.ukauthority.com/articles/cross-government-team-publishes-quality-engineering-principles-for-digital-services",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-02"
-        },
-        {
-          "id": "0ced4925804aec8f",
-          "title": "Government bond moves towards digitisation",
-          "url": "http://www.ukauthority.com/articles/government-bond-moves-towards-digitisation",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-02"
-        },
-        {
-          "id": "2461d619108b6435",
-          "title": "Gaelic digital platform gains government funding",
-          "url": "http://www.ukauthority.com/articles/gaelic-digital-platform-gains-government-funding",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-02"
-        }
-      ]
-    },
-    {
-      "id": "content-design",
-      "topic": "Content design",
-      "link_count": 7,
-      "source_count": 6,
-      "top_activity_types": [
-        "Community discussion",
-        "Capability or workforce",
-        "Delivery update",
-        "Research or evidence"
-      ],
-      "top_contexts": [
-        "Central government",
-        "Service delivery",
-        "Public service reform",
-        "Professional practice"
-      ],
-      "links": [
-        {
-          "id": "c2175ec8260662a2",
-          "title": "How can collaboration across user-centred design teams support complex digital delivery?",
-          "url": "https://mojdigital.blog.gov.uk/2026/11/06/how-can-collaboration-across-user-centred-design-teams-support-complex-digital-delivery/",
-          "source": "Justice Digital",
-          "published_at": "2026-11-06"
-        },
-        {
-          "id": "53f74ff958743d27",
-          "title": "Enhancing public protection and helping probation staff focus on what matters most",
-          "url": "https://mojdigital.blog.gov.uk/2026/11/04/enhancing-public-protection-and-helping-probation-staff-focus-on-what-matters-most/",
-          "source": "Justice Digital",
-          "published_at": "2026-11-04"
-        },
-        {
-          "id": "998eed0cd633a3aa",
-          "title": "AI in Action: practical AI workshops for local government",
-          "url": "https://mhclgdigital.blog.gov.uk/2026/11/03/ai-in-action-practical-ai-workshops-for-local-government/",
-          "source": "MHCLG Digital",
-          "published_at": "2026-11-03"
-        },
-        {
-          "id": "25e337f1796c4be9",
-          "title": "An app that reads alt text from pptx",
-          "url": "https://www.effortmark.co.uk/alt-text-from-pptx/",
-          "source": "Effortmark",
-          "published_at": "2026-11-03"
-        },
-        {
-          "id": "0ab22214f0b6c24f",
-          "title": "Creating tools for scaling generated content",
-          "url": "https://designnotes.blog.gov.uk/2026/11/03/creating-tools-for-scaling-generated-content/",
-          "source": "GDS Design Notes",
-          "published_at": "2026-11-03"
-        },
-        {
-          "id": "50c18fb9455deb34",
-          "title": "Helping young people explore STEM careers at Defra",
-          "url": "https://defradigital.blog.gov.uk/2026/11/02/helping-young-people-explore-stem-careers-at-defra/",
-          "source": "Defra digital, data, technology and security",
-          "published_at": "2026-11-02"
-        },
-        {
-          "id": "119793d347dea117",
-          "title": "RAVS mission patch",
-          "url": "https://www.benjystanton.co.uk/blog/ravs-mission-patch/",
-          "source": "Benjy Stanton",
-          "published_at": "2026-11-01",
+          "id": "f27862f1c8ba2099",
+          "title": "Sprint 14: a quick update",
+          "url": "https://luton.localgov.blog/2026/11/12/sprint-14-a-quick-update/",
+          "source": "Digital Luton",
+          "published_at": "2026-11-12",
           "source_type": "weeknote"
+        },
+        {
+          "id": "b942c30a6147da90",
+          "title": "Staffordshire Police reprimanded for home address disclosure",
+          "url": "http://www.ukauthority.com/articles/staffordshire-police-reprimanded-for-home-address-disclosure",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-12"
+        },
+        {
+          "id": "f7349007b22b6d27",
+          "title": "The Future Will Belong to Those Who Learn to Think",
+          "url": "http://www.ukauthority.com/articles/the-future-will-belong-to-those-who-learn-to-think",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-12"
+        },
+        {
+          "id": "dbf72b3b0053ec4b",
+          "title": "Leicester needs data tech for multiple occupation challenge",
+          "url": "http://www.ukauthority.com/articles/leicester-needs-data-tech-for-multiple-occupation-challenge",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-12"
+        },
+        {
+          "id": "855182537e20d3f2",
+          "title": "East Anglian police forces opt for Palantir platform",
+          "url": "http://www.ukauthority.com/articles/east-anglian-police-forces-opt-for-palantir-platform",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-12"
+        },
+        {
+          "id": "2c45ce596d7782ab",
+          "title": "Wales launch quit vaping app",
+          "url": "http://www.ukauthority.com/articles/wales-launch-quit-vaping-app",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-12"
+        },
+        {
+          "id": "52a6399519b855bf",
+          "title": "Data-led fire prevention pilot expands across Cheshire and Merseyside",
+          "url": "http://www.ukauthority.com/articles/data-led-fire-prevention-pilot-expands-across-cheshire-and-merseyside",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-11"
+        },
+        {
+          "id": "934117894e798c9c",
+          "title": "Councils offered ready-made AI workshop materials",
+          "url": "http://www.ukauthority.com/articles/councils-offered-ready-made-ai-workshop-materials",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-11"
+        },
+        {
+          "id": "c6c988552d04fb02",
+          "title": "Ministry of Defence's new director innovation announced",
+          "url": "http://www.ukauthority.com/articles/ministry-of-defences-new-director-innovation-announced",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-11"
+        },
+        {
+          "id": "a334d4e7573c0a40",
+          "title": "Liverpool trains its educators in AI",
+          "url": "http://www.ukauthority.com/articles/liverpool-trains-its-educators-in-ai",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-11"
+        },
+        {
+          "id": "1988ec266434317e",
+          "title": "Pembrokeshire select AI partner",
+          "url": "http://www.ukauthority.com/articles/pembrokeshire-select-ai-partner",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-11"
+        },
+        {
+          "id": "d0461aac1b98850f",
+          "title": "✍️ CRM in local government",
+          "url": "https://da.vebrig.gs/2026/11/10/%e2%9c%8d%ef%b8%8f-crm-in-local-government/",
+          "source": "Dave Briggs",
+          "published_at": "2026-11-10",
+          "source_type": "weeknote"
+        },
+        {
+          "id": "a02359380c2467ac",
+          "title": "Asset management funding to help councils strengthen their cyber resilience",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/10/asset-management-funding-for-councils/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-10"
+        },
+        {
+          "id": "5e0bf2943f87db4c",
+          "title": "NICE recommends five AI tools prostate cancer detection",
+          "url": "http://www.ukauthority.com/articles/nice-recommends-five-ai-tools-prostate-cancer-detection",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-10"
+        },
+        {
+          "id": "70d564e323877635",
+          "title": "Local council meetings platform extended nationwide",
+          "url": "http://www.ukauthority.com/articles/local-council-meetings-platform-extended-nationwide",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-10"
+        },
+        {
+          "id": "29c4beb6df7b4354",
+          "title": "Probation service hits 90% adoption of case management tool",
+          "url": "http://www.ukauthority.com/articles/probation-service-hits-90-adoption-of-case-management-tool",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-10"
+        },
+        {
+          "id": "8f5ae16a011f1056",
+          "title": "UKHSA TB screening service passes Beta",
+          "url": "http://www.ukauthority.com/articles/ukhsa-tb-screening-service-passes-beta",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-10"
+        },
+        {
+          "id": "4ce9796ded1f8ce7",
+          "title": "Networks here, networks there, security everywhere!",
+          "url": "https://luton.localgov.blog/2026/11/09/networks-here-networks-there-security-everywhere/",
+          "source": "Digital Luton",
+          "published_at": "2026-11-09",
+          "source_type": "weeknote"
+        },
+        {
+          "id": "d02d6d0dbb5bff6b",
+          "title": "Grasping a once in a lifetime opportunity for councils",
+          "url": "https://www.newlocal.org.uk/articles/grasping-a-once-in-a-lifetime-opportunity-for-councils/",
+          "source": "New Local",
+          "published_at": "2026-11-09"
+        },
+        {
+          "id": "03958b5999436cdb",
+          "title": "Planning Inspectorate simplifies national infrastructure planning services",
+          "url": "http://www.ukauthority.com/articles/planning-inspectorate-simplifies-national-infrastructure-planning-services",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-09"
+        },
+        {
+          "id": "7b8fa131fe1d5d92",
+          "title": "Barnsley Tech Town AI education projects named",
+          "url": "http://www.ukauthority.com/articles/barnsley-tech-town-ai-education-projects-named",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-09"
+        },
+        {
+          "id": "4784289d2e464410",
+          "title": "Call to energy arms -  battlefield energy demands challenge",
+          "url": "http://www.ukauthority.com/articles/call-to-energy-arms-battlefield-energy-demands-challenge",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-09"
         }
       ]
     },
     {
       "id": "workforce-and-capability",
       "topic": "Workforce and capability",
-      "link_count": 7,
-      "source_count": 6,
+      "link_count": 8,
+      "source_count": 5,
       "top_activity_types": [
         "Capability or workforce",
-        "Community discussion",
-        "Guidance or standards",
-        "Procurement or market activity"
+        "Governance or assurance",
+        "Research or evidence",
+        "Guidance or standards"
       ],
       "top_contexts": [
-        "Central government",
-        "Public service reform",
         "Service delivery",
-        "Local government"
+        "Central government",
+        "Local government",
+        "Public service reform"
       ],
       "links": [
         {
-          "id": "f836dabfcd9758de",
-          "title": "Transformation DG Middleton made permanent civil servant after recruitment process",
-          "url": "https://www.publictechnology.net/2026/11/06/education-and-skills/transformation-dg-middleton-made-permanent-civil-servant-after-recruitment-process/",
+          "id": "d072f28c90264db8",
+          "title": "NHS launches £200k project to shape how safety and performance of AI diagnostic tools are monitored",
+          "url": "https://www.publictechnology.net/2026/11/13/health-and-social-care/nhs-launches-200k-project-to-shape-how-safety-and-performance-of-ai-diagnostic-tools-are-monitored/",
           "source": "PublicTechnology",
-          "published_at": "2026-11-06"
+          "published_at": "2026-11-13"
         },
         {
-          "id": "53f74ff958743d27",
-          "title": "Enhancing public protection and helping probation staff focus on what matters most",
-          "url": "https://mojdigital.blog.gov.uk/2026/11/04/enhancing-public-protection-and-helping-probation-staff-focus-on-what-matters-most/",
-          "source": "Justice Digital",
-          "published_at": "2026-11-04"
-        },
-        {
-          "id": "5fb024c39b0aef19",
-          "title": "Chancellor pledges government ‘will be first customer for innovative firms’",
-          "url": "https://www.publictechnology.net/2026/11/04/business-and-industry/chancellor-pledges-government-will-be-first-customer-for-innovative-firms/",
+          "id": "d6cfacc16c176442",
+          "title": "Whitehall chief: ‘For the first time in history, public service is no longer constrained by the limits of human bandwidth’",
+          "url": "https://www.publictechnology.net/2026/11/13/education-and-skills/whitehall-chief-for-the-first-time-in-history-public-service-is-no-longer-constrained-by-the-limits-of-human-bandwidth/",
           "source": "PublicTechnology",
-          "published_at": "2026-11-04"
+          "published_at": "2026-11-13"
         },
         {
-          "id": "85b87465cd37832c",
-          "title": "So you’ve vibe coded a website and you’d like us to take a look",
-          "url": "https://www.mysociety.org/2026/11/03/so-youve-vibe-coded-a-website-and-youd-like-us-to-take-a-look/",
-          "source": "mySociety",
-          "published_at": "2026-11-03"
+          "id": "8d21cb5ed28dd544",
+          "title": "‘AI is only as good as the data behind it’ – GDS seeks senior data duo",
+          "url": "https://www.publictechnology.net/2026/11/12/education-and-skills/ai-is-only-as-good-as-the-data-behind-it-gds-seeks-senior-data-duo/",
+          "source": "PublicTechnology",
+          "published_at": "2026-11-12"
         },
         {
-          "id": "998eed0cd633a3aa",
-          "title": "AI in Action: practical AI workshops for local government",
-          "url": "https://mhclgdigital.blog.gov.uk/2026/11/03/ai-in-action-practical-ai-workshops-for-local-government/",
+          "id": "8b9deae86e965674",
+          "title": "Developing AI policies that work for local government",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/12/developing-ai-policies-that-work-for-local-government/",
           "source": "MHCLG Digital",
-          "published_at": "2026-11-03"
+          "published_at": "2026-11-12"
         },
         {
-          "id": "50c18fb9455deb34",
-          "title": "Helping young people explore STEM careers at Defra",
-          "url": "https://defradigital.blog.gov.uk/2026/11/02/helping-young-people-explore-stem-careers-at-defra/",
+          "id": "f6bbb1393515b7b0",
+          "title": "Discovery & The 4 Risks - All Things Product Podcast with Teresa Torres & Petra Wille",
+          "url": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "source": "Product Talk — Teresa Torres",
+          "published_at": "2026-11-10"
+        },
+        {
+          "id": "208e7b9b4bf172b2",
+          "title": "Designing an AI assistant people can trust",
+          "url": "https://defradigital.blog.gov.uk/2026/11/10/designing-an-ai-assistant-people-can-trust/",
           "source": "Defra digital, data, technology and security",
-          "published_at": "2026-11-02"
+          "published_at": "2026-11-10"
         },
         {
-          "id": "7ea573382a00709e",
-          "title": "Architecture is for everyone: designing better public services together",
-          "url": "https://technology.blog.gov.uk/2026/11/02/architecture-is-for-everyone-designing-better-public-services-together/",
-          "source": "Technology in Government",
-          "published_at": "2026-11-02"
+          "id": "a02359380c2467ac",
+          "title": "Asset management funding to help councils strengthen their cyber resilience",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/10/asset-management-funding-for-councils/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-10"
+        },
+        {
+          "id": "7b8fa131fe1d5d92",
+          "title": "Barnsley Tech Town AI education projects named",
+          "url": "http://www.ukauthority.com/articles/barnsley-tech-town-ai-education-projects-named",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-09"
         }
       ]
     },
     {
       "id": "procurement",
       "topic": "Procurement",
-      "link_count": 6,
-      "source_count": 4,
+      "link_count": 7,
+      "source_count": 6,
       "top_activity_types": [
         "Procurement or market activity",
         "Capability or workforce",
-        "Delivery update",
-        "Policy or strategy"
+        "Community discussion",
+        "Delivery update"
       ],
       "top_contexts": [
         "Supplier market",
-        "Public service reform",
         "Local government",
-        "Central government"
+        "Central government",
+        "Professional practice"
       ],
       "links": [
         {
-          "id": "f836dabfcd9758de",
-          "title": "Transformation DG Middleton made permanent civil servant after recruitment process",
-          "url": "https://www.publictechnology.net/2026/11/06/education-and-skills/transformation-dg-middleton-made-permanent-civil-servant-after-recruitment-process/",
+          "id": "235f4bf1ccd3a6d5",
+          "title": "A career A-Z",
+          "url": "https://digitalbydefault.com/2026/11/13/a-career-a-z/",
+          "source": "Digital by Default",
+          "published_at": "2026-11-13",
+          "source_type": "weeknote"
+        },
+        {
+          "id": "8d21cb5ed28dd544",
+          "title": "‘AI is only as good as the data behind it’ – GDS seeks senior data duo",
+          "url": "https://www.publictechnology.net/2026/11/12/education-and-skills/ai-is-only-as-good-as-the-data-behind-it-gds-seeks-senior-data-duo/",
           "source": "PublicTechnology",
-          "published_at": "2026-11-06"
+          "published_at": "2026-11-12"
         },
         {
-          "id": "f07fcd834664de94",
-          "title": "Jisc gives academic tech leaders an AI framework",
-          "url": "http://www.ukauthority.com/articles/jisc-gives-academic-tech-leaders-an-ai-framework",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-06"
+          "id": "8b9deae86e965674",
+          "title": "Developing AI policies that work for local government",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/12/developing-ai-policies-that-work-for-local-government/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-12"
         },
         {
-          "id": "1348d6347e19d951",
-          "title": "Tower Hamlets seeks £140k digital chief ‘to lead one of the most significant digital transformation agendas in local government’",
-          "url": "https://www.publictechnology.net/2026/11/05/communities-housing-and-planning/tower-hamlets-seeks-140k-digital-chief-to-lead-one-of-the-most-significant-digital-transformation-agendas-in-local-government/",
-          "source": "PublicTechnology",
-          "published_at": "2026-11-05"
+          "id": "f27862f1c8ba2099",
+          "title": "Sprint 14: a quick update",
+          "url": "https://luton.localgov.blog/2026/11/12/sprint-14-a-quick-update/",
+          "source": "Digital Luton",
+          "published_at": "2026-11-12",
+          "source_type": "weeknote"
         },
         {
-          "id": "5fb024c39b0aef19",
-          "title": "Chancellor pledges government ‘will be first customer for innovative firms’",
-          "url": "https://www.publictechnology.net/2026/11/04/business-and-industry/chancellor-pledges-government-will-be-first-customer-for-innovative-firms/",
-          "source": "PublicTechnology",
-          "published_at": "2026-11-04"
-        },
-        {
-          "id": "c6d8e84d7d044e49",
-          "title": "For successful transformation, the public sector needs to look beyond siloed contracts",
-          "url": "https://www.madetech.com/blog/for-successful-transformation-the-public-sector-needs-to-look-beyond-siloed-contracts/",
+          "id": "ccbd81cb959fc77e",
+          "title": "Why government digital transformation needs a north star",
+          "url": "https://www.madetech.com/blog/why-government-digital-transformation-needs-a-north-star/",
           "source": "Made Tech Digital Service Delivery",
-          "published_at": "2026-11-04"
+          "published_at": "2026-11-11"
         },
         {
-          "id": "7ea573382a00709e",
-          "title": "Architecture is for everyone: designing better public services together",
-          "url": "https://technology.blog.gov.uk/2026/11/02/architecture-is-for-everyone-designing-better-public-services-together/",
-          "source": "Technology in Government",
-          "published_at": "2026-11-02"
+          "id": "1988ec266434317e",
+          "title": "Pembrokeshire select AI partner",
+          "url": "http://www.ukauthority.com/articles/pembrokeshire-select-ai-partner",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-11"
+        },
+        {
+          "id": "a02359380c2467ac",
+          "title": "Asset management funding to help councils strengthen their cyber resilience",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/10/asset-management-funding-for-councils/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "topic": "Research",
+      "link_count": 5,
+      "source_count": 3,
+      "top_activity_types": [
+        "Research or evidence",
+        "Capability or workforce",
+        "Governance or assurance",
+        "Community discussion"
+      ],
+      "top_contexts": [
+        "Professional practice",
+        "Service delivery",
+        "Central government",
+        "Local government"
+      ],
+      "links": [
+        {
+          "id": "d072f28c90264db8",
+          "title": "NHS launches £200k project to shape how safety and performance of AI diagnostic tools are monitored",
+          "url": "https://www.publictechnology.net/2026/11/13/health-and-social-care/nhs-launches-200k-project-to-shape-how-safety-and-performance-of-ai-diagnostic-tools-are-monitored/",
+          "source": "PublicTechnology",
+          "published_at": "2026-11-13"
+        },
+        {
+          "id": "8b9deae86e965674",
+          "title": "Developing AI policies that work for local government",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/12/developing-ai-policies-that-work-for-local-government/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-12"
+        },
+        {
+          "id": "2e05da94a4b29658",
+          "title": "2027 Product Conferences",
+          "url": "https://www.producttalk.org/2027-product-conferences/",
+          "source": "Product Talk — Teresa Torres",
+          "published_at": "2026-11-11"
+        },
+        {
+          "id": "f6bbb1393515b7b0",
+          "title": "Discovery & The 4 Risks - All Things Product Podcast with Teresa Torres & Petra Wille",
+          "url": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "source": "Product Talk — Teresa Torres",
+          "published_at": "2026-11-10"
+        },
+        {
+          "id": "a02359380c2467ac",
+          "title": "Asset management funding to help councils strengthen their cyber resilience",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/10/asset-management-funding-for-councils/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-10"
         }
       ]
     },
     {
       "id": "service-design",
       "topic": "Service design",
-      "link_count": 6,
-      "source_count": 5,
+      "link_count": 5,
+      "source_count": 4,
       "top_activity_types": [
         "Community discussion",
+        "Guidance or standards",
         "Capability or workforce",
-        "Delivery update",
-        "Guidance or standards"
+        "Governance or assurance"
       ],
       "top_contexts": [
+        "Standards and assurance",
+        "Supplier market",
         "Central government",
-        "Public service reform",
-        "Service delivery",
         "Professional practice"
       ],
       "links": [
         {
-          "id": "d94f2dff60e56876",
-          "title": "Feedback on the UK government Test Learn and Grow guide",
-          "url": "https://john-mortimer.medium.com/feedback-on-the-uk-government-test-learn-and-grow-guide-8f0b773db003?source=rss-d0a319c52dee------2",
-          "source": "John Mortimer",
-          "published_at": "2026-11-06"
+          "id": "0dbec4c9eb73a1da",
+          "title": "Why saying ‘no’ to a client can be the most helpful thing to do",
+          "url": "https://www.dxw.com/2026/11/why-saying-no-to-a-client-can-be-the-most-helpful-thing-to-do/",
+          "source": "dxw",
+          "published_at": "2026-11-12"
         },
         {
-          "id": "c2175ec8260662a2",
-          "title": "How can collaboration across user-centred design teams support complex digital delivery?",
-          "url": "https://mojdigital.blog.gov.uk/2026/11/06/how-can-collaboration-across-user-centred-design-teams-support-complex-digital-delivery/",
-          "source": "Justice Digital",
-          "published_at": "2026-11-06"
+          "id": "fe24fb46bd114267",
+          "title": "Amplifying Voices",
+          "url": "https://acuity.design/amplifying-voices/",
+          "source": "Acuity Design",
+          "published_at": "2026-11-11"
         },
         {
-          "id": "53f74ff958743d27",
-          "title": "Enhancing public protection and helping probation staff focus on what matters most",
-          "url": "https://mojdigital.blog.gov.uk/2026/11/04/enhancing-public-protection-and-helping-probation-staff-focus-on-what-matters-most/",
-          "source": "Justice Digital",
-          "published_at": "2026-11-04"
-        },
-        {
-          "id": "50c18fb9455deb34",
-          "title": "Helping young people explore STEM careers at Defra",
-          "url": "https://defradigital.blog.gov.uk/2026/11/02/helping-young-people-explore-stem-careers-at-defra/",
+          "id": "208e7b9b4bf172b2",
+          "title": "Designing an AI assistant people can trust",
+          "url": "https://defradigital.blog.gov.uk/2026/11/10/designing-an-ai-assistant-people-can-trust/",
           "source": "Defra digital, data, technology and security",
-          "published_at": "2026-11-02"
+          "published_at": "2026-11-10"
         },
         {
-          "id": "7ea573382a00709e",
-          "title": "Architecture is for everyone: designing better public services together",
-          "url": "https://technology.blog.gov.uk/2026/11/02/architecture-is-for-everyone-designing-better-public-services-together/",
-          "source": "Technology in Government",
-          "published_at": "2026-11-02"
+          "id": "7d8ace0b22815572",
+          "title": "The output is not the outcome: notes from UKCharityCamp",
+          "url": "https://www.dxw.com/2026/11/the-output-is-not-the-outcome-notes-from-ukcharitycamp/",
+          "source": "dxw",
+          "published_at": "2026-11-09"
         },
         {
-          "id": "119793d347dea117",
-          "title": "RAVS mission patch",
-          "url": "https://www.benjystanton.co.uk/blog/ravs-mission-patch/",
-          "source": "Benjy Stanton",
-          "published_at": "2026-11-01",
+          "id": "9dbe3a6bc763feb5",
+          "title": "Weeknotes: Sept & October 2026",
+          "url": "https://www.marthaedwards.ca/weeknotes-sept-october-2026/",
+          "source": "Martha Edwards",
+          "published_at": "2026-11-07",
           "source_type": "weeknote"
-        }
-      ]
-    },
-    {
-      "id": "accessibility",
-      "topic": "Accessibility",
-      "link_count": 5,
-      "source_count": 5,
-      "top_activity_types": [
-        "Community discussion",
-        "Capability or workforce",
-        "Delivery update",
-        "Governance or assurance"
-      ],
-      "top_contexts": [
-        "Central government",
-        "Public service reform",
-        "Service delivery",
-        "Cross-government platforms"
-      ],
-      "links": [
-        {
-          "id": "7096b7902d2e9633",
-          "title": "NHS App not accessible finds blind and partially sighted - APPG report",
-          "url": "http://www.ukauthority.com/articles/nhs-app-not-accessible-finds-blind-and-partially-sighted-appg-report",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-05"
-        },
-        {
-          "id": "53f74ff958743d27",
-          "title": "Enhancing public protection and helping probation staff focus on what matters most",
-          "url": "https://mojdigital.blog.gov.uk/2026/11/04/enhancing-public-protection-and-helping-probation-staff-focus-on-what-matters-most/",
-          "source": "Justice Digital",
-          "published_at": "2026-11-04"
-        },
-        {
-          "id": "25e337f1796c4be9",
-          "title": "An app that reads alt text from pptx",
-          "url": "https://www.effortmark.co.uk/alt-text-from-pptx/",
-          "source": "Effortmark",
-          "published_at": "2026-11-03"
-        },
-        {
-          "id": "50c18fb9455deb34",
-          "title": "Helping young people explore STEM careers at Defra",
-          "url": "https://defradigital.blog.gov.uk/2026/11/02/helping-young-people-explore-stem-careers-at-defra/",
-          "source": "Defra digital, data, technology and security",
-          "published_at": "2026-11-02"
-        },
-        {
-          "id": "119793d347dea117",
-          "title": "RAVS mission patch",
-          "url": "https://www.benjystanton.co.uk/blog/ravs-mission-patch/",
-          "source": "Benjy Stanton",
-          "published_at": "2026-11-01",
-          "source_type": "weeknote"
-        }
-      ]
-    },
-    {
-      "id": "policy",
-      "topic": "Policy",
-      "link_count": 5,
-      "source_count": 5,
-      "top_activity_types": [
-        "Policy or strategy",
-        "Delivery update",
-        "Capability or workforce",
-        "Community discussion"
-      ],
-      "top_contexts": [
-        "Service delivery",
-        "Public service reform",
-        "Central government",
-        "Local government"
-      ],
-      "links": [
-        {
-          "id": "3259b80c2a78272b",
-          "title": "How Chattanooga’s use of AI ‘restored faith in civic dialogue’ among its citizens",
-          "url": "https://www.publictechnology.net/2026/11/06/communities-housing-and-planning/how-chattanoogas-use-of-ai-restored-faith-in-civic-dialogue-among-its-citizens/",
-          "source": "PublicTechnology",
-          "published_at": "2026-11-06"
-        },
-        {
-          "id": "c2175ec8260662a2",
-          "title": "How can collaboration across user-centred design teams support complex digital delivery?",
-          "url": "https://mojdigital.blog.gov.uk/2026/11/06/how-can-collaboration-across-user-centred-design-teams-support-complex-digital-delivery/",
-          "source": "Justice Digital",
-          "published_at": "2026-11-06"
-        },
-        {
-          "id": "ad3621a91c2ea689",
-          "title": "From experimentation to public value: Why governments need to learn together",
-          "url": "https://oecd-opsi.org/blog/from-experimentation-to-public-value-why-governments-need-to-learn-together/",
-          "source": "OECD Observatory of Public Sector Innovation",
-          "published_at": "2026-11-05"
-        },
-        {
-          "id": "5a6b3b7222740598",
-          "title": "MHRA sets out 2030 strategy",
-          "url": "http://www.ukauthority.com/articles/mhra-sets-out-2030-strategy",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-03"
-        },
-        {
-          "id": "7ea573382a00709e",
-          "title": "Architecture is for everyone: designing better public services together",
-          "url": "https://technology.blog.gov.uk/2026/11/02/architecture-is-for-everyone-designing-better-public-services-together/",
-          "source": "Technology in Government",
-          "published_at": "2026-11-02"
         }
       ]
     },
@@ -830,65 +758,196 @@
       "link_count": 5,
       "source_count": 4,
       "top_activity_types": [
-        "Policy or strategy",
-        "Procurement or market activity",
+        "Community discussion",
         "Delivery update",
-        "Capability or workforce"
+        "Governance or assurance",
+        "Procurement or market activity"
       ],
       "top_contexts": [
-        "Public service reform",
-        "Service delivery",
         "Supplier market",
-        "Central government"
+        "Public service reform",
+        "Local government",
+        "Professional practice"
       ],
       "links": [
         {
-          "id": "f836dabfcd9758de",
-          "title": "Transformation DG Middleton made permanent civil servant after recruitment process",
-          "url": "https://www.publictechnology.net/2026/11/06/education-and-skills/transformation-dg-middleton-made-permanent-civil-servant-after-recruitment-process/",
+          "id": "0dbec4c9eb73a1da",
+          "title": "Why saying ‘no’ to a client can be the most helpful thing to do",
+          "url": "https://www.dxw.com/2026/11/why-saying-no-to-a-client-can-be-the-most-helpful-thing-to-do/",
+          "source": "dxw",
+          "published_at": "2026-11-12"
+        },
+        {
+          "id": "47cfae1e7962453f",
+          "title": "NS&I troubled transformation subject to extra oversight",
+          "url": "https://www.publictechnology.net/2026/11/11/economics-and-finance/nsi-troubled-transformation-subject-to-extra-oversight/",
           "source": "PublicTechnology",
-          "published_at": "2026-11-06"
+          "published_at": "2026-11-11"
         },
         {
-          "id": "c2175ec8260662a2",
-          "title": "How can collaboration across user-centred design teams support complex digital delivery?",
-          "url": "https://mojdigital.blog.gov.uk/2026/11/06/how-can-collaboration-across-user-centred-design-teams-support-complex-digital-delivery/",
-          "source": "Justice Digital",
-          "published_at": "2026-11-06"
-        },
-        {
-          "id": "ad3621a91c2ea689",
-          "title": "From experimentation to public value: Why governments need to learn together",
-          "url": "https://oecd-opsi.org/blog/from-experimentation-to-public-value-why-governments-need-to-learn-together/",
-          "source": "OECD Observatory of Public Sector Innovation",
-          "published_at": "2026-11-05"
-        },
-        {
-          "id": "1348d6347e19d951",
-          "title": "Tower Hamlets seeks £140k digital chief ‘to lead one of the most significant digital transformation agendas in local government’",
-          "url": "https://www.publictechnology.net/2026/11/05/communities-housing-and-planning/tower-hamlets-seeks-140k-digital-chief-to-lead-one-of-the-most-significant-digital-transformation-agendas-in-local-government/",
-          "source": "PublicTechnology",
-          "published_at": "2026-11-05"
-        },
-        {
-          "id": "c6d8e84d7d044e49",
-          "title": "For successful transformation, the public sector needs to look beyond siloed contracts",
-          "url": "https://www.madetech.com/blog/for-successful-transformation-the-public-sector-needs-to-look-beyond-siloed-contracts/",
+          "id": "ccbd81cb959fc77e",
+          "title": "Why government digital transformation needs a north star",
+          "url": "https://www.madetech.com/blog/why-government-digital-transformation-needs-a-north-star/",
           "source": "Made Tech Digital Service Delivery",
-          "published_at": "2026-11-04"
+          "published_at": "2026-11-11"
+        },
+        {
+          "id": "d0461aac1b98850f",
+          "title": "✍️ CRM in local government",
+          "url": "https://da.vebrig.gs/2026/11/10/%e2%9c%8d%ef%b8%8f-crm-in-local-government/",
+          "source": "Dave Briggs",
+          "published_at": "2026-11-10",
+          "source_type": "weeknote"
+        },
+        {
+          "id": "7d8ace0b22815572",
+          "title": "The output is not the outcome: notes from UKCharityCamp",
+          "url": "https://www.dxw.com/2026/11/the-output-is-not-the-outcome-notes-from-ukcharitycamp/",
+          "source": "dxw",
+          "published_at": "2026-11-09"
         }
       ]
     },
     {
       "id": "ai-and-automation",
       "topic": "AI and automation",
+      "link_count": 4,
+      "source_count": 3,
+      "top_activity_types": [
+        "Governance or assurance",
+        "Capability or workforce",
+        "Guidance or standards",
+        "Policy or strategy"
+      ],
+      "top_contexts": [
+        "Local government",
+        "Central government",
+        "Service delivery",
+        "Standards and assurance"
+      ],
+      "links": [
+        {
+          "id": "8b9deae86e965674",
+          "title": "Developing AI policies that work for local government",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/12/developing-ai-policies-that-work-for-local-government/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-12"
+        },
+        {
+          "id": "f7349007b22b6d27",
+          "title": "The Future Will Belong to Those Who Learn to Think",
+          "url": "http://www.ukauthority.com/articles/the-future-will-belong-to-those-who-learn-to-think",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-12"
+        },
+        {
+          "id": "1988ec266434317e",
+          "title": "Pembrokeshire select AI partner",
+          "url": "http://www.ukauthority.com/articles/pembrokeshire-select-ai-partner",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-11"
+        },
+        {
+          "id": "208e7b9b4bf172b2",
+          "title": "Designing an AI assistant people can trust",
+          "url": "https://defradigital.blog.gov.uk/2026/11/10/designing-an-ai-assistant-people-can-trust/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "accessibility",
+      "topic": "Accessibility",
       "link_count": 3,
       "source_count": 3,
+      "top_activity_types": [
+        "Guidance or standards",
+        "Capability or workforce",
+        "Governance or assurance",
+        "Policy or strategy"
+      ],
+      "top_contexts": [
+        "Standards and assurance",
+        "Central government",
+        "Service delivery",
+        "Local government"
+      ],
+      "links": [
+        {
+          "id": "8b9deae86e965674",
+          "title": "Developing AI policies that work for local government",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/12/developing-ai-policies-that-work-for-local-government/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-12"
+        },
+        {
+          "id": "fe24fb46bd114267",
+          "title": "Amplifying Voices",
+          "url": "https://acuity.design/amplifying-voices/",
+          "source": "Acuity Design",
+          "published_at": "2026-11-11"
+        },
+        {
+          "id": "208e7b9b4bf172b2",
+          "title": "Designing an AI assistant people can trust",
+          "url": "https://defradigital.blog.gov.uk/2026/11/10/designing-an-ai-assistant-people-can-trust/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "content-design",
+      "topic": "Content design",
+      "link_count": 3,
+      "source_count": 2,
       "top_activity_types": [
         "Capability or workforce",
         "Governance or assurance",
         "Guidance or standards",
         "Policy or strategy"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Service delivery",
+        "Standards and assurance",
+        "Local government"
+      ],
+      "links": [
+        {
+          "id": "8b9deae86e965674",
+          "title": "Developing AI policies that work for local government",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/12/developing-ai-policies-that-work-for-local-government/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-12"
+        },
+        {
+          "id": "208e7b9b4bf172b2",
+          "title": "Designing an AI assistant people can trust",
+          "url": "https://defradigital.blog.gov.uk/2026/11/10/designing-an-ai-assistant-people-can-trust/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-11-10"
+        },
+        {
+          "id": "a02359380c2467ac",
+          "title": "Asset management funding to help councils strengthen their cyber resilience",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/10/asset-management-funding-for-councils/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "governance",
+      "topic": "Governance",
+      "link_count": 3,
+      "source_count": 2,
+      "top_activity_types": [
+        "Governance or assurance",
+        "Capability or workforce",
+        "Research or evidence",
+        "Guidance or standards"
       ],
       "top_contexts": [
         "Public service reform",
@@ -898,105 +957,25 @@
       ],
       "links": [
         {
-          "id": "ad3621a91c2ea689",
-          "title": "From experimentation to public value: Why governments need to learn together",
-          "url": "https://oecd-opsi.org/blog/from-experimentation-to-public-value-why-governments-need-to-learn-together/",
-          "source": "OECD Observatory of Public Sector Innovation",
-          "published_at": "2026-11-05"
-        },
-        {
-          "id": "eaa9f7230ade110d",
-          "title": "Who benefits when AI saves time in public services?",
-          "url": "https://www.careful.industries/blog/2026-11-ai-time-saving",
-          "source": "Careful Industries",
-          "published_at": "2026-11-03"
-        },
-        {
-          "id": "998eed0cd633a3aa",
-          "title": "AI in Action: practical AI workshops for local government",
-          "url": "https://mhclgdigital.blog.gov.uk/2026/11/03/ai-in-action-practical-ai-workshops-for-local-government/",
-          "source": "MHCLG Digital",
-          "published_at": "2026-11-03"
-        }
-      ]
-    },
-    {
-      "id": "governance",
-      "topic": "Governance",
-      "link_count": 3,
-      "source_count": 3,
-      "top_activity_types": [
-        "Governance or assurance",
-        "Policy or strategy"
-      ],
-      "top_contexts": [
-        "Cross-government platforms",
-        "Local government",
-        "Public service reform",
-        "Service delivery"
-      ],
-      "links": [
-        {
-          "id": "ad3621a91c2ea689",
-          "title": "From experimentation to public value: Why governments need to learn together",
-          "url": "https://oecd-opsi.org/blog/from-experimentation-to-public-value-why-governments-need-to-learn-together/",
-          "source": "OECD Observatory of Public Sector Innovation",
-          "published_at": "2026-11-05"
-        },
-        {
-          "id": "7eac2e5161e7aa85",
-          "title": "DWP details AI tool designed to analyse citizens’ CVs and give career advice",
-          "url": "https://www.publictechnology.net/2026/11/03/society-and-welfare/dwp-details-ai-tool-designed-to-analyse-citizens-cvs-and-give-career-advice/",
+          "id": "d072f28c90264db8",
+          "title": "NHS launches £200k project to shape how safety and performance of AI diagnostic tools are monitored",
+          "url": "https://www.publictechnology.net/2026/11/13/health-and-social-care/nhs-launches-200k-project-to-shape-how-safety-and-performance-of-ai-diagnostic-tools-are-monitored/",
           "source": "PublicTechnology",
-          "published_at": "2026-11-03"
+          "published_at": "2026-11-13"
         },
         {
-          "id": "b2bd5bcd6c6943ee",
-          "title": "ICO reprimands Met over retail crime intelligence platform",
-          "url": "http://www.ukauthority.com/articles/ico-reprimands-met-over-retail-crime-intelligence-platform",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-03"
-        }
-      ]
-    },
-    {
-      "id": "research",
-      "topic": "Research",
-      "link_count": 3,
-      "source_count": 3,
-      "top_activity_types": [
-        "Research or evidence",
-        "Community discussion",
-        "Delivery update",
-        "Governance or assurance"
-      ],
-      "top_contexts": [
-        "Professional practice",
-        "Central government",
-        "Service delivery",
-        "Public service reform"
-      ],
-      "links": [
-        {
-          "id": "c2175ec8260662a2",
-          "title": "How can collaboration across user-centred design teams support complex digital delivery?",
-          "url": "https://mojdigital.blog.gov.uk/2026/11/06/how-can-collaboration-across-user-centred-design-teams-support-complex-digital-delivery/",
-          "source": "Justice Digital",
-          "published_at": "2026-11-06"
+          "id": "8b9deae86e965674",
+          "title": "Developing AI policies that work for local government",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/12/developing-ai-policies-that-work-for-local-government/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-12"
         },
         {
-          "id": "ead78223b3992d81",
-          "title": "What AI Changes - All Things Product Podcast with Teresa Torres & Petra Wille",
-          "url": "https://www.producttalk.org/what-ai-changes-all-things-product-podcast-with-teresa-torres-petra-wille/",
-          "source": "Product Talk — Teresa Torres",
-          "published_at": "2026-11-03"
-        },
-        {
-          "id": "0ab22214f0b6c24f",
-          "title": "Creating tools for scaling generated content",
-          "url": "https://designnotes.blog.gov.uk/2026/11/03/creating-tools-for-scaling-generated-content/",
-          "source": "GDS Design Notes",
-          "published_at": "2026-11-03"
+          "id": "47cfae1e7962453f",
+          "title": "NS&I troubled transformation subject to extra oversight",
+          "url": "https://www.publictechnology.net/2026/11/11/economics-and-finance/nsi-troubled-transformation-subject-to-extra-oversight/",
+          "source": "PublicTechnology",
+          "published_at": "2026-11-11"
         }
       ]
     },
@@ -1005,139 +984,119 @@
       "topic": "Funding",
       "link_count": 2,
       "source_count": 2,
-      "top_activity_types": [],
+      "top_activity_types": [
+        "Capability or workforce",
+        "Community discussion",
+        "Delivery update",
+        "Governance or assurance"
+      ],
+      "top_contexts": [
+        "Service delivery",
+        "Central government",
+        "Local government",
+        "Public service reform"
+      ],
+      "links": [
+        {
+          "id": "8c04f950ba39ef9a",
+          "title": "Emily Weeknotes",
+          "url": "https://connectedbydata.org/weeknotes/2026/11/12/emily-weeknotes",
+          "source": "Connected by Data",
+          "published_at": "2026-11-12"
+        },
+        {
+          "id": "a02359380c2467ac",
+          "title": "Asset management funding to help councils strengthen their cyber resilience",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/10/asset-management-funding-for-councils/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "policy",
+      "topic": "Policy",
+      "link_count": 2,
+      "source_count": 2,
+      "top_activity_types": [
+        "Capability or workforce",
+        "Governance or assurance",
+        "Guidance or standards",
+        "Policy or strategy"
+      ],
       "top_contexts": [
         "Central government",
-        "Cross-government platforms",
+        "Service delivery",
+        "Standards and assurance",
         "Local government"
       ],
       "links": [
         {
-          "id": "7537df7251d408ca",
-          "title": "MoD hires first innovation chief to oversee £1.6bn budget",
-          "url": "https://www.publictechnology.net/2026/11/06/defence-and-security/mod-hires-first-innovation-chief-to-oversee-1-6bn-budget/",
-          "source": "PublicTechnology",
-          "published_at": "2026-11-06"
+          "id": "8b9deae86e965674",
+          "title": "Developing AI policies that work for local government",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/12/developing-ai-policies-that-work-for-local-government/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-12"
         },
         {
-          "id": "2461d619108b6435",
-          "title": "Gaelic digital platform gains government funding",
-          "url": "http://www.ukauthority.com/articles/gaelic-digital-platform-gains-government-funding",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-02"
+          "id": "208e7b9b4bf172b2",
+          "title": "Designing an AI assistant people can trust",
+          "url": "https://defradigital.blog.gov.uk/2026/11/10/designing-an-ai-assistant-people-can-trust/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "assurance",
+      "topic": "Assurance",
+      "link_count": 1,
+      "source_count": 1,
+      "top_activity_types": [
+        "Capability or workforce",
+        "Governance or assurance",
+        "Guidance or standards",
+        "Policy or strategy"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Service delivery",
+        "Standards and assurance"
+      ],
+      "links": [
+        {
+          "id": "208e7b9b4bf172b2",
+          "title": "Designing an AI assistant people can trust",
+          "url": "https://defradigital.blog.gov.uk/2026/11/10/designing-an-ai-assistant-people-can-trust/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-11-10"
         }
       ]
     },
     {
       "id": "security",
       "topic": "Security",
-      "link_count": 2,
-      "source_count": 2,
-      "top_activity_types": [
-        "Delivery update",
-        "Capability or workforce",
-        "Community discussion"
-      ],
-      "top_contexts": [
-        "Public service reform",
-        "Service delivery",
-        "Central government",
-        "Local government"
-      ],
-      "links": [
-        {
-          "id": "fade72e92d07576b",
-          "title": "Scottish councils mark decade of collaborative working on cyber resilience",
-          "url": "http://www.ukauthority.com/articles/scottish-councils-mark-decade-of-collaborative-working-on-cyber-resilience",
-          "source": "UKAuthority Local Digital",
-          "published_at": "2026-11-04"
-        },
-        {
-          "id": "50c18fb9455deb34",
-          "title": "Helping young people explore STEM careers at Defra",
-          "url": "https://defradigital.blog.gov.uk/2026/11/02/helping-young-people-explore-stem-careers-at-defra/",
-          "source": "Defra digital, data, technology and security",
-          "published_at": "2026-11-02"
-        }
-      ]
-    },
-    {
-      "id": "design",
-      "topic": "Design",
       "link_count": 1,
       "source_count": 1,
       "top_activity_types": [
-        "Community discussion",
-        "Delivery update",
+        "Capability or workforce",
         "Governance or assurance",
-        "Research or evidence"
-      ],
-      "top_contexts": [
-        "Central government",
-        "Professional practice",
-        "Service delivery",
-        "Standards and assurance"
-      ],
-      "links": [
-        {
-          "id": "0ab22214f0b6c24f",
-          "title": "Creating tools for scaling generated content",
-          "url": "https://designnotes.blog.gov.uk/2026/11/03/creating-tools-for-scaling-generated-content/",
-          "source": "GDS Design Notes",
-          "published_at": "2026-11-03"
-        }
-      ]
-    },
-    {
-      "id": "product-management",
-      "topic": "Product management",
-      "link_count": 1,
-      "source_count": 1,
-      "top_activity_types": [
-        "Capability or workforce",
-        "Community discussion",
-        "Delivery update",
-        "Guidance or standards"
+        "Guidance or standards",
+        "Procurement or market activity"
       ],
       "top_contexts": [
         "Central government",
         "Local government",
-        "Professional practice",
-        "Public service reform"
-      ],
-      "links": [
-        {
-          "id": "7ea573382a00709e",
-          "title": "Architecture is for everyone: designing better public services together",
-          "url": "https://technology.blog.gov.uk/2026/11/02/architecture-is-for-everyone-designing-better-public-services-together/",
-          "source": "Technology in Government",
-          "published_at": "2026-11-02"
-        }
-      ]
-    },
-    {
-      "id": "standards",
-      "topic": "Standards",
-      "link_count": 1,
-      "source_count": 1,
-      "top_activity_types": [
-        "Community discussion",
-        "Guidance or standards"
-      ],
-      "top_contexts": [
-        "Professional practice",
         "Public service reform",
-        "Service delivery",
-        "Standards and assurance"
+        "Service delivery"
       ],
       "links": [
         {
-          "id": "81fdb680c269ecbf",
-          "title": "Are product teams in peril in the AI era?",
-          "url": "https://digitalbydefault.com/2026/11/05/are-product-teams-in-peril-in-the-ai-era/",
-          "source": "Digital by Default",
-          "published_at": "2026-11-05",
-          "source_type": "weeknote"
+          "id": "a02359380c2467ac",
+          "title": "Asset management funding to help councils strengthen their cyber resilience",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/10/asset-management-funding-for-councils/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-10"
         }
       ]
     }
