@@ -1,0 +1,1122 @@
+{
+  "period_start": "2026-11-14",
+  "period_end": "2026-11-20",
+  "generated_at": "2026-11-20T22:30:31.705Z",
+  "themes": [
+    {
+      "id": "data",
+      "topic": "Data",
+      "link_count": 32,
+      "source_count": 4,
+      "top_activity_types": [
+        "Procurement or market activity",
+        "Delivery update",
+        "Governance or assurance",
+        "Capability or workforce"
+      ],
+      "top_contexts": [
+        "Local government",
+        "Central government",
+        "Service delivery",
+        "Supplier market"
+      ],
+      "links": [
+        {
+          "id": "7df0b2ddfbc8a4ca",
+          "title": "Essex NHS plans online consultation investment for 200 GPs across county",
+          "url": "https://www.publictechnology.net/2026/11/20/health-and-social-care/essex-nhs-plans-online-consultation-investment-for-200-gps-across-county/",
+          "source": "PublicTechnology",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "0cae749a79ac2d52",
+          "title": "Responsibilities confirmed for government’s five deputy digital chiefs",
+          "url": "https://www.publictechnology.net/2026/11/20/education-and-skills/responsibilities-confirmed-for-governments-five-deputy-digital-chiefs/",
+          "source": "PublicTechnology",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "127d29fd610532f1",
+          "title": "HMRC cross-border cybercrime probe ends in seven arrests",
+          "url": "https://www.publictechnology.net/2026/11/20/economics-and-finance/hmrc-cross-border-cybercrime-probe-ends-in-seven-arrests/",
+          "source": "PublicTechnology",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "5e4d26924cc56465",
+          "title": "How does Defra know it&#039;s making a difference",
+          "url": "https://defradigital.blog.gov.uk/2026/11/20/how-does-defra-know-its-making-a-difference/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "c7e0aeb2fff79001",
+          "title": "Schools to receive expanded technical and administrative support",
+          "url": "http://www.ukauthority.com/articles/schools-to-receive-expanded-technical-and-administrative-support",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "1a2eb923397393c1",
+          "title": "Asset management and IT ticketing partner needed at Lincs Police",
+          "url": "http://www.ukauthority.com/articles/asset-management-and-it-ticketing-partner-needed-at-lincs-police",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "7a6e51be817a4c79",
+          "title": "PA win £25.8m NHS England contract",
+          "url": "http://www.ukauthority.com/articles/pa-win-258m-nhs-england-contract",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "2d3f5b663b257182",
+          "title": "CGI gain interim NHS contract",
+          "url": "http://www.ukauthority.com/articles/cgi-gain-interim-nhs-contract",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "0608f2cae5ff21a0",
+          "title": "DWP reveals trials of AI in Universal Credit claim reviews",
+          "url": "https://www.publictechnology.net/2026/11/19/society-and-welfare/dwp-reveals-trials-of-ai-in-universal-credit-claim-reviews/",
+          "source": "PublicTechnology",
+          "published_at": "2026-11-19"
+        },
+        {
+          "id": "43e69e6df9af6991",
+          "title": "Courts service agrees £15m deal for legacy Oracle hosting",
+          "url": "https://www.publictechnology.net/2026/11/19/public-order-justice-and-rights/courts-service-agrees-15m-deal-for-legacy-oracle-hosting/",
+          "source": "PublicTechnology",
+          "published_at": "2026-11-19"
+        },
+        {
+          "id": "8e437e5a6c2b353a",
+          "title": "Waste trucks find rubbish connections",
+          "url": "http://www.ukauthority.com/articles/waste-trucks-find-rubbish-connections",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-19"
+        },
+        {
+          "id": "2932258dc70e7b73",
+          "title": "AI helps Surrey contract for reorganisation",
+          "url": "http://www.ukauthority.com/articles/ai-helps-surrey-contract-for-reorganisation",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-19"
+        },
+        {
+          "id": "c37495f75c20aabb",
+          "title": "Libraries to train foster carers in online safety",
+          "url": "http://www.ukauthority.com/articles/libraries-to-train-foster-carers-in-online-safety",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-19"
+        },
+        {
+          "id": "896a987237831412",
+          "title": "Cabinet office seeks top cyber defender",
+          "url": "https://www.publictechnology.net/2026/11/19/news/cabinet-office-seeks-top-cyber-defender/",
+          "source": "PublicTechnology",
+          "published_at": "2026-11-19"
+        },
+        {
+          "id": "1e6b9f2f178db17a",
+          "title": "HMRC cancels 50,000 automated penalties each year but stresses vast majority are correctly issued",
+          "url": "https://www.publictechnology.net/2026/11/18/economics-and-finance/hmrc-cancels-50000-automated-penalties-each-year-but-stresses-vast-majority-are-correctly-issued/",
+          "source": "PublicTechnology",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "46879a25b66c7457",
+          "title": "Minister Frith confirms Palantir’s NHS role to 2029",
+          "url": "http://www.ukauthority.com/articles/minister-frith-confirms-palantir-s-nhs-role-to-2029",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "89a5a383ad84d0f2",
+          "title": "DESNZ plans £3.6m deal to support fuel price comparison offering",
+          "url": "https://www.publictechnology.net/2026/11/18/energy/desnz-plans-3-6m-deal-to-support-fuel-price-comparison-offering/",
+          "source": "PublicTechnology",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "630d97df29f1e89c",
+          "title": "Treasury probes info security after possible Budget leak",
+          "url": "https://www.publictechnology.net/2026/11/18/economics-and-finance/treasury-probes-info-security-after-possible-budget-leak/",
+          "source": "PublicTechnology",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "b7d8dffb15bd3e3f",
+          "title": "Data-driven development management: consulting on England&#039;s first mandatory application data standard",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "0c7131e4b4fd770c",
+          "title": "Defra AI toolkit asks the right questions",
+          "url": "http://www.ukauthority.com/articles/defra-ai-toolkit-asks-the-right-questions",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "7ed5c3a9aea3496b",
+          "title": "New chair for Police Digital Service Board",
+          "url": "http://www.ukauthority.com/articles/new-chair-for-police-digital-service-board",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "11f73a9509f05271",
+          "title": "ScotAccount passes a million accounts",
+          "url": "http://www.ukauthority.com/articles/scotaccount-passes-a-million-accounts",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "2869c937ab0befa7",
+          "title": "Bedford selects data platform for social care modernisation",
+          "url": "http://www.ukauthority.com/articles/bedford-selects-data-platform-for-social-care-modernisation",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "5d9c40b63b31952d",
+          "title": "MoJ cyber security abilities to be investigated",
+          "url": "http://www.ukauthority.com/articles/moj-cyber-security-abilities-to-be-investigated",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-17"
+        },
+        {
+          "id": "f80f4d0ca66c6d26",
+          "title": "Great Ormond Street Hospital appoint CDIO",
+          "url": "http://www.ukauthority.com/articles/great-ormond-street-hospital-appoint-cdio",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-17"
+        },
+        {
+          "id": "17eb8018d3bb78d5",
+          "title": "Inspectorate calls for facial recognition training and governance",
+          "url": "http://www.ukauthority.com/articles/inspectorate-calls-for-facial-recognition-training-and-governance",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-17"
+        },
+        {
+          "id": "184d42b541b79195",
+          "title": "Portsmouth Uni select Purview partner",
+          "url": "http://www.ukauthority.com/articles/portsmouth-uni-select-purview-partner",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-17"
+        },
+        {
+          "id": "46c776aec1959006",
+          "title": "Data watchdog logs 300 complaints of medical info snooping this year",
+          "url": "https://www.publictechnology.net/2026/11/17/health-and-social-care/data-watchdog-logs-300-complaints-of-medical-info-snooping-this-year/",
+          "source": "PublicTechnology",
+          "published_at": "2026-11-17"
+        },
+        {
+          "id": "56a4c7b60fe91c6b",
+          "title": "Be braced for a ransomware attack involving AI-powered malware - NCSC",
+          "url": "http://www.ukauthority.com/articles/be-braced-for-a-ransomware-attack-involving-ai-powered-malware-ncsc",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-16"
+        },
+        {
+          "id": "c9274458a2d92973",
+          "title": "Government begins testing technology behind digital identity register",
+          "url": "http://www.ukauthority.com/articles/government-begins-testing-technology-behind-digital-identity-register",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-16"
+        },
+        {
+          "id": "2ab0c7b1f3944ed6",
+          "title": "Trust must be designed into public sector AI from the start, says Welsh digital chief",
+          "url": "http://www.ukauthority.com/articles/trust-must-be-designed-into-public-sector-ai-from-the-start-says-welsh-digital-chief",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-16"
+        },
+        {
+          "id": "1feeea499419ce90",
+          "title": "South London and Maudsley NHS Foundation Trust awards EPR contract",
+          "url": "http://www.ukauthority.com/articles/south-london-and-maudsley-nhs-foundation-trust-awards-epr-contract",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "local-government",
+      "topic": "Local government",
+      "link_count": 24,
+      "source_count": 4,
+      "top_activity_types": [
+        "Procurement or market activity",
+        "Delivery update",
+        "Capability or workforce",
+        "Community discussion"
+      ],
+      "top_contexts": [
+        "Local government",
+        "Supplier market",
+        "Service delivery",
+        "Cross-government platforms"
+      ],
+      "links": [
+        {
+          "id": "c7e0aeb2fff79001",
+          "title": "Schools to receive expanded technical and administrative support",
+          "url": "http://www.ukauthority.com/articles/schools-to-receive-expanded-technical-and-administrative-support",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "1a2eb923397393c1",
+          "title": "Asset management and IT ticketing partner needed at Lincs Police",
+          "url": "http://www.ukauthority.com/articles/asset-management-and-it-ticketing-partner-needed-at-lincs-police",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "7a6e51be817a4c79",
+          "title": "PA win £25.8m NHS England contract",
+          "url": "http://www.ukauthority.com/articles/pa-win-258m-nhs-england-contract",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "2d3f5b663b257182",
+          "title": "CGI gain interim NHS contract",
+          "url": "http://www.ukauthority.com/articles/cgi-gain-interim-nhs-contract",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "2ee0f8efb86a4bcd",
+          "title": "From learning to impact: Luton’s Digital Champions are finding new ways to make a difference",
+          "url": "https://luton.localgov.blog/2026/11/19/from-learning-to-impact-lutons-digital-champions-are-finding-new-ways-to-make-a-difference/",
+          "source": "Digital Luton",
+          "published_at": "2026-11-19",
+          "source_type": "weeknote"
+        },
+        {
+          "id": "2f8b8d8b36e5e7af",
+          "title": "This FixMyStreet report really got things changed",
+          "url": "https://www.mysociety.org/2026/11/19/this-fixmystreet-report-really-got-things-changed/",
+          "source": "mySociety",
+          "published_at": "2026-11-19"
+        },
+        {
+          "id": "8e437e5a6c2b353a",
+          "title": "Waste trucks find rubbish connections",
+          "url": "http://www.ukauthority.com/articles/waste-trucks-find-rubbish-connections",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-19"
+        },
+        {
+          "id": "2932258dc70e7b73",
+          "title": "AI helps Surrey contract for reorganisation",
+          "url": "http://www.ukauthority.com/articles/ai-helps-surrey-contract-for-reorganisation",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-19"
+        },
+        {
+          "id": "c37495f75c20aabb",
+          "title": "Libraries to train foster carers in online safety",
+          "url": "http://www.ukauthority.com/articles/libraries-to-train-foster-carers-in-online-safety",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-19"
+        },
+        {
+          "id": "a13c9e66b5451b68",
+          "title": "Bioregional use the Scorecards framework to guide councils on their climate action",
+          "url": "https://www.mysociety.org/2026/11/18/bioregional-use-the-scorecards-framework-to-guide-councils-on-their-climate-action/",
+          "source": "mySociety",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "46879a25b66c7457",
+          "title": "Minister Frith confirms Palantir’s NHS role to 2029",
+          "url": "http://www.ukauthority.com/articles/minister-frith-confirms-palantir-s-nhs-role-to-2029",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "b7d8dffb15bd3e3f",
+          "title": "Data-driven development management: consulting on England&#039;s first mandatory application data standard",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "0c7131e4b4fd770c",
+          "title": "Defra AI toolkit asks the right questions",
+          "url": "http://www.ukauthority.com/articles/defra-ai-toolkit-asks-the-right-questions",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "7ed5c3a9aea3496b",
+          "title": "New chair for Police Digital Service Board",
+          "url": "http://www.ukauthority.com/articles/new-chair-for-police-digital-service-board",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "11f73a9509f05271",
+          "title": "ScotAccount passes a million accounts",
+          "url": "http://www.ukauthority.com/articles/scotaccount-passes-a-million-accounts",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "2869c937ab0befa7",
+          "title": "Bedford selects data platform for social care modernisation",
+          "url": "http://www.ukauthority.com/articles/bedford-selects-data-platform-for-social-care-modernisation",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "5d9c40b63b31952d",
+          "title": "MoJ cyber security abilities to be investigated",
+          "url": "http://www.ukauthority.com/articles/moj-cyber-security-abilities-to-be-investigated",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-17"
+        },
+        {
+          "id": "f80f4d0ca66c6d26",
+          "title": "Great Ormond Street Hospital appoint CDIO",
+          "url": "http://www.ukauthority.com/articles/great-ormond-street-hospital-appoint-cdio",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-17"
+        },
+        {
+          "id": "17eb8018d3bb78d5",
+          "title": "Inspectorate calls for facial recognition training and governance",
+          "url": "http://www.ukauthority.com/articles/inspectorate-calls-for-facial-recognition-training-and-governance",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-17"
+        },
+        {
+          "id": "184d42b541b79195",
+          "title": "Portsmouth Uni select Purview partner",
+          "url": "http://www.ukauthority.com/articles/portsmouth-uni-select-purview-partner",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-17"
+        },
+        {
+          "id": "56a4c7b60fe91c6b",
+          "title": "Be braced for a ransomware attack involving AI-powered malware - NCSC",
+          "url": "http://www.ukauthority.com/articles/be-braced-for-a-ransomware-attack-involving-ai-powered-malware-ncsc",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-16"
+        },
+        {
+          "id": "c9274458a2d92973",
+          "title": "Government begins testing technology behind digital identity register",
+          "url": "http://www.ukauthority.com/articles/government-begins-testing-technology-behind-digital-identity-register",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-16"
+        },
+        {
+          "id": "2ab0c7b1f3944ed6",
+          "title": "Trust must be designed into public sector AI from the start, says Welsh digital chief",
+          "url": "http://www.ukauthority.com/articles/trust-must-be-designed-into-public-sector-ai-from-the-start-says-welsh-digital-chief",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-16"
+        },
+        {
+          "id": "1feeea499419ce90",
+          "title": "South London and Maudsley NHS Foundation Trust awards EPR contract",
+          "url": "http://www.ukauthority.com/articles/south-london-and-maudsley-nhs-foundation-trust-awards-epr-contract",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "procurement",
+      "topic": "Procurement",
+      "link_count": 11,
+      "source_count": 5,
+      "top_activity_types": [
+        "Procurement or market activity",
+        "Community discussion",
+        "Delivery update",
+        "Guidance or standards"
+      ],
+      "top_contexts": [
+        "Supplier market",
+        "Local government",
+        "Cross-government platforms",
+        "Public service reform"
+      ],
+      "links": [
+        {
+          "id": "7df0b2ddfbc8a4ca",
+          "title": "Essex NHS plans online consultation investment for 200 GPs across county",
+          "url": "https://www.publictechnology.net/2026/11/20/health-and-social-care/essex-nhs-plans-online-consultation-investment-for-200-gps-across-county/",
+          "source": "PublicTechnology",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "1a2eb923397393c1",
+          "title": "Asset management and IT ticketing partner needed at Lincs Police",
+          "url": "http://www.ukauthority.com/articles/asset-management-and-it-ticketing-partner-needed-at-lincs-police",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "7a6e51be817a4c79",
+          "title": "PA win £25.8m NHS England contract",
+          "url": "http://www.ukauthority.com/articles/pa-win-258m-nhs-england-contract",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "2d3f5b663b257182",
+          "title": "CGI gain interim NHS contract",
+          "url": "http://www.ukauthority.com/articles/cgi-gain-interim-nhs-contract",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "2932258dc70e7b73",
+          "title": "AI helps Surrey contract for reorganisation",
+          "url": "http://www.ukauthority.com/articles/ai-helps-surrey-contract-for-reorganisation",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-19"
+        },
+        {
+          "id": "a13c9e66b5451b68",
+          "title": "Bioregional use the Scorecards framework to guide councils on their climate action",
+          "url": "https://www.mysociety.org/2026/11/18/bioregional-use-the-scorecards-framework-to-guide-councils-on-their-climate-action/",
+          "source": "mySociety",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "46879a25b66c7457",
+          "title": "Minister Frith confirms Palantir’s NHS role to 2029",
+          "url": "http://www.ukauthority.com/articles/minister-frith-confirms-palantir-s-nhs-role-to-2029",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "b7d8dffb15bd3e3f",
+          "title": "Data-driven development management: consulting on England&#039;s first mandatory application data standard",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "7019efa031fa666c",
+          "title": "State of the Playbook survey",
+          "url": "https://digitalbydefault.com/2026/11/17/state-of-the-playbook-survey/",
+          "source": "Digital by Default",
+          "published_at": "2026-11-17",
+          "source_type": "weeknote"
+        },
+        {
+          "id": "184d42b541b79195",
+          "title": "Portsmouth Uni select Purview partner",
+          "url": "http://www.ukauthority.com/articles/portsmouth-uni-select-purview-partner",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-17"
+        },
+        {
+          "id": "1feeea499419ce90",
+          "title": "South London and Maudsley NHS Foundation Trust awards EPR contract",
+          "url": "http://www.ukauthority.com/articles/south-london-and-maudsley-nhs-foundation-trust-awards-epr-contract",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "topic": "Research",
+      "link_count": 6,
+      "source_count": 3,
+      "top_activity_types": [
+        "Research or evidence",
+        "Community discussion",
+        "Governance or assurance",
+        "Policy or strategy"
+      ],
+      "top_contexts": [
+        "Professional practice",
+        "Standards and assurance",
+        "Central government",
+        "Public service reform"
+      ],
+      "links": [
+        {
+          "id": "5e4d26924cc56465",
+          "title": "How does Defra know it&#039;s making a difference",
+          "url": "https://defradigital.blog.gov.uk/2026/11/20/how-does-defra-know-its-making-a-difference/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "773accbe5ee98bdf",
+          "title": "Grab My Personal Annual Review Claude Code Plugin",
+          "url": "https://www.producttalk.org/personal-annual-review-claude-code-plugin/",
+          "source": "Product Talk — Teresa Torres",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "2b264edb2ebe9972",
+          "title": "My Personal Annual Review Process (Now a Claude Code Plugin)",
+          "url": "https://www.producttalk.org/personal-annual-review/",
+          "source": "Product Talk — Teresa Torres",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "b7d8dffb15bd3e3f",
+          "title": "Data-driven development management: consulting on England&#039;s first mandatory application data standard",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "497daa8e843da248",
+          "title": "The Sharing Gap - All Things Product Podcast with Teresa Torres & Petra Wille",
+          "url": "https://www.producttalk.org/the-sharing-gap-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "source": "Product Talk — Teresa Torres",
+          "published_at": "2026-11-17"
+        },
+        {
+          "id": "73ffb637d8f95c34",
+          "title": "Ch. 11: Measuring Impact",
+          "url": "https://www.producttalk.org/ch-11-measuring-impact/",
+          "source": "Product Talk — Teresa Torres",
+          "published_at": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "funding",
+      "topic": "Funding",
+      "link_count": 5,
+      "source_count": 3,
+      "top_activity_types": [
+        "Governance or assurance",
+        "Capability or workforce",
+        "Community discussion",
+        "Delivery update"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Service delivery",
+        "Public service reform",
+        "Cross-government platforms"
+      ],
+      "links": [
+        {
+          "id": "7df0b2ddfbc8a4ca",
+          "title": "Essex NHS plans online consultation investment for 200 GPs across county",
+          "url": "https://www.publictechnology.net/2026/11/20/health-and-social-care/essex-nhs-plans-online-consultation-investment-for-200-gps-across-county/",
+          "source": "PublicTechnology",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "5e4d26924cc56465",
+          "title": "How does Defra know it&#039;s making a difference",
+          "url": "https://defradigital.blog.gov.uk/2026/11/20/how-does-defra-know-its-making-a-difference/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "896a987237831412",
+          "title": "Cabinet office seeks top cyber defender",
+          "url": "https://www.publictechnology.net/2026/11/19/news/cabinet-office-seeks-top-cyber-defender/",
+          "source": "PublicTechnology",
+          "published_at": "2026-11-19"
+        },
+        {
+          "id": "3fa92a9aa1a5f49b",
+          "title": "Black Tech Fest: learning for an inclusive digital government",
+          "url": "https://technology.blog.gov.uk/2026/11/18/black-tech-fest-learning-for-an-inclusive-digital-government/",
+          "source": "Technology in Government",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "630d97df29f1e89c",
+          "title": "Treasury probes info security after possible Budget leak",
+          "url": "https://www.publictechnology.net/2026/11/18/economics-and-finance/treasury-probes-info-security-after-possible-budget-leak/",
+          "source": "PublicTechnology",
+          "published_at": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "transformation",
+      "topic": "Transformation",
+      "link_count": 5,
+      "source_count": 4,
+      "top_activity_types": [
+        "Delivery update",
+        "Governance or assurance",
+        "Policy or strategy",
+        "Procurement or market activity"
+      ],
+      "top_contexts": [
+        "Public service reform",
+        "Service delivery",
+        "Supplier market",
+        "Local government"
+      ],
+      "links": [
+        {
+          "id": "5e4d26924cc56465",
+          "title": "How does Defra know it&#039;s making a difference",
+          "url": "https://defradigital.blog.gov.uk/2026/11/20/how-does-defra-know-its-making-a-difference/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "7a6e51be817a4c79",
+          "title": "PA win £25.8m NHS England contract",
+          "url": "http://www.ukauthority.com/articles/pa-win-258m-nhs-england-contract",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "ca44f8d46a44ac38",
+          "title": "From Emergency Services to Global Supply Chains, SAP supports ANZ Organisations To Deliver Measurable Business Transformation",
+          "url": "https://news.sap.com/australia/2026/11/19/7990/",
+          "source": "SAP Australia and New Zealand Public Sector",
+          "published_at": "2026-11-19"
+        },
+        {
+          "id": "2869c937ab0befa7",
+          "title": "Bedford selects data platform for social care modernisation",
+          "url": "http://www.ukauthority.com/articles/bedford-selects-data-platform-for-social-care-modernisation",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "8838691911839b45",
+          "title": "Beyond the Hype: Will AI make legacy a thing of the past? by Colin Eberhardt",
+          "url": "https://blog.scottlogic.com/2026/11/16/will-ai-make-legacy-a-thing-of-the-past.html",
+          "source": "Scott Logic Blog",
+          "published_at": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "workforce-and-capability",
+      "topic": "Workforce and capability",
+      "link_count": 5,
+      "source_count": 4,
+      "top_activity_types": [
+        "Capability or workforce",
+        "Community discussion",
+        "Governance or assurance",
+        "Guidance or standards"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Professional practice",
+        "Service delivery",
+        "Local government"
+      ],
+      "links": [
+        {
+          "id": "0cae749a79ac2d52",
+          "title": "Responsibilities confirmed for government’s five deputy digital chiefs",
+          "url": "https://www.publictechnology.net/2026/11/20/education-and-skills/responsibilities-confirmed-for-governments-five-deputy-digital-chiefs/",
+          "source": "PublicTechnology",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "3fa92a9aa1a5f49b",
+          "title": "Black Tech Fest: learning for an inclusive digital government",
+          "url": "https://technology.blog.gov.uk/2026/11/18/black-tech-fest-learning-for-an-inclusive-digital-government/",
+          "source": "Technology in Government",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "17eb8018d3bb78d5",
+          "title": "Inspectorate calls for facial recognition training and governance",
+          "url": "http://www.ukauthority.com/articles/inspectorate-calls-for-facial-recognition-training-and-governance",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-17"
+        },
+        {
+          "id": "36ecb149ccfe81e2",
+          "title": "Roadmaps redux",
+          "url": "https://digitalbydefault.com/2026/11/16/roadmaps-redux/",
+          "source": "Digital by Default",
+          "published_at": "2026-11-16",
+          "source_type": "weeknote"
+        },
+        {
+          "id": "10f017c4e78ed54c",
+          "title": "Multiple milestones on the menu",
+          "url": "https://digitalbydefault.com/2026/11/15/multiple-milestones-on-the-menu/",
+          "source": "Digital by Default",
+          "published_at": "2026-11-15",
+          "source_type": "weeknote"
+        }
+      ]
+    },
+    {
+      "id": "accessibility",
+      "topic": "Accessibility",
+      "link_count": 4,
+      "source_count": 4,
+      "top_activity_types": [
+        "Community discussion",
+        "Governance or assurance",
+        "Guidance or standards",
+        "Policy or strategy"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Public service reform",
+        "Service delivery",
+        "Professional practice"
+      ],
+      "links": [
+        {
+          "id": "5e4d26924cc56465",
+          "title": "How does Defra know it&#039;s making a difference",
+          "url": "https://defradigital.blog.gov.uk/2026/11/20/how-does-defra-know-its-making-a-difference/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "3fa92a9aa1a5f49b",
+          "title": "Black Tech Fest: learning for an inclusive digital government",
+          "url": "https://technology.blog.gov.uk/2026/11/18/black-tech-fest-learning-for-an-inclusive-digital-government/",
+          "source": "Technology in Government",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "b7d8dffb15bd3e3f",
+          "title": "Data-driven development management: consulting on England&#039;s first mandatory application data standard",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "68b3b6b7506f715f",
+          "title": "When something happens, preparation makes the difference",
+          "url": "https://civicdesign.org/post-2026-election-reflections/",
+          "source": "Center for Civic Design",
+          "published_at": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "ai-and-automation",
+      "topic": "AI and automation",
+      "link_count": 4,
+      "source_count": 4,
+      "top_activity_types": [
+        "Capability or workforce",
+        "Community discussion",
+        "Governance or assurance",
+        "Guidance or standards"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Public service reform",
+        "Service delivery",
+        "Standards and assurance"
+      ],
+      "links": [
+        {
+          "id": "0608f2cae5ff21a0",
+          "title": "DWP reveals trials of AI in Universal Credit claim reviews",
+          "url": "https://www.publictechnology.net/2026/11/19/society-and-welfare/dwp-reveals-trials-of-ai-in-universal-credit-claim-reviews/",
+          "source": "PublicTechnology",
+          "published_at": "2026-11-19"
+        },
+        {
+          "id": "3fa92a9aa1a5f49b",
+          "title": "Black Tech Fest: learning for an inclusive digital government",
+          "url": "https://technology.blog.gov.uk/2026/11/18/black-tech-fest-learning-for-an-inclusive-digital-government/",
+          "source": "Technology in Government",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "b7d8dffb15bd3e3f",
+          "title": "Data-driven development management: consulting on England&#039;s first mandatory application data standard",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "8838691911839b45",
+          "title": "Beyond the Hype: Will AI make legacy a thing of the past? by Colin Eberhardt",
+          "url": "https://blog.scottlogic.com/2026/11/16/will-ai-make-legacy-a-thing-of-the-past.html",
+          "source": "Scott Logic Blog",
+          "published_at": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "content-design",
+      "topic": "Content design",
+      "link_count": 2,
+      "source_count": 2,
+      "top_activity_types": [
+        "Policy or strategy",
+        "Research or evidence",
+        "Community discussion",
+        "Delivery update"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Professional practice",
+        "Public service reform",
+        "Service delivery"
+      ],
+      "links": [
+        {
+          "id": "5e4d26924cc56465",
+          "title": "How does Defra know it&#039;s making a difference",
+          "url": "https://defradigital.blog.gov.uk/2026/11/20/how-does-defra-know-its-making-a-difference/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "b7d8dffb15bd3e3f",
+          "title": "Data-driven development management: consulting on England&#039;s first mandatory application data standard",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "governance",
+      "topic": "Governance",
+      "link_count": 2,
+      "source_count": 2,
+      "top_activity_types": [
+        "Governance or assurance",
+        "Capability or workforce",
+        "Policy or strategy",
+        "Research or evidence"
+      ],
+      "top_contexts": [
+        "Service delivery",
+        "Central government",
+        "Local government",
+        "Professional practice"
+      ],
+      "links": [
+        {
+          "id": "5e4d26924cc56465",
+          "title": "How does Defra know it&#039;s making a difference",
+          "url": "https://defradigital.blog.gov.uk/2026/11/20/how-does-defra-know-its-making-a-difference/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "17eb8018d3bb78d5",
+          "title": "Inspectorate calls for facial recognition training and governance",
+          "url": "http://www.ukauthority.com/articles/inspectorate-calls-for-facial-recognition-training-and-governance",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "id": "policy",
+      "topic": "Policy",
+      "link_count": 2,
+      "source_count": 2,
+      "top_activity_types": [
+        "Policy or strategy",
+        "Research or evidence",
+        "Community discussion",
+        "Delivery update"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Professional practice",
+        "Public service reform",
+        "Service delivery"
+      ],
+      "links": [
+        {
+          "id": "5e4d26924cc56465",
+          "title": "How does Defra know it&#039;s making a difference",
+          "url": "https://defradigital.blog.gov.uk/2026/11/20/how-does-defra-know-its-making-a-difference/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-11-20"
+        },
+        {
+          "id": "b7d8dffb15bd3e3f",
+          "title": "Data-driven development management: consulting on England&#039;s first mandatory application data standard",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "topic": "Security",
+      "link_count": 2,
+      "source_count": 2,
+      "top_activity_types": [
+        "Capability or workforce",
+        "Community discussion",
+        "Governance or assurance",
+        "Guidance or standards"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Local government",
+        "Public service reform",
+        "Service delivery"
+      ],
+      "links": [
+        {
+          "id": "3fa92a9aa1a5f49b",
+          "title": "Black Tech Fest: learning for an inclusive digital government",
+          "url": "https://technology.blog.gov.uk/2026/11/18/black-tech-fest-learning-for-an-inclusive-digital-government/",
+          "source": "Technology in Government",
+          "published_at": "2026-11-18"
+        },
+        {
+          "id": "5d9c40b63b31952d",
+          "title": "MoJ cyber security abilities to be investigated",
+          "url": "http://www.ukauthority.com/articles/moj-cyber-security-abilities-to-be-investigated",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "topic": "Delivery",
+      "link_count": 1,
+      "source_count": 1,
+      "top_activity_types": [
+        "Capability or workforce",
+        "Community discussion",
+        "Policy or strategy"
+      ],
+      "top_contexts": [
+        "Professional practice"
+      ],
+      "links": [
+        {
+          "id": "36ecb149ccfe81e2",
+          "title": "Roadmaps redux",
+          "url": "https://digitalbydefault.com/2026/11/16/roadmaps-redux/",
+          "source": "Digital by Default",
+          "published_at": "2026-11-16",
+          "source_type": "weeknote"
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "topic": "Design",
+      "link_count": 1,
+      "source_count": 1,
+      "top_activity_types": [
+        "Community discussion",
+        "Delivery update",
+        "Guidance or standards",
+        "Policy or strategy"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Cross-government platforms",
+        "Local government",
+        "Professional practice"
+      ],
+      "links": [
+        {
+          "id": "b7d8dffb15bd3e3f",
+          "title": "Data-driven development management: consulting on England&#039;s first mandatory application data standard",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "digital-identity",
+      "topic": "Digital identity",
+      "link_count": 1,
+      "source_count": 1,
+      "top_activity_types": [],
+      "top_contexts": [
+        "Local government"
+      ],
+      "links": [
+        {
+          "id": "c9274458a2d92973",
+          "title": "Government begins testing technology behind digital identity register",
+          "url": "http://www.ukauthority.com/articles/government-begins-testing-technology-behind-digital-identity-register",
+          "source": "UKAuthority Local Digital",
+          "published_at": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "service-design",
+      "topic": "Service design",
+      "link_count": 1,
+      "source_count": 1,
+      "top_activity_types": [
+        "Governance or assurance",
+        "Policy or strategy",
+        "Research or evidence"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Professional practice",
+        "Public service reform",
+        "Service delivery"
+      ],
+      "links": [
+        {
+          "id": "5e4d26924cc56465",
+          "title": "How does Defra know it&#039;s making a difference",
+          "url": "https://defradigital.blog.gov.uk/2026/11/20/how-does-defra-know-its-making-a-difference/",
+          "source": "Defra digital, data, technology and security",
+          "published_at": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "standards",
+      "topic": "Standards",
+      "link_count": 1,
+      "source_count": 1,
+      "top_activity_types": [
+        "Community discussion",
+        "Delivery update",
+        "Guidance or standards",
+        "Policy or strategy"
+      ],
+      "top_contexts": [
+        "Central government",
+        "Cross-government platforms",
+        "Local government",
+        "Professional practice"
+      ],
+      "links": [
+        {
+          "id": "b7d8dffb15bd3e3f",
+          "title": "Data-driven development management: consulting on England&#039;s first mandatory application data standard",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+          "source": "MHCLG Digital",
+          "published_at": "2026-11-18"
+        }
+      ]
+    }
+  ]
+}
